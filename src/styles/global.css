@@ -11,7 +11,8 @@ body {
     var(--c-background-top),
     rgb(45, 3, 59),
     rgb(60, 42, 33),
-    rgb(123, 40, 105)
+    rgb(123, 40, 105),
+    rgba(4, 16, 25)
   );
   color: var(--c-text);
 }
