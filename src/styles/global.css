@@ -1,0 +1,20 @@
+:root {
+  --c-background-top: rgba(41, 61, 76, 1);
+  --c-background-bottom: rgba(4, 16, 25, 1);
+  --c-text: rgba(253, 252, 229, 1);
+  --c-text-link: #ffe699;
+  --c-highlight: #ff4c29;
+  --c-border: rgba(253, 252, 229, 0.3);
+}
+
+body {
+  background: linear-gradient(
+    var(--c-background-top),
+    var(--c-background-bottom)
+  );
+  color: var(--c-text);
+}
+
+a {
+  color: var(--c-text-link);
+}

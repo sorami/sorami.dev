@@ -1,0 +1,87 @@
+<div id="icon"></div>
+<h1>sorami</h1>
+
+<div id="about">
+  <p>Interested in <strong>tools for thought</strong>.</p>
+  <p><strong>思考のための道具</strong>に興味があります。</p>
+</div>
+
+<div id="logo-links">
+  <div>
+    <a href="https://github.com/sorami" target="_blank" rel="noreferrer">
+      <img src="/_assets/logo/github.png" alt="GitHub" />
+    </a>
+  </div>
+  <div>
+    <a href="https://observablehq.com/@sorami" target="_blank" rel="noreferrer">
+      <img src="/_assets/logo/observable.png" alt="Observable" />
+    </a>
+  </div>
+  <div>
+    <a href="https://twitter.com/sorami" target="_blank" rel="noreferrer">
+      <img src="/_assets/logo/twitter.png" alt="Twitter" />
+    </a>
+  </div>
+</div>
+
+<style lang="scss">
+  #icon {
+    background: url("/_assets/sorami.webp") no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 43%;
+    display: inline-block;
+    transition: filter 1s ease;
+
+    &:hover {
+      filter: blur(15px);
+    }
+  }
+
+  h1 {
+    margin-top: 0.4em;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+
+    &:hover {
+      color: var(--c-highlight);
+    }
+  }
+
+  #about {
+    margin: 1.8em 0;
+
+    p {
+      font-size: 0.9em;
+      line-height: 1em;
+      opacity: 0.8;
+
+      strong {
+        font-weight: normal;
+      }
+    }
+
+    &:hover p strong {
+      color: var(--c-highlight);
+    }
+  }
+
+  #logo-links {
+    display: inline-flex;
+    width: 220px;
+    margin-top: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      opacity: 0.5;
+      width: 28px;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+</style>

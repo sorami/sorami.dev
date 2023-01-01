@@ -1,0 +1,26 @@
+---
+import TimelineItem from "../components/TimelineItem.astro";
+import { getTimeline } from "../scripts/airtable";
+const timelineData = await getTimeline();
+---
+
+<div id="timeline">
+  {
+    timelineData.map((d) => (
+      <TimelineItem
+        url={d.url}
+        date={d.date}
+        type={d.type}
+        title={d.title}
+        description={d.description}
+      />
+    ))
+  }
+</div>
+
+<style>
+  #timeline {
+    margin: 2.5em 0;
+    text-align: left;
+  }
+</style>

@@ -1,0 +1,104 @@
+---
+import type { TimelineItem } from "../types";
+type Props = TimelineItem;
+const { url, date, type, title, description } = Astro.props;
+const { hostname } = new URL(url);
+---
+
+<a href={url} target="_blank" rel="noreferrer">
+  <div class={`timeline-item-container timeline-type-${type}`}>
+    <div class="timeline-dot"></div>
+    <div class="timeline-meta">
+      <time datetime="{{ item.date }}">{date}</time>
+      <div class="timeline-hostname">{hostname}</div>
+    </div>
+    <h2 class="timeline-title">{title}</h2>
+    {description && <div class="timeline-description">{description}</div>}
+  </div>
+</a>
+
+<style lang="scss">
+  a {
+    text-decoration: none;
+  }
+
+  .timeline-item-container {
+    border-left: solid 2px var(--c-border);
+    padding-left: 15px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: block;
+    position: relative;
+
+    .timeline-dot {
+      position: absolute;
+      display: inline-flex;
+      left: -6px;
+      top: 20px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid var(--c-border);
+      background: var(--c-background-top);
+    }
+
+    .timeline-meta {
+      display: flex;
+      align-items: center;
+
+      time {
+        font-size: 1em;
+        color: var(--c-text);
+        opacity: 0.5;
+      }
+
+      .timeline-hostname {
+        margin-left: 0.5em;
+        font-size: 0.9em;
+        color: var(--c-border);
+        opacity: 0.6;
+      }
+    }
+
+    h2.timeline-title {
+      margin: 0.5rem 0;
+      font-size: 1em;
+      font-weight: 500;
+      letter-spacing: 0;
+      opacity: 0.8;
+    }
+
+    .timeline-description {
+      margin-top: -0.1em;
+      font-size: 0.8em;
+      opacity: 0.8;
+      letter-spacing: -0.02em;
+      color: var(--c-text);
+    }
+
+    &:hover {
+      .timeline-dot {
+        border-color: var(--c-text);
+      }
+
+      .timeline-meta time {
+        opacity: 1;
+      }
+
+      .timeline-meta .timeline-hostname {
+        color: var(--c-text);
+        opacity: 0.8;
+      }
+
+      h2.timeline-title {
+        opacity: 1;
+        color: var(--c-highlight);
+        text-decoration: var(--c-highlight) solid underline 1px;
+      }
+
+      .timeline-description {
+        opacity: 0.3;
+      }
+    }
+  }
+</style>
