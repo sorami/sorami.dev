@@ -13,7 +13,7 @@ type WorkItem = {
 type TimelineItem = {
   url: string;
   date: string;
-  type: string;
+  type: "article" | "presentation" | "paper" | "podcast";
   title: string;
   description?: string;
 };
