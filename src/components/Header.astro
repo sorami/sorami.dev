@@ -4,7 +4,7 @@ const pages = [
   { path: "/", name: "home" },
   { path: "", name: "garden" },
   { path: "https://b.sorami.dev", name: "blog" },
-  { path: "/timeline", name: "timeline" },
+  { path: "/timeline/", name: "timeline" },
 ];
 ---
 
@@ -18,7 +18,7 @@ const pages = [
           rel="prefetch"
           class={pathname === d.path ? "active" : ""}
         >
-          {d.name} "{pathname}" - "{d.path}"
+          {d.name}
         </a>
       ))
     }
