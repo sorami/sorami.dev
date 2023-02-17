@@ -50,6 +50,12 @@ export const works: WorkItem[] = [
     image: "_assets/works/adaptive-projections.png",
   },
   {
+    title: "NLPによる個人情報の仮名化",
+    url: "https://note.com/legalscape/n/nf6341940deaa",
+    description: "民事判決のオープンデータ化へ向けた取り組み",
+    image: "_assets/works/legalscape.webp",
+  },
+  {
     title: "A People Map of Japan",
     url: "https://sorami.dev/2021/people-map-japan/",
     description: "地名を出身人物に置き換えた地図",
@@ -66,6 +72,12 @@ export const works: WorkItem[] = [
     url: "https://speakerdeck.com/sorami/wap-nlp-tech-talk-number-4",
     description: "人生を変えるOSS",
     image: "_assets/works/oss-sudachi.png",
+  },
+  {
+    title: "形態素解析器Sudachiの「辞書」はどのように作られているか",
+    url: "https://zenn.dev/sorami/articles/c9a506000fd1fbd1cf98",
+    description: "複数の分割単位を例として",
+    image: "_assets/works/sudachidict.png",
   },
   {
     title: "chiVe: 製品利用可能な日本語単語ベクトル資源の実現へ向けて",
