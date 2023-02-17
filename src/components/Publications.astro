@@ -8,7 +8,7 @@ const publicationItems = timelineItems.filter((d) => d.type === "paper");
   {
     publicationItems.map((d) => (
       <div class="pub">
-        <a href={d.url}>
+        <a href={d.url} target="_blank" rel="noreferrer">
           <span class="title">{d.title}</span> {d.description}, {d.date}.
         </a>
       </div>
