@@ -46,7 +46,14 @@ const items = [
 ---
 
 <Layout title={title} description={description}>
-  <div id="about">aboutページ</div>
+  <div id="about">
+    <div id="icon"></div>
+    <h1>HISAMOTO Sorami</h1>
+    <div id="text">
+      <p>Interested in <strong>tools for thought</strong>.</p>
+      <p><strong>思考のための道具</strong>に興味があります。</p>
+    </div>
+  </div>
   <div id="link-container">
     {
       items.map((d) => (
@@ -66,6 +73,45 @@ const items = [
     margin: 3em auto;
     padding: 0 1em;
     text-align: center;
+
+    #icon {
+      background: url("/_assets/sorami.webp") no-repeat;
+      background-size: 100px;
+      width: 100px;
+      height: 100px;
+      border-radius: 43%;
+      display: inline-block;
+      transition: filter 1s ease;
+
+      &:hover {
+        filter: blur(15px);
+      }
+    }
+
+    h1 {
+      margin-top: 1em;
+      font-size: 1.4em;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+    }
+
+    #text {
+      margin: 1.8em 0;
+
+      p {
+        font-size: 0.9em;
+        line-height: 1em;
+        opacity: 0.8;
+
+        strong {
+          font-weight: normal;
+        }
+      }
+
+      &:hover p strong {
+        color: var(--c-highlight);
+      }
+    }
   }
 
   #link-container {
@@ -76,6 +122,7 @@ const items = [
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em 0;
+    font-size: 0.8em;
 
     a {
       opacity: 0.5;

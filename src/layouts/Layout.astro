@@ -40,8 +40,18 @@ const siteName = "Sorami Hisamoto";
     <meta name="twitter:creator" content="@sorami" />
   </head>
   <body>
-    <Header />
-    <main><slot /></main>
-    <Footer />
+    <div id="wrapper">
+      <Header />
+      <main><slot /></main>
+      <Footer />
+    </div>
   </body>
 </html>
+
+<style>
+  #wrapper {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 1.5em 2em;
+  }
+</style>
