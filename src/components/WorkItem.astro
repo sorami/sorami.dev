@@ -34,17 +34,6 @@ const { title, description, url, image } = Astro.props;
       }
     }
 
-    &:hover {
-      .thumbnail {
-        opacity: 0.5;
-      }
-      .text {
-        .title {
-          color: var(--c-highlight);
-        }
-      }
-    }
-
     .text {
       font-size: 0.75em;
       padding: 0 0.25em;
@@ -55,6 +44,29 @@ const { title, description, url, image } = Astro.props;
 
       .description {
         opacity: 0.8;
+      }
+    }
+
+    .thumbnail {
+      transition: filter 1000ms ease;
+    }
+    .text {
+      .title {
+        transition: color 1000ms ease;
+      }
+    }
+
+    &:hover {
+      .thumbnail {
+        filter: grayscale(1) blur(2px);
+        transition: filter 700ms ease;
+      }
+
+      .text {
+        .title {
+          color: var(--c-highlight);
+          transition: color 700ms;
+        }
       }
     }
   }
