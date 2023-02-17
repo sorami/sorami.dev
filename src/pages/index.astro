@@ -2,7 +2,6 @@
 import Layout from "../layouts/Layout.astro";
 import HeroSection from "../components/HeroSection.astro";
 import Timeline from "../components/Timeline.astro";
-import Footer from "../components/Footer.astro";
 
 const title = "Sorami Hisamoto";
 const description =
@@ -10,15 +9,14 @@ const description =
 ---
 
 <Layout title={title} description={description}>
-  <main>
+  <div id="home">
     <HeroSection />
     <Timeline />
-  </main>
-  <Footer />
+  </div>
 </Layout>
 
 <style>
-  main {
+  #home {
     max-width: 700px;
     margin: 3em auto;
     padding: 0 1em;

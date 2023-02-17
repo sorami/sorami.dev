@@ -1,0 +1,50 @@
+---
+const pathname = Astro.url.pathname;
+const pages = [
+  { path: "/", name: "home" },
+  { path: "/about", name: "about" },
+  { path: "/works", name: "works" },
+  { path: "/garden", name: "garden" },
+  { path: "/blog", name: "blog" },
+];
+---
+
+<header>
+  {
+    pages.map((d) => (
+      <a
+        href={d.path}
+        rel="prefetch"
+        class={pathname === d.path ? "active" : ""}
+      >
+        {d.name}
+      </a>
+    ))
+  }
+</header>
+
+<style lang="scss">
+  header {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2em;
+    font-size: 0.9em;
+
+    a {
+      opacity: 0.4;
+      text-decoration: none;
+
+      &.active {
+        font-weight: 700;
+        text-decoration: underline;
+        pointer-events: none;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+</style>
