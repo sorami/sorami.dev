@@ -110,8 +110,7 @@ export const works: WorkItem[] = [
     image: "_assets/works/few-things-on-scala.png",
   },
   {
-    title:
-      "Perceptron, Support Vector Machine, and Passive Aggressive Algorithm.",
+    title: "Perceptron, SVM, and PA Algorithm",
     url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
     description: "機械学習の分類問題",
     image: "_assets/works/perceptron.png",
