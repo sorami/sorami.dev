@@ -10,7 +10,7 @@ export const works: WorkItem[] = [
   {
     title: "World Ski Resorts - nearest neighbors",
     url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
-    description: "",
+    description: "Data from OpenStreetMap.",
     image: "_assets/works/world-ski-resorts-nearest-neighbors.png",
   },
   {
