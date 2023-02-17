@@ -3,7 +3,7 @@ const pathname = Astro.url.pathname;
 const pages = [
   { path: "/", name: "about" },
   { path: "https://b.sorami.dev", name: "blog" },
-  { path: "/garden", name: "garden" },
+  // { path: "/garden", name: "garden" },
   { path: "/timeline", name: "timeline" },
 ];
 ---
@@ -33,9 +33,12 @@ const pages = [
     font-size: 0.9em;
 
     #caption {
-      opacity: 0.6;
+      opacity: 0.8;
       font-weight: 700;
-      pointer-events: none;
+
+      &:hover {
+        color: var(--c-highlight);
+      }
     }
 
     #navigation {

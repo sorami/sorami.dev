@@ -35,7 +35,14 @@ const { title, description, url, image } = Astro.props;
     }
 
     &:hover {
-      opacity: 0.6;
+      .thumbnail {
+        opacity: 0.5;
+      }
+      .text {
+        .title {
+          color: var(--c-highlight);
+        }
+      }
     }
 
     .text {

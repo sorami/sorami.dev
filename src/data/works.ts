@@ -14,6 +14,12 @@ export const works: WorkItem[] = [
     image: "_assets/works/world-ski-resorts-nearest-neighbors.png",
   },
   {
+    title: "Gazetteer of Japan (地名集日本)",
+    url: "https://observablehq.com/@sorami/gazetteer-of-japan",
+    description: "国土地理院のデータを餅から米",
+    image: "_assets/works/gazetteer-of-japan.jpeg",
+  },
+  {
     title: "Japanese from Hokkaido to Okinawa",
     url: "https://observablehq.com/@sorami/japanese-from-hokkaido-to-okinawa",
     description: "Population of Japanese cities plotted by their latitudes.",
@@ -26,9 +32,9 @@ export const works: WorkItem[] = [
     image: "_assets/works/hokkaidle.png",
   },
   {
-    title: "People Map of Japan",
+    title: "A People Map of Japan",
     url: "https://sorami.dev/2021/people-map-japan/",
-    description: "「地名」を出身人物に置き換えた地図",
+    description: "地名を出身人物に置き換えた地図",
     image: "_assets/works/people-map-japan.png",
   },
 ];
