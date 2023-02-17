@@ -9,7 +9,7 @@ const pages = [
 ---
 
 <header>
-  <div id="caption">sorami.dev</div>
+  <div id="caption"><a href="/">sorami.dev</a></div>
   <div id="navigation">
     {
       pages.map((d) => (
@@ -36,8 +36,12 @@ const pages = [
       opacity: 0.8;
       font-weight: 700;
 
-      &:hover {
-        color: var(--c-highlight);
+      a {
+        text-decoration: none;
+
+        &:hover {
+          color: var(--c-highlight);
+        }
       }
     }
 
