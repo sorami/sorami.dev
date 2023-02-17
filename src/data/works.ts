@@ -2,17 +2,23 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "私を（GISで）スキーに連れてって",
+    url: "",
+    description: "これがFOSS4G",
+    image: "_assets/works/foss4g-hokkaido.webp",
+  },
+  {
     title: "World Ski Resorts - voronoi",
     url: "https://observablehq.com/@sorami/world-ski-resorts-voronoi",
     description: "スキー場ボロノイ図",
     image: "_assets/works/world-ski-resorts-voronoi.png",
   },
-  {
-    title: "World Ski Resorts - nearest neighbors",
-    url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
-    description: "最近傍のスキー場",
-    image: "_assets/works/world-ski-resorts-nearest-neighbors.png",
-  },
+  // {
+  //   title: "World Ski Resorts - nearest neighbors",
+  //   url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+  //   description: "最近傍のスキー場",
+  //   image: "_assets/works/world-ski-resorts-nearest-neighbors.png",
+  // },
   {
     title: "地図と可視化とコミュニティ",
     url: "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2022",
