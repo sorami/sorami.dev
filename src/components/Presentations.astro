@@ -1,15 +1,16 @@
 ---
 import { timelineItems } from "../data/timeline";
 
-const publicationItems = timelineItems.filter((d) => d.type === "paper");
+const presentationItems = timelineItems.filter(
+  (d) => d.type === "presentation",
+);
 ---
 
-<div id="publications">
-  <h2>Publications</h2>
-
-  <div id="publication-items">
+<div id="presentations">
+  <h2>Presentations</h2>
+  <div id="presentation-items">
     {
-      publicationItems.map((d) => (
+      presentationItems.map((d) => (
         <div class="pub">
           <a href={d.url} target="_blank" rel="noreferrer">
             <span class="title">{d.title}</span> {d.description}, {d.date}.
@@ -21,7 +22,7 @@ const publicationItems = timelineItems.filter((d) => d.type === "paper");
 </div>
 
 <style lang="scss">
-  #publications {
+  #presentations {
     margin-top: 2em;
 
     h2 {
@@ -29,7 +30,7 @@ const publicationItems = timelineItems.filter((d) => d.type === "paper");
       text-align: center;
     }
 
-    #publication-items {
+    #presentation-items {
       display: flex;
       flex-direction: column;
       row-gap: 0.75em;
