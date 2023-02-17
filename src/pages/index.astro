@@ -5,44 +5,7 @@ const title = "about";
 const description =
   "Interested in tools for thought. / 思考のための道具に興味があります。";
 
-const items = [
-  {
-    name: "GitHub",
-    href: "https://github.com/sorami",
-  },
-  {
-    name: "Observable",
-    href: "https://observablehq.com/@sorami",
-  },
-  {
-    name: "Twitter",
-    href: "https://twitter.com/sorami",
-  },
-  {
-    name: "Zenn",
-    href: "https://zenn.dev/sorami",
-  },
-  {
-    name: "Qiita",
-    href: "https://qiita.com/sorami",
-  },
-  {
-    name: "Speaker Deck",
-    href: "https://speakerdeck.com/sorami/",
-  },
-  {
-    name: "Google Scholar",
-    href: "https://scholar.google.com/citations?user=7DTtrgIAAAAJ",
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/sorami/",
-  },
-  {
-    name: "Keybase",
-    href: "https://keybase.io/sorami",
-  },
-];
+import { links } from "../data/links";
 ---
 
 <Layout title={title} description={description}>
@@ -56,7 +19,7 @@ const items = [
   </div>
   <div id="link-container">
     {
-      items.map((d) => (
+      links.map((d) => (
         <div>
           <a href={d.href} target="_blank" rel="noreferrer">
             {d.name}
