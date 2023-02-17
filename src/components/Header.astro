@@ -18,7 +18,7 @@ const pages = [
           rel="prefetch"
           class={pathname === d.path ? "active" : ""}
         >
-          {d.name}
+          {d.name} "{pathname}" - "{d.path}"
         </a>
       ))
     }
