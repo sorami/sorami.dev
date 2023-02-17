@@ -1,12 +1,34 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Timeline from "../components/Timeline.astro";
 
 const title = "sorami.dev";
 const description =
   "Interested in tools for thought. / 思考のための道具に興味があります。";
+
+import TimelineItem from "../components/TimelineItem.astro";
+import { getTimeline } from "../scripts/airtable";
+const timelineData = await getTimeline();
 ---
 
 <Layout title={title} description={description}>
-  <Timeline />
+  <div id="timeline">
+    {
+      timelineData.map((d) => (
+        <TimelineItem
+          url={d.url}
+          date={d.date}
+          type={d.type}
+          title={d.title}
+          description={d.description}
+        />
+      ))
+    }
+  </div>
 </Layout>
+
+<style>
+  #timeline {
+    margin: 2.5em 0;
+    text-align: left;
+  }
+</style>

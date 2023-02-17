@@ -3,6 +3,13 @@ type LinkItem = {
   href: string;
 };
 
+type WorkItem = {
+  title: string;
+  url: string;
+  description: string;
+  image: string;
+};
+
 type TimelineItem = {
   url: string;
   date: string;
@@ -11,4 +18,4 @@ type TimelineItem = {
   description?: string;
 };
 
-export type { LinkItem, TimelineItem };
+export type { LinkItem, WorkItem, TimelineItem };

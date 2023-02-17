@@ -1,0 +1,54 @@
+---
+const { title, description, url, image } = Astro.props;
+---
+
+<a href={url} target="_blank" rel="noreferrer">
+  <div class="container">
+    <div class="thumbnail">
+      <img src={image} alt="thumbnail" />
+    </div>
+    <div class="text">
+      <span class="title">{title}</span>
+      <span class="description">{description}</span>
+    </div>
+  </div>
+</a>
+
+<style lang="scss">
+  a {
+    text-decoration: none;
+    color: var(--c-text);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+
+    .thumbnail {
+      img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        border-radius: 4%;
+        object-fit: cover;
+      }
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    .text {
+      font-size: 0.8em;
+      padding: 0 0.25em;
+
+      .title {
+        font-weight: 700;
+      }
+
+      .description {
+        opacity: 0.8;
+      }
+    }
+  }
+</style>

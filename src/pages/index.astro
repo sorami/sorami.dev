@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Works from "../components/Works.astro";
 
 const title = "about";
 const description =
@@ -17,6 +18,9 @@ import { links } from "../data/links";
       <p><strong>思考のための道具</strong>に興味があります。</p>
     </div>
   </div>
+
+  <Works />
+
   <div id="link-container">
     {
       links.map((d) => (
@@ -33,7 +37,7 @@ import { links } from "../data/links";
 <style lang="scss">
   #about {
     max-width: 700px;
-    margin: 3em auto;
+    margin: 2em auto;
     padding: 0 1em;
     text-align: center;
 
@@ -59,7 +63,7 @@ import { links } from "../data/links";
     }
 
     #text {
-      margin: 1.8em 0;
+      margin: 1em 0;
 
       p {
         font-size: 0.9em;
