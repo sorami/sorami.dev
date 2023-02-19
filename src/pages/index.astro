@@ -18,6 +18,8 @@ const description =
   </div>
 
   <Works />
+
+  <div id="more"><a href="/timeline/">... more</a></div>
 </Layout>
 
 <style lang="scss">
@@ -63,6 +65,17 @@ const description =
 
       &:hover p strong {
         color: var(--c-highlight);
+      }
+    }
+  }
+
+  #more {
+    margin-top: 1.5em;
+    text-align: center;
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
