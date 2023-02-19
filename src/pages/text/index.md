@@ -4,7 +4,7 @@ title: "text"
 description: "my digital garden"
 ---
 
-## Featured
+## Favorites
 
 - [デジタルガーデンとはなにか]()
 
