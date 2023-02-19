@@ -1,0 +1,68 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+const title = "blog";
+const description =
+  "Interested in tools for thought. / 思考のための道具に興味があります。";
+
+const posts = (await Astro.glob("./2023/**/*.md")).sort(
+  (a, b) =>
+    new Date(b.frontmatter.pubDate).valueOf() -
+    new Date(a.frontmatter.pubDate).valueOf(),
+);
+---
+
+<Layout title={title} description={description}>
+  <section>
+    <div>
+      {
+        posts.map((post) => (
+          <a href={post.url} rel="prefetch">
+            <div class="post">
+              <div class="title">{post.frontmatter.title}</div>
+              <div class="date">
+                <time datetime={post.frontmatter.pubDate}>
+                  {post.frontmatter.pubDate}
+                </time>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
+
+<style lang="scss">
+  section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2em;
+
+    a {
+      text-decoration: none;
+      color: var(--c-text);
+    }
+
+    .post {
+      display: flex;
+      align-items: center;
+      padding: 0.25em 1em;
+      border-radius: 0.3em;
+
+      &:hover {
+        background-color: #eee;
+      }
+
+      .title {
+        width: 80%;
+      }
+      .date {
+        width: 20%;
+        text-align: right;
+        font-size: 0.8em;
+        opacity: 0.6;
+      }
+    }
+  }
+</style>

@@ -3,7 +3,7 @@ const pathname = Astro.url.pathname;
 const pages = [
   { path: "/", name: "home" },
   { path: "/text/", name: "text" },
-  { path: "", name: "diary" },
+  { path: "/blog/", name: "blog" },
   { path: "/timeline/", name: "timeline" },
   { path: "/about/", name: "about" },
 ];
@@ -28,6 +28,7 @@ const pages = [
 
 <style lang="scss">
   header {
+    margin-bottom: 2.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
