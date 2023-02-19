@@ -1,10 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Works from "../components/Works.astro";
+import ItemList from "../components/ItemList.astro";
 
-const title = "sorami.dev";
+const title = "about";
 const description =
   "Interested in tools for thought. / 思考のための道具に興味があります。";
+
+import { links } from "../data/links";
 ---
 
 <Layout title={title} description={description}>
@@ -12,12 +14,25 @@ const description =
     <div id="icon"></div>
     <h1>HISAMOTO Sorami</h1>
     <div id="text">
-      <p>Interested in <strong>tools for thought</strong>.</p>
       <p><strong>思考のための道具</strong>に興味があります。</p>
+      <p>北海道に暮らしています。</p>
     </div>
   </div>
 
-  <Works />
+  <ItemList heading="Publications" itemTypes={["paper"]} />
+  <ItemList heading="Talks" itemTypes={["presentation", "podcast"]} />
+
+  <div id="link-container">
+    {
+      links.map((d) => (
+        <div>
+          <a href={d.href} target="_blank" rel="noreferrer">
+            {d.name}
+          </a>
+        </div>
+      ))
+    }
+  </div>
 </Layout>
 
 <style lang="scss">
@@ -63,6 +78,27 @@ const description =
 
       &:hover p strong {
         color: var(--c-highlight);
+      }
+    }
+  }
+
+  #link-container {
+    max-width: 450px;
+    margin: 3em auto;
+    text-align: center;
+    font-size: 0.95em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em 0;
+    font-size: 0.8em;
+
+    a {
+      opacity: 0.5;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 1;
+        font-weight: 700;
       }
     }
   }

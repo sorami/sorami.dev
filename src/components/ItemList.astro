@@ -1,16 +1,23 @@
 ---
 import { timelineItems } from "../data/timeline";
 
-const publicationItems = timelineItems.filter((d) => d.type === "paper");
+interface Props {
+  heading: string;
+  itemTypes: string[];
+}
+
+const { heading, itemTypes } = Astro.props;
+
+const filteredItems = timelineItems.filter((d) => itemTypes.includes(d.type));
 ---
 
-<div id="publications">
-  <h2>Publications</h2>
+<div class="item-list-container">
+  <h2>{heading}</h2>
 
-  <div id="publication-items">
+  <div class="item-list">
     {
-      publicationItems.map((d) => (
-        <div class="pub">
+      filteredItems.map((d) => (
+        <div class="item">
           <a href={d.url} target="_blank" rel="noreferrer">
             <span class="title">{d.title}</span> {d.description}, {d.date}.
           </a>
@@ -21,7 +28,7 @@ const publicationItems = timelineItems.filter((d) => d.type === "paper");
 </div>
 
 <style lang="scss">
-  #publications {
+  .item-list-container {
     margin-top: 2em;
 
     h2 {
@@ -29,12 +36,12 @@ const publicationItems = timelineItems.filter((d) => d.type === "paper");
       text-align: center;
     }
 
-    #publication-items {
+    .item-list {
       display: flex;
       flex-direction: column;
       row-gap: 0.75em;
 
-      .pub {
+      .item {
         font-size: 0.7em;
 
         a {
