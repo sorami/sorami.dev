@@ -1,21 +1,41 @@
 ---
 import TimelineItem from "../components/TimelineItem.astro";
 import { getTimeline } from "../scripts/airtable";
+import type { TimelineItem as TimelineItemType } from "../types";
 const timelineData = await getTimeline();
+
+let perYear: Record<string, TimelineItemType[]> = {};
+timelineData.forEach((d) => {
+  const year = d.date.split("-")[0];
+  if (!perYear[year]) {
+    perYear[year] = [];
+  }
+  perYear[year].push(d);
+});
+const sortedYears = Object.keys(perYear).sort(
+  (a, b) => parseInt(b) - parseInt(a),
+);
 ---
 
 <div id="timeline">
-  {
-    timelineData.map((d) => (
-      <TimelineItem
-        url={d.url}
-        date={d.date}
-        type={d.type}
-        title={d.title}
-        description={d.description}
-      />
-    ))
-  }
+  <div class="flex flex-col gap-y-8">
+    {
+      sortedYears.map((year) => (
+        <div>
+          <h3 class="text-center text-lg font-bold opacity-75">{year}</h3>
+          {perYear[year].map((d) => (
+            <TimelineItem
+              url={d.url}
+              date={d.date}
+              type={d.type}
+              title={d.title}
+              description={d.description}
+            />
+          ))}
+        </div>
+      ))
+    }
+  </div>
 </div>
 
 <style>
