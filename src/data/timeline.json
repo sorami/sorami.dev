@@ -1,5 +1,12 @@
 [
   {
+    "type": "article",
+    "date": "2023-04-12",
+    "url": "https://sorami.dev/tokaido-scrollytelling/",
+    "title": "東海道中スクロール栗毛",
+    "description": "Scrollytelling the 53 Stations of the Tōkaidō in Japan."
+  },
+  {
     "url": "https://note.com/mierune/n/n02e261e96f25",
     "date": "2023-03-24",
     "type": "article",
@@ -649,23 +656,23 @@
     "title": "Construction of English MWE Dictionary and its Application to POS Tagging"
   },
   {
-    "title": "Perceptron, Support Vector Machine, and Passive Aggressive Algorithm.",
-    "date": "2013-05-14",
     "url": "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
-    "type": "presentation"
+    "date": "2013-05-14",
+    "type": "presentation",
+    "title": "Perceptron, Support Vector Machine, and Passive Aggressive Algorithm."
   },
   {
-    "title": "An Empirical Investigation of Word Representations for Parsing the Web",
-    "date": "2013-03-14",
+    "description": "Sorami Hisamoto, Kevin Duh, and Yuji Matsumoto. (言語処理学会第19回年次大会)",
     "url": "https://www.anlp.jp/proceedings/annual_meeting/2013/pdf_dir/P2-15.pdf",
+    "date": "2013-03-14",
     "type": "paper",
-    "description": "Sorami Hisamoto, Kevin Duh, and Yuji Matsumoto. (言語処理学会第19回年次大会)"
+    "title": "An Empirical Investigation of Word Representations for Parsing the Web"
   },
   {
-    "title": "英語の複単語表現辞書の構築と品詞タグ付けへの応用",
-    "date": "2012-11-22",
+    "description": "重藤優太郎, 東藍, 近藤修平, 北裏龍太, 坂口慶祐, 光瀬智哉, 久本空海, 吉本暁文, Frances Yung, 松本裕治. (情報処理学会研究報告第209回自然言語処理研究会)",
     "url": "https://nl-ipsj.or.jp/2015/07/13/%E6%83%85%E5%A0%B1%E5%87%A6%E7%90%86%E5%AD%A6%E4%BC%9A-%E7%AC%AC209%E5%9B%9E%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E7%A0%94%E7%A9%B6%E4%BC%9A/",
+    "date": "2012-11-22",
     "type": "paper",
-    "description": "重藤優太郎, 東藍, 近藤修平, 北裏龍太, 坂口慶祐, 光瀬智哉, 久本空海, 吉本暁文, Frances Yung, 松本裕治. (情報処理学会研究報告第209回自然言語処理研究会)"
+    "title": "英語の複単語表現辞書の構築と品詞タグ付けへの応用"
   }
 ]
