@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "東海道中スクロール栗毛",
+    type: "article",
+    url: "https://sorami.dev/tokaido-scrollytelling/",
+    description: "scrollytelling",
+    image: "_assets/works/tokaido-scrollytelling.webp",
+  },
+  {
     title: "私を（GISで）スキーに連れてって",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/foss4g-hokkaido-mini-number-01",
@@ -148,11 +155,11 @@ export const works: WorkItem[] = [
   //   description: "いらちのためのScala入門",
   //   image: "_assets/works/few-things-on-scala.webp",
   // },
-  {
-    title: "Perceptron, SVM, and PA Algorithm",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
-    description: "機械学習の分類問題",
-    image: "_assets/works/perceptron.webp",
-  },
+  // {
+  //   title: "Perceptron, SVM, and PA Algorithm",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
+  //   description: "機械学習の分類問題",
+  //   image: "_assets/works/perceptron.webp",
+  // },
 ];
