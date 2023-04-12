@@ -3,16 +3,26 @@ import type { TimelineItem } from "../types";
 type Props = TimelineItem;
 const { url, date, type, title, description } = Astro.props;
 const { hostname } = new URL(url);
+
+const iconDict: Record<string, string> = {
+  article: "i-heroicons-document-text-20-solid",
+  paper: "i-heroicons-academic-cap-20-solid",
+  presentation: "i-heroicons-presentation-chart-bar-20-solid",
+  podcast: "i-heroicons-radio-20-solid",
+};
 ---
 
 <a href={url} target="_blank" rel="noreferrer">
   <div class={`timeline-item-container timeline-type-${type}`}>
     <div class="timeline-dot"></div>
     <div class="timeline-meta">
+      <div class={`icon ${iconDict[type]} mr-1.5 opacity-50`}></div>
       <time datetime="{{ item.date }}">{date}</time>
       <div class="timeline-hostname">{hostname}</div>
     </div>
-    <h2 class="timeline-title">{title}</h2>
+    <h2 class="timeline-title">
+      {title}
+    </h2>
     {description && <div class="timeline-description">{description}</div>}
   </div>
 </a>
@@ -24,11 +34,18 @@ const { hostname } = new URL(url);
 
   .timeline-item-container {
     border-left: solid 2px var(--c-border);
-    padding-left: 15px;
+    padding-left: 18px;
     padding-top: 1em;
     padding-bottom: 1em;
     display: block;
     position: relative;
+
+    .icon {
+      color: var(--c-text);
+    }
+    &:hover .icon {
+      opacity: 1;
+    }
 
     .timeline-dot {
       position: absolute;
