@@ -6,4 +6,11 @@ type TimelineItem = {
   description?: string;
 };
 
-export type { TimelineItem };
+type WorkItem = {
+  title: string;
+  url: string;
+  description: string;
+  image: string;
+};
+
+export type { TimelineItem, WorkItem };

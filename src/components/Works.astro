@@ -1,0 +1,32 @@
+---
+import WorkItem from "./WorkItem.astro";
+import { works } from "../data/works";
+---
+
+<div id="works">
+  {
+    works.map((d) => (
+      <WorkItem
+        url={d.url}
+        title={d.title}
+        description={d.description}
+        image={d.image}
+      />
+    ))
+  }
+</div>
+
+<style lang="scss">
+  #works {
+    margin-top: 3em;
+
+    --auto-grid-min-size: 200px;
+
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(var(--auto-grid-min-size), 1fr)
+    );
+    grid-gap: 1.25em;
+  }
+</style>
