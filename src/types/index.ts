@@ -8,6 +8,7 @@ type TimelineItem = {
 
 type WorkItem = {
   title: string;
+  type: "article" | "paper" | "presentation" | "podcast";
   url: string;
   description: string;
   image: string;
