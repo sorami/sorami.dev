@@ -39,7 +39,7 @@ const { hostname } = new URL(url);
       height: 10px;
       border-radius: 50%;
       border: 2px solid var(--c-border);
-      background: var(--c-background-top);
+      background: var(--c-border-opacity-100);
     }
 
     .timeline-meta {
@@ -78,7 +78,8 @@ const { hostname } = new URL(url);
 
     &:hover {
       .timeline-dot {
-        border-color: var(--c-text);
+        border-color: var(--c-highlight);
+        background: var(--c-highlight);
       }
 
       .timeline-meta time {
