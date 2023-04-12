@@ -56,7 +56,7 @@ const iconDict: Record<string, string> = {
       height: 10px;
       border-radius: 50%;
       border: 2px solid var(--c-border);
-      background: var(--c-border-opacity-100);
+      background: var(--c-border);
     }
 
     .timeline-meta {
@@ -95,8 +95,8 @@ const iconDict: Record<string, string> = {
 
     &:hover {
       .timeline-dot {
-        border-color: var(--c-highlight);
-        background: var(--c-highlight);
+        border-color: var(--c-text);
+        background: var(--c-text);
       }
 
       .timeline-meta time {
@@ -110,8 +110,7 @@ const iconDict: Record<string, string> = {
 
       h2.timeline-title {
         opacity: 1;
-        color: var(--c-highlight);
-        text-decoration: var(--c-highlight) solid underline 1px;
+        text-decoration: solid underline 1px;
       }
 
       .timeline-description {

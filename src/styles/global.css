@@ -3,8 +3,7 @@
   --c-text: rgba(253, 252, 229, 1);
   --c-text-link: #ffe699;
   --c-highlight: #ff4c29;
-  --c-border: rgba(253, 252, 229, 0.3);
-  --c-border-opacity-100: rgba(253, 252, 229, 1);
+  --c-border: #999;
 }
 
 body {
