@@ -66,10 +66,7 @@ const iconDict: Record<string, string> = {
     }
 
     &:hover {
-      .thumbnail {
-        filter: grayscale(1) blur(2px);
-        transition: filter 700ms ease;
-      }
+      animation: jump-shaking 700ms ease-out;
 
       .text {
         .title {
@@ -77,6 +74,27 @@ const iconDict: Record<string, string> = {
           transition: color 700ms;
         }
       }
+    }
+  }
+
+  @keyframes jump-shaking {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: rotate(6deg);
+    }
+    40% {
+      transform: rotate(-6deg);
+    }
+    60% {
+      transform: rotate(6deg);
+    }
+    80% {
+      transform: rotate(-6deg);
+    }
+    100% {
+      transform: rotate(0);
     }
   }
 </style>
