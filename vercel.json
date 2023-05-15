@@ -4,6 +4,10 @@
   },
   "rewrites": [
     {
+      "source": "/costep/",
+      "destination": "https://costep.vercel.app"
+    },
+    {
       "source": "/costep/:path*",
       "destination": "https://costep.vercel.app/:path*"
     },
