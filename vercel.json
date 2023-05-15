@@ -5,7 +5,7 @@
   "trailingSlash": true,
   "rewrites": [
     {
-      "source": "/costep/:path*/",
+      "source": "/costep/:path*",
       "destination": "https://costep.vercel.app/:path*"
     }
   ]
