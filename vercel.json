@@ -6,6 +6,10 @@
     {
       "source": "/costep/:path*",
       "destination": "https://costep.vercel.app/:path*"
+    },
+    {
+      "source": "/costep/:path*/",
+      "destination": "https://costep.vercel.app/:path*/"
     }
   ],
   "trailingSlash": true
