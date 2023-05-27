@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "科学技術コミュ日記",
+    type: "article",
+    url: "https://sorami.dev/costep/",
+    description: "CoSTEP（科学技術コミュニケーター養成プログラム）",
+    image: "_assets/works/costep.png",
+  },
+  {
     title: "東海道中スクロール栗毛",
     type: "article",
     url: "https://sorami.dev/tokaido-scrollytelling/",
@@ -22,13 +29,13 @@ export const works: WorkItem[] = [
     description: "スキー場ボロノイ図",
     image: "_assets/works/world-ski-resorts-voronoi.webp",
   },
-  {
-    title: "World Ski Resorts - nearest neighbors",
-    type: "article",
-    url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
-    description: "最近傍のスキー場",
-    image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
-  },
+  // {
+  //   title: "World Ski Resorts - nearest neighbors",
+  //   type: "article",
+  //   url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+  //   description: "最近傍のスキー場",
+  //   image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
+  // },
   {
     title: "地図と可視化とコミュニティ",
     type: "presentation",
