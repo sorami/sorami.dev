@@ -2,6 +2,21 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "データ可視化をやりたくて北海道に移住した話",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
+    description: "人生",
+    image: "_assets/works/dataviz-hokkaido.webp",
+  },
+  {
+    title:
+      "めくるめくスクロールとデータ可視化の世界 - 「スクローリーテリング」ってなに？",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
+    description: "Scroll + Storytelling",
+    image: "_assets/works/scrollytelling.webp",
+  },
+  {
     title: "科学技術コミュ日記",
     type: "article",
     url: "https://sorami.dev/costep/",
@@ -29,13 +44,13 @@ export const works: WorkItem[] = [
     description: "スキー場ボロノイ図",
     image: "_assets/works/world-ski-resorts-voronoi.webp",
   },
-  // {
-  //   title: "World Ski Resorts - nearest neighbors",
-  //   type: "article",
-  //   url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
-  //   description: "最近傍のスキー場",
-  //   image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
-  // },
+  {
+    title: "World Ski Resorts - nearest neighbors",
+    type: "article",
+    url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+    description: "最近傍のスキー場",
+    image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
+  },
   {
     title: "地図と可視化とコミュニティ",
     type: "presentation",
@@ -141,13 +156,13 @@ export const works: WorkItem[] = [
     description: "ジュリア東京の活動報告",
     image: "_assets/works/juliacon-2015.webp",
   },
-  // {
-  //   title: "Babel Guide",
-  //   type: "presentation",
-  //   url: "https://speakerdeck.com/sorami/introducing-julia",
-  //   description: "5 languages in 13 weeks",
-  //   image: "_assets/works/babel-guide.webp",
-  // },
+  {
+    title: "Babel Guide",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/introducing-julia",
+    description: "5 languages in 13 weeks",
+    image: "_assets/works/babel-guide.webp",
+  },
   {
     title: "Parsing The Web with Deep Learning",
     type: "presentation",
@@ -162,11 +177,11 @@ export const works: WorkItem[] = [
   //   description: "いらちのためのScala入門",
   //   image: "_assets/works/few-things-on-scala.webp",
   // },
-  // {
-  //   title: "Perceptron, SVM, and PA Algorithm",
-  //   type: "presentation",
-  //   url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
-  //   description: "機械学習の分類問題",
-  //   image: "_assets/works/perceptron.webp",
-  // },
+  {
+    title: "Perceptron, SVM, and PA Algorithm",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
+    description: "機械学習の分類問題",
+    image: "_assets/works/perceptron.webp",
+  },
 ];
