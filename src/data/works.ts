@@ -9,11 +9,10 @@ export const works: WorkItem[] = [
     image: "_assets/works/dataviz-hokkaido.webp",
   },
   {
-    title:
-      "めくるめくスクロールとデータ可視化の世界 - 「スクローリーテリング」ってなに？",
+    title: "めくるめくスクロールとデータ可視化の世界",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
-    description: "Scroll + Storytelling",
+    description: "scroll + storytelling",
     image: "_assets/works/scrollytelling.webp",
   },
   {
