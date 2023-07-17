@@ -1,10 +1,73 @@
 [
   {
+    "url": "https://qiita.com/sorami/items/4928ddf2b17ceaba2501",
+    "date": "2023-07-06",
     "type": "article",
-    "date": "2023-04-12",
+    "title": "ファビコンを環境ごとに変えると分かりやすい（Next.js, Vue3, SvelteKit, Astro）"
+  },
+  {
+    "description": "SaCSS Season 2 Vol. 2",
+    "url": "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
+    "date": "2023-07-05",
+    "type": "presentation",
+    "title": "データ可視化をやりたくて北海道に移住した話"
+  },
+  {
+    "description": "MIERUNE BBQ #02",
+    "url": "https://speakerdeck.com/sorami/mierune-bbq-number-02",
+    "date": "2023-06-30",
+    "type": "presentation",
+    "title": "めくるめくスクロールとデータ可視化の世界 - 「スクローリーテリング」ってなに？"
+  },
+  {
+    "url": "https://kaiwai.chat/episode/2",
+    "date": "2023-06-24",
+    "type": "podcast",
+    "title": "2. LLMについて好き勝手語る (sorami) | 界隈.chat"
+  },
+  {
+    "url": "https://kaiwai.chat/episode/1",
+    "date": "2023-06-18",
+    "type": "podcast",
+    "title": "1. 久しぶりの近況報告。soramiさんが通ってる面白い学校 (sorami) | 界隈.chat"
+  },
+  {
+    "url": "https://note.com/mierune/n/n0bdbc6aff9d2",
+    "date": "2023-06-16",
+    "type": "article",
+    "title": "「札幌市電」を貸し切ったら、社員全員でなまら盛り上がった話 🚋"
+  },
+  {
+    "url": "https://qiita.com/sorami/items/7d8470494bd77a77c9e4",
+    "date": "2023-06-15",
+    "type": "article",
+    "title": "背景画像(壁紙)を素敵なものにしてくれるアプリ（ブラウザ, macOS, Windows）"
+  },
+  {
+    "url": "https://qiita.com/sorami/items/f01e754890ef437c911a",
+    "date": "2023-06-14",
+    "type": "article",
+    "title": "Next.js 13 で deck.gl 8.9 を使う時の、モジュール読み込み（ESM）の設定"
+  },
+  {
+    "description": "Where is the “Hiroshima to Honolulu Friendship Torii” in Hawaii facing?",
+    "url": "https://observablehq.com/@sorami/hawaii-hiroshima-torii",
+    "date": "2023-05-17",
+    "type": "article",
+    "title": "ハワイにある「広島・ホノルル友好鳥居」はどこを向いているのか"
+  },
+  {
+    "url": "https://suzuki-cat-generator.vercel.app/",
+    "date": "2023-04-25",
+    "type": "article",
+    "title": "Suzuki Cat Generator"
+  },
+  {
+    "description": "Scrollytelling the 53 Stations of the Tōkaidō in Japan.",
     "url": "https://sorami.dev/tokaido-scrollytelling/",
-    "title": "東海道中スクロール栗毛",
-    "description": "Scrollytelling the 53 Stations of the Tōkaidō in Japan."
+    "date": "2023-04-12",
+    "type": "article",
+    "title": "東海道中スクロール栗毛"
   },
   {
     "url": "https://note.com/mierune/n/n02e261e96f25",
