@@ -2,6 +2,14 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title:
+      "AIST 3DDB Client: 産総研3DデータベースのためのオープンソースWebアプリ",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
+    description: "福井にて",
+    image: "_assets/works/foss4g-japan-2023.webp",
+  },
+  {
     title: "データ可視化をやりたくて北海道に移住した話",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
@@ -176,11 +184,11 @@ export const works: WorkItem[] = [
   //   description: "いらちのためのScala入門",
   //   image: "_assets/works/few-things-on-scala.webp",
   // },
-  {
-    title: "Perceptron, SVM, and PA Algorithm",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
-    description: "機械学習の分類問題",
-    image: "_assets/works/perceptron.webp",
-  },
+  // {
+  //   title: "Perceptron, SVM, and PA Algorithm",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
+  //   description: "機械学習の分類問題",
+  //   image: "_assets/works/perceptron.webp",
+  // },
 ];
