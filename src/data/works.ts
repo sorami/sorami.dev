@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "カクトビック数字 - 人間と文化にあわせた多様な表現の可能性",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/kaktovik-numerals",
+    description: "5-20進法",
+    image: "_assets/works/kaktovik.webp",
+  },
+  {
     title:
       "AIST 3DDB Client: 産総研3DデータベースのためのオープンソースWebアプリ",
     type: "presentation",
@@ -51,13 +58,13 @@ export const works: WorkItem[] = [
     description: "スキー場ボロノイ図",
     image: "_assets/works/world-ski-resorts-voronoi.webp",
   },
-  {
-    title: "World Ski Resorts - nearest neighbors",
-    type: "article",
-    url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
-    description: "最近傍のスキー場",
-    image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
-  },
+  // {
+  //   title: "World Ski Resorts - nearest neighbors",
+  //   type: "article",
+  //   url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+  //   description: "最近傍のスキー場",
+  //   image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
+  // },
   {
     title: "地図と可視化とコミュニティ",
     type: "presentation",
