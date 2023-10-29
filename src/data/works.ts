@@ -4,8 +4,8 @@ export const works: WorkItem[] = [
   {
     title: "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に",
     type: "presentation",
-    url: "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
-    description: "VueFes Japan 2023",
+    url: "https://speakerdeck.com/sorami/vue-fes-japan-2023",
+    description: "Vue Fes Japan 2023",
     image: "_assets/works/vuefes.webp",
   },
   {
