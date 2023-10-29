@@ -2,20 +2,27 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
+    description: "VueFes Japan 2023",
+    image: "_assets/works/vuefes.webp",
+  },
+  {
     title: "カクトビック数字 - 人間と文化にあわせた多様な表現の可能性",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/kaktovik-numerals",
     description: "5-20進法",
     image: "_assets/works/kaktovik.webp",
   },
-  {
-    title:
-      "AIST 3DDB Client: 産総研3DデータベースのためのオープンソースWebアプリ",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
-    description: "福井にて",
-    image: "_assets/works/foss4g-japan-2023.webp",
-  },
+  // {
+  //   title:
+  //     "AIST 3DDB Client: 産総研3DデータベースのためのオープンソースWebアプリ",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
+  //   description: "福井にて",
+  //   image: "_assets/works/foss4g-japan-2023.webp",
+  // },
   {
     title: "データ可視化をやりたくて北海道に移住した話",
     type: "presentation",
