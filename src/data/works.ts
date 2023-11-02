@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "数々の多様性",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/shu-noduo-yang-xing",
+    description: "バベルの塔と思考のための道具",
+    image: "_assets/works/diversity.webp",
+  },
+  {
     title: "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/vue-fes-japan-2023",
@@ -177,13 +184,13 @@ export const works: WorkItem[] = [
     description: "ジュリア東京の活動報告",
     image: "_assets/works/juliacon-2015.webp",
   },
-  {
-    title: "Babel Guide",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/introducing-julia",
-    description: "5 languages in 13 weeks",
-    image: "_assets/works/babel-guide.webp",
-  },
+  // {
+  //   title: "Babel Guide",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/introducing-julia",
+  //   description: "5 languages in 13 weeks",
+  //   image: "_assets/works/babel-guide.webp",
+  // },
   {
     title: "Parsing The Web with Deep Learning",
     type: "presentation",
