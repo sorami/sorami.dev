@@ -18,15 +18,15 @@
 
     {
       "source": "/city-shiritori/",
-      "destination": "https://city-shiritori.vercel.app"
+      "destination": "https://city-shiritori.vercel.app/city-shiritori/"
     },
     {
       "source": "/city-shiritori/:path*",
-      "destination": "https://city-shiritori.vercel.app/:path*"
+      "destination": "https://city-shiritori.vercel.app/city-shiritori/:path*"
     },
     {
       "source": "/city-shiritori/:path*/",
-      "destination": "https://city-shiritori.vercel.app/:path*/"
+      "destination": "https://city-shiritori.vercel.app/city-shiritori/:path*/"
     }
   ],
   "trailingSlash": true
