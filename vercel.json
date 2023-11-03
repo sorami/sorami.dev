@@ -14,6 +14,19 @@
     {
       "source": "/costep/:path*/",
       "destination": "https://costep.vercel.app/:path*/"
+    },
+
+    {
+      "source": "/city-shiritori/",
+      "destination": "https://city-shiritori.vercel.app"
+    },
+    {
+      "source": "/city-shiritori/:path*",
+      "destination": "https://city-shiritori.vercel.app/:path*"
+    },
+    {
+      "source": "/city-shiritori/:path*/",
+      "destination": "https://city-shiritori.vercel.app/:path*/"
     }
   ],
   "trailingSlash": true
