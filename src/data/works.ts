@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "「スクローリーテリング」から考えるジューシーなメディア",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2023",
+    description: "Juice it",
+    image: "_assets/works/dvj-2023.webp",
+  },
+  {
     title: "都市名しりとり",
     type: "presentation",
     url: "https://sorami.dev/city-shiritori/",
@@ -44,13 +51,13 @@ export const works: WorkItem[] = [
     description: "人生",
     image: "_assets/works/dataviz-hokkaido.webp",
   },
-  {
-    title: "めくるめくスクロールとデータ可視化の世界",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
-    description: "scroll + storytelling",
-    image: "_assets/works/scrollytelling.webp",
-  },
+  // {
+  //   title: "めくるめくスクロールとデータ可視化の世界",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
+  //   description: "scroll + storytelling",
+  //   image: "_assets/works/scrollytelling.webp",
+  // },
   {
     title: "科学技術コミュ日記",
     type: "article",
