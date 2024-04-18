@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "「日本で最も丸い湖」を探して",
+    type: "article",
+    url: "https://zenn.dev/mierune/articles/9f970dc3e61a66",
+    description: "GIS, 円形度, 最急降下法",
+    image: "_assets/works/roundest-lakes.webp",
+  },
+  {
     title: "「スクローリーテリング」から考えるジューシーなメディア",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2023",
@@ -58,13 +65,13 @@ export const works: WorkItem[] = [
   //   description: "scroll + storytelling",
   //   image: "_assets/works/scrollytelling.webp",
   // },
-  {
-    title: "科学技術コミュ日記",
-    type: "article",
-    url: "https://sorami.dev/costep/",
-    description: "CoSTEP（科学技術コミュニケーター養成プログラム）",
-    image: "_assets/works/costep.png",
-  },
+  // {
+  //   title: "科学技術コミュ日記",
+  //   type: "article",
+  //   url: "https://sorami.dev/costep/",
+  //   description: "CoSTEP（科学技術コミュニケーター養成プログラム）",
+  //   image: "_assets/works/costep.png",
+  // },
   {
     title: "東海道中スクロール栗毛",
     type: "article",

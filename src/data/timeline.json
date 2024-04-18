@@ -1,5 +1,265 @@
 [
   {
+    "description": "界隈.chat",
+    "url": "https://kaiwai.chat/episode/17",
+    "date": "2024-04-13",
+    "type": "podcast",
+    "title": "17. 劣化するインターネットと個人主義ユートピア, コミュニケーションの適度な距離感（sorami）"
+  },
+  {
+    "url": "https://zenn.dev/mierune/articles/9f970dc3e61a66",
+    "date": "2024-04-04",
+    "type": "article",
+    "title": "「日本で最も丸い湖」を探して - GIS, 円形度, 最急降下法"
+  },
+  {
+    "url": "https://note.com/mierune/n/nbffaebc4b1d7",
+    "date": "2024-04-03",
+    "type": "article",
+    "title": "NLP2024（言語処理学会 第30回年次大会）レポート: テーマセッション「ことばと地理空間の情報処理」共同提案者・プログラム委員として参加しました！"
+  },
+  {
+    "url": "https://sorami.dev/costep/2024-03-31/",
+    "date": "2024-03-31",
+    "type": "article",
+    "title": "おしまい - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/table-of-contents/",
+    "date": "2024-03-31",
+    "type": "article",
+    "title": "トピックごとの目次 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2024-03-30/",
+    "date": "2024-03-30",
+    "type": "article",
+    "title": "企画展示「ななめせんなめせん」 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2024-03-08/",
+    "date": "2024-03-08",
+    "type": "article",
+    "title": "1月と2月の活動 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2024-03-02/",
+    "date": "2024-03-02",
+    "type": "article",
+    "title": "モジュール6講義 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://observablehq.com/@sorami/hokkaido-japan-population-cow-fish-wheat-snowfall",
+    "date": "2024-01-12",
+    "type": "article",
+    "title": "Hokkaido, Japan - population, cow, fish, wheat, snowfall"
+  },
+  {
+    "url": "https://observablehq.com/@sorami/human-cow-population-in-japan-cartogram",
+    "date": "2024-01-03",
+    "type": "article",
+    "title": "Human & Cow population in Japan (Cartogram)"
+  },
+  {
+    "url": "https://observablehq.com/@sorami/snowfall-in-japan",
+    "date": "2024-01-02",
+    "type": "article",
+    "title": "Snowfall in Japan"
+  },
+  {
+    "description": "Data Visualization Japan Meetup 2023",
+    "url": "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2023",
+    "date": "2023-12-29",
+    "type": "presentation",
+    "title": "「スクローリーテリング」から考えるジューシーなメディア"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-12-29/",
+    "date": "2023-12-29",
+    "type": "article",
+    "title": "11月と12月の活動、モジュール5講義 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://observablehq.com/d/d62b81f0a1d5df71",
+    "date": "2023-12-17",
+    "type": "article",
+    "title": "Map of Japan with Observable Plot"
+  },
+  {
+    "url": "https://observablehq.com/@sorami/human-cow-population-in-japan",
+    "date": "2023-12-17",
+    "type": "article",
+    "title": "Human & Cow population in Japan (Bivariate choropleth)"
+  },
+  {
+    "description": "MIERUNE アドベントカレンダー 2023",
+    "url": "https://note.com/mierune/n/n6bdd7bfeccf0",
+    "date": "2023-12-10",
+    "type": "article",
+    "title": "アジアでオープンなジオの祭典: 「FOSS4G ASIA 2023」に参加&発表してきました！"
+  },
+  {
+    "description": "FOSS4G ASIA 2023",
+    "url": "https://speakerdeck.com/sorami/foss4g-asia-2023",
+    "date": "2023-11-30",
+    "type": "presentation",
+    "title": "AIST 3DDB Client: an open-source web application for the 3D database"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-11-26/",
+    "date": "2023-11-26",
+    "type": "article",
+    "title": "ChatGPTと高次元科学 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-11-24/",
+    "date": "2023-11-24",
+    "type": "article",
+    "title": "In between - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-11-14/",
+    "date": "2023-11-14",
+    "type": "article",
+    "title": "情報技術による新たな議論形式の模索 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-11-12/",
+    "date": "2023-11-12",
+    "type": "article",
+    "title": "モジュール3講義、9月と10月の活動 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/city-shiritori/",
+    "date": "2023-11-04",
+    "type": "article",
+    "title": "都市名しりとり"
+  },
+  {
+    "description": "ミライのお仕事",
+    "url": "https://jobseek.ne.jp/corporate-data/mierune/",
+    "date": "2023-11-02",
+    "type": "article",
+    "title": "国内で例が少ないビジネスを展開する株式会社MIERUNEのオープン・アクティブな文化"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-11-02/",
+    "date": "2023-11-02",
+    "type": "article",
+    "title": "カクトビック数字と、数々の多様性 - 科学技術コミュ日記"
+  },
+  {
+    "description": "CoSTEP プレゼン演習 #2",
+    "url": "https://speakerdeck.com/sorami/shu-noduo-yang-xing",
+    "date": "2023-11-01",
+    "type": "presentation",
+    "title": "数々の多様性"
+  },
+  {
+    "description": "Vue Fes Japan 2023",
+    "url": "https://speakerdeck.com/sorami/vue-fes-japan-2023",
+    "date": "2023-10-28",
+    "type": "presentation",
+    "title": "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に"
+  },
+  {
+    "description": "CoSTEP プレゼン演習 #1",
+    "url": "https://speakerdeck.com/sorami/kaktovik-numerals",
+    "date": "2023-10-18",
+    "type": "presentation",
+    "title": "カクトビック数字 - 人間と文化にあわせた多様な表現の可能性 / Kaktovik Numerals"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-10-15/",
+    "date": "2023-10-15",
+    "type": "article",
+    "title": "「サイエンスイラストレーション」という手法 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-10-14/",
+    "date": "2023-10-14",
+    "type": "article",
+    "title": "7月と8月の講義・演習・実習 - 科学技術コミュ日記"
+  },
+  {
+    "description": "界隈.chat",
+    "url": "https://kaiwai.chat/episode/11",
+    "date": "2023-10-07",
+    "type": "podcast",
+    "title": "11. 無駄と遊び心 (Yfuru2454)"
+  },
+  {
+    "description": "界隈.chat",
+    "url": "https://kaiwai.chat/episode/12",
+    "date": "2023-10-07",
+    "type": "podcast",
+    "title": "12. 昆虫標本としてのPodcast (Yfuru2454)"
+  },
+  {
+    "description": "FOSS4G 2023 Japan@FUKUI",
+    "url": "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
+    "date": "2023-09-18",
+    "type": "presentation",
+    "title": "AIST 3DDB Client: 産総研3DデータベースのためのオープンソースWebアプリ"
+  },
+  {
+    "url": "https://note.com/mierune/n/ncc0c90fb155e",
+    "date": "2023-09-14",
+    "type": "article",
+    "title": "いろんな人々が流入するユルいオンラインイベント「MIERUNE JCT #01」を開催しました 🛣️"
+  },
+  {
+    "description": "界隈.chat",
+    "url": "https://kaiwai.chat/episode/10",
+    "date": "2023-08-06",
+    "type": "podcast",
+    "title": "10. Podcasterの聖地「雑談」に行ってきた (sorami)"
+  },
+  {
+    "description": "界隈.chat",
+    "url": "https://kaiwai.chat/episode/9",
+    "date": "2023-08-04",
+    "type": "podcast",
+    "title": "9. 複雑なものを複雑なまま扱う:高次元科学について語ろう (sorami)"
+  },
+  {
+    "url": "https://github.com/MIERUNE/mokumoku-wordcloud",
+    "date": "2023-07-27",
+    "type": "article",
+    "title": "MIERUNE/mokumoku-wordcloud: もくもく会 💯 🎉 ワードクラウド"
+  },
+  {
+    "url": "https://qiita.com/sorami/items/fa3310fbf0127c78c50e",
+    "date": "2023-07-21",
+    "type": "article",
+    "title": "日本語話者だけが読めない地図"
+  },
+  {
+    "url": "https://qiita.com/sorami/items/49ab925dc29aef73bb8a",
+    "date": "2023-07-20",
+    "type": "article",
+    "title": "QGISで雲がかかった「天国から視点」っぽい画像を作る"
+  },
+  {
+    "url": "https://costep.open-ed.hokudai.ac.jp/news/27714",
+    "date": "2023-07-19",
+    "type": "article",
+    "title": "モジュール1-2「先端科学技術の倫理的・法的・社会的課題と責任ある研究・イノベーション」（5/27）標葉隆馬先生講義レポート"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-07-15/",
+    "date": "2023-07-15",
+    "type": "article",
+    "title": "科学技術に関わる活動が専門家のみで行われることの限界？ - 科学技術コミュ日記"
+  },
+  {
+    "description": "MIERUNE MEETUP 2023",
+    "url": "https://speakerdeck.com/mierune/yahoo-japan-ren-liu-detahuo-yong-bitukudetanochu-li-toke-shi-hua",
+    "date": "2023-07-13",
+    "type": "presentation",
+    "title": "Yahoo! JAPAN 人流データ活用 〜ビックデータの処理と可視化〜"
+  },
+  {
     "url": "https://qiita.com/sorami/items/4928ddf2b17ceaba2501",
     "date": "2023-07-06",
     "type": "article",
@@ -13,6 +273,12 @@
     "title": "データ可視化をやりたくて北海道に移住した話"
   },
   {
+    "url": "https://sorami.dev/costep/2023-07-02/",
+    "date": "2023-07-02",
+    "type": "article",
+    "title": "この日記はどう作られているか - 科学技術コミュ日記"
+  },
+  {
     "description": "MIERUNE BBQ #02",
     "url": "https://speakerdeck.com/sorami/mierune-bbq-number-02",
     "date": "2023-06-30",
@@ -20,16 +286,36 @@
     "title": "めくるめくスクロールとデータ可視化の世界 - 「スクローリーテリング」ってなに？"
   },
   {
+    "url": "https://sorami.dev/costep/2023-06-25/",
+    "date": "2023-06-25",
+    "type": "article",
+    "title": "動物倫理、コミュニケーション、ファシリテーション - 科学技術コミュ日記"
+  },
+  {
+    "description": "界隈.chat",
     "url": "https://kaiwai.chat/episode/2",
     "date": "2023-06-24",
     "type": "podcast",
-    "title": "2. LLMについて好き勝手語る (sorami) | 界隈.chat"
+    "title": "2. LLMについて好き勝手語る (sorami)"
   },
   {
+    "url": "https://sorami.dev/costep/2023-06-20/",
+    "date": "2023-06-20",
+    "type": "article",
+    "title": "科学技術コミュニケーターとCoSTEPのできること - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-06-19/",
+    "date": "2023-06-19",
+    "type": "article",
+    "title": "大きなもの、小さなもの、沢山のもの - 科学技術コミュ日記"
+  },
+  {
+    "description": "界隈.chat",
     "url": "https://kaiwai.chat/episode/1",
     "date": "2023-06-18",
     "type": "podcast",
-    "title": "1. 久しぶりの近況報告。soramiさんが通ってる面白い学校 (sorami) | 界隈.chat"
+    "title": "1. 久しぶりの近況報告。soramiさんが通ってる面白い学校 (sorami)"
   },
   {
     "url": "https://note.com/mierune/n/n0bdbc6aff9d2",
@@ -44,10 +330,58 @@
     "title": "背景画像(壁紙)を素敵なものにしてくれるアプリ（ブラウザ, macOS, Windows）"
   },
   {
+    "url": "https://sorami.dev/costep/2023-06-15/",
+    "date": "2023-06-15",
+    "type": "article",
+    "title": "書くことについて - 科学技術コミュ日記"
+  },
+  {
     "url": "https://qiita.com/sorami/items/f01e754890ef437c911a",
     "date": "2023-06-14",
     "type": "article",
     "title": "Next.js 13 で deck.gl 8.9 を使う時の、モジュール読み込み（ESM）の設定"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-06-12/",
+    "date": "2023-06-12",
+    "type": "article",
+    "title": "温室で青写真 / 科学者と価値判断 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-06-04/",
+    "date": "2023-06-04",
+    "type": "article",
+    "title": "北大祭で科研費を争奪 - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-31/",
+    "date": "2023-05-31",
+    "type": "article",
+    "title": "もくもくと書いていきたい - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-29/",
+    "date": "2023-05-29",
+    "type": "article",
+    "title": "まずはズレをわかりたい - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-28/",
+    "date": "2023-05-28",
+    "type": "article",
+    "title": "伝えるけど伝わらない - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-24/",
+    "date": "2023-05-24",
+    "type": "article",
+    "title": "インタビューが楽しい - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-21/",
+    "date": "2023-05-21",
+    "type": "article",
+    "title": "みんなの話を聴きたい - 科学技術コミュ日記"
   },
   {
     "description": "Where is the “Hiroshima to Honolulu Friendship Torii” in Hawaii facing?",
@@ -55,6 +389,30 @@
     "date": "2023-05-17",
     "type": "article",
     "title": "ハワイにある「広島・ホノルル友好鳥居」はどこを向いているのか"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-17/",
+    "date": "2023-05-17",
+    "type": "article",
+    "title": "人の話を聴いていない - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-14/",
+    "date": "2023-05-14",
+    "type": "article",
+    "title": "科学技術を押し売りしない - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-13/",
+    "date": "2023-05-13",
+    "type": "article",
+    "title": "はじまりはじまり - 科学技術コミュ日記"
+  },
+  {
+    "url": "https://sorami.dev/costep/2023-05-12/",
+    "date": "2023-05-12",
+    "type": "article",
+    "title": "CoSTEP前夜 - 科学技術コミュ日記"
   },
   {
     "url": "https://suzuki-cat-generator.vercel.app/",
@@ -134,6 +492,7 @@
     "title": "地図と可視化とコミュニティ（それと言語）"
   },
   {
+    "description": "MIERUNE アドベントカレンダー 2022",
     "url": "https://qiita.com/sorami/items/804dcaa90091f3f3445b",
     "date": "2022-12-23",
     "type": "article",
@@ -176,16 +535,18 @@
     "title": "QGISにおける「.qgs」と「.qgz」拡張子の違い"
   },
   {
+    "description": "白金鉱業.FM",
     "url": "https://shirokane-kougyou.github.io/episode/63",
     "date": "2022-10-23",
     "type": "podcast",
-    "title": "63. あなたの知らない「位置情報xOSSxオープンデータ」の世界（前編） | 白金鉱業.FM"
+    "title": "63. あなたの知らない「位置情報xOSSxオープンデータ」の世界（前編）"
   },
   {
+    "description": "白金鉱業.FM",
     "url": "https://shirokane-kougyou.github.io/episode/64",
     "date": "2022-10-23",
     "type": "podcast",
-    "title": "64. あなたの知らない「位置情報xOSSxオープンデータ」の世界（後編） | 白金鉱業.FM"
+    "title": "64. あなたの知らない「位置情報xOSSxオープンデータ」の世界（後編）"
   },
   {
     "url": "https://observablehq.com/@sorami/prefecture-geojson-polygon-filtering",
@@ -371,10 +732,11 @@
     "title": "同義語検索ライブラリchikkarpyで独自の辞書を使う"
   },
   {
+    "description": "白金鉱業.FM",
     "url": "https://shirokane-kougyou.fm/episode/49",
     "date": "2021-03-15",
     "type": "podcast",
-    "title": "49. あなたの知らない「法律xNLP」の世界 | 白金鉱業.FM"
+    "title": "49. あなたの知らない「法律xNLP」の世界"
   },
   {
     "url": "https://zenn.dev/sorami/articles/60131682bfa34f",
@@ -449,16 +811,18 @@
     "title": "chiVe: 製品利用可能な日本語単語ベクトル資源の実現へ向けて"
   },
   {
+    "description": "白金鉱業.FM",
     "url": "https://shirokane-kougyou.fm/episode/36",
     "date": "2020-07-20",
     "type": "podcast",
-    "title": "36. 特別ゲスト@soramiさん（後編:ACL学会での発表論文と現在のNLPのホットトピック） | 白金鉱業.FM"
+    "title": "36. 特別ゲスト@soramiさん（後編:ACL学会での発表論文と現在のNLPのホットトピック）"
   },
   {
+    "description": "白金鉱業.FM",
     "url": "https://shirokane-kougyou.fm/episode/35",
     "date": "2020-07-13",
     "type": "podcast",
-    "title": "35. 特別ゲスト@soramiさん（前編:形態素解析器Sudachiについて） | 白金鉱業.FM"
+    "title": "35. 特別ゲスト@soramiさん（前編:形態素解析器Sudachiについて）"
   },
   {
     "description": "ACL2020",
