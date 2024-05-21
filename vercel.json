@@ -27,6 +27,19 @@
     {
       "source": "/city-shiritori/:path*/",
       "destination": "https://city-shiritori.vercel.app/city-shiritori/:path*/"
+    },
+
+    {
+      "source": "/epsg-or-jpx/",
+      "destination": "https://epsg-or-jpx.vercel.app/epsg-or-jpx/"
+    },
+    {
+      "source": "/epsg-or-jpx/:path*",
+      "destination": "https://epsg-or-jpx.vercel.app/epsg-or-jpx/:path*"
+    },
+    {
+      "source": "/epsg-or-jpx/:path*/",
+      "destination": "https://epsg-or-jpx.vercel.app/epsg-or-jpx/:path*/"
     }
   ],
   "trailingSlash": true
