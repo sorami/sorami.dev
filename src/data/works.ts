@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "可視化がやりたくてMIERUNEに転職した話",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/mierune-jct-tokyo-2024",
+    description: "“思考のための道具”とコンピューターによる新たな表現",
+    image: "_assets/works/jct-tokyo-2024.webp",
+  },
+  {
     title: "「日本で最も丸い湖」を探して",
     type: "article",
     url: "https://zenn.dev/mierune/articles/9f970dc3e61a66",
@@ -51,13 +58,13 @@ export const works: WorkItem[] = [
   //   description: "福井にて",
   //   image: "_assets/works/foss4g-japan-2023.webp",
   // },
-  {
-    title: "データ可視化をやりたくて北海道に移住した話",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
-    description: "人生",
-    image: "_assets/works/dataviz-hokkaido.webp",
-  },
+  // {
+  //   title: "データ可視化をやりたくて北海道に移住した話",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
+  //   description: "人生",
+  //   image: "_assets/works/dataviz-hokkaido.webp",
+  // },
   // {
   //   title: "めくるめくスクロールとデータ可視化の世界",
   //   type: "presentation",
