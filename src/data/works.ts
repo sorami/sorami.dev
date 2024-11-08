@@ -16,6 +16,13 @@ export const works: WorkItem[] = [
     image: "_assets/works/roundest-lakes.webp",
   },
   {
+    title: "科学技術コミュ日記",
+    type: "article",
+    url: "https://sorami.dev/costep/",
+    description: "北海道大学CoSTEP（科学技術コミュニケーター養成プログラム）",
+    image: "_assets/works/costep.png",
+  },
+  {
     title: "「スクローリーテリング」から考えるジューシーなメディア",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2023",
@@ -36,13 +43,13 @@ export const works: WorkItem[] = [
     description: "バベルの塔と思考のための道具",
     image: "_assets/works/diversity.webp",
   },
-  // {
-  //   title: "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に",
-  //   type: "presentation",
-  //   url: "https://speakerdeck.com/sorami/vue-fes-japan-2023",
-  //   description: "Vue Fes Japan 2023",
-  //   image: "_assets/works/vuefes.webp",
-  // },
+  {
+    title: "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/vue-fes-japan-2023",
+    description: "Vue Fes Japan 2023",
+    image: "_assets/works/vuefes.webp",
+  },
   {
     title: "カクトビック数字 - 人間と文化にあわせた多様な表現の可能性",
     type: "presentation",
@@ -65,20 +72,13 @@ export const works: WorkItem[] = [
   //   description: "人生",
   //   image: "_assets/works/dataviz-hokkaido.webp",
   // },
-  // {
-  //   title: "めくるめくスクロールとデータ可視化の世界",
-  //   type: "presentation",
-  //   url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
-  //   description: "scroll + storytelling",
-  //   image: "_assets/works/scrollytelling.webp",
-  // },
-  // {
-  //   title: "科学技術コミュ日記",
-  //   type: "article",
-  //   url: "https://sorami.dev/costep/",
-  //   description: "CoSTEP（科学技術コミュニケーター養成プログラム）",
-  //   image: "_assets/works/costep.png",
-  // },
+  {
+    title: "めくるめくスクロールとデータ可視化の世界",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
+    description: "scroll + storytelling",
+    image: "_assets/works/scrollytelling.webp",
+  },
   {
     title: "東海道中スクロール栗毛",
     type: "article",
@@ -100,13 +100,13 @@ export const works: WorkItem[] = [
     description: "スキー場ボロノイ図",
     image: "_assets/works/world-ski-resorts-voronoi.webp",
   },
-  // {
-  //   title: "World Ski Resorts - nearest neighbors",
-  //   type: "article",
-  //   url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
-  //   description: "最近傍のスキー場",
-  //   image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
-  // },
+  {
+    title: "World Ski Resorts - nearest neighbors",
+    type: "article",
+    url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+    description: "最近傍のスキー場",
+    image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
+  },
   {
     title: "地図と可視化とコミュニティ",
     type: "presentation",
@@ -233,11 +233,11 @@ export const works: WorkItem[] = [
   //   description: "いらちのためのScala入門",
   //   image: "_assets/works/few-things-on-scala.webp",
   // },
-  // {
-  //   title: "Perceptron, SVM, and PA Algorithm",
-  //   type: "presentation",
-  //   url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
-  //   description: "機械学習の分類問題",
-  //   image: "_assets/works/perceptron.webp",
-  // },
+  {
+    title: "Perceptron, SVM, and PA Algorithm",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
+    description: "機械学習の分類問題",
+    image: "_assets/works/perceptron.webp",
+  },
 ];
