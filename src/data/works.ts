@@ -65,13 +65,13 @@ export const works: WorkItem[] = [
   //   description: "福井にて",
   //   image: "_assets/works/foss4g-japan-2023.webp",
   // },
-  // {
-  //   title: "データ可視化をやりたくて北海道に移住した話",
-  //   type: "presentation",
-  //   url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
-  //   description: "人生",
-  //   image: "_assets/works/dataviz-hokkaido.webp",
-  // },
+  {
+    title: "データ可視化をやりたくて北海道に移住した話",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
+    description: "人生",
+    image: "_assets/works/dataviz-hokkaido.webp",
+  },
   {
     title: "めくるめくスクロールとデータ可視化の世界",
     type: "presentation",
@@ -233,11 +233,11 @@ export const works: WorkItem[] = [
   //   description: "いらちのためのScala入門",
   //   image: "_assets/works/few-things-on-scala.webp",
   // },
-  {
-    title: "Perceptron, SVM, and PA Algorithm",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
-    description: "機械学習の分類問題",
-    image: "_assets/works/perceptron.webp",
-  },
+  // {
+  //   title: "Perceptron, SVM, and PA Algorithm",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
+  //   description: "機械学習の分類問題",
+  //   image: "_assets/works/perceptron.webp",
+  // },
 ];
