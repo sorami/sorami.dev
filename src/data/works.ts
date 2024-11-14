@@ -2,10 +2,10 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
-    title: "CSSを積み重ねる",
+    title: "CSSを積み重ねる - 2024年のMasonry Layout",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/mierune-zhao-lt-number-297",
-    description: "2024年のMasonry Layout",
+    description: "Webでの多彩な表現へ向けての標準化",
     image: "_assets/works/masonry.webp",
   },
   {
