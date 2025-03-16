@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "CSSを積み重ねる - 2024年のMasonry Layout",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/mierune-zhao-lt-number-297",
+    description: "Webでの多彩な表現へ向けての標準化",
+    image: "_assets/works/masonry.webp",
+  },
+  {
     title: "可視化がやりたくてMIERUNEに転職した話",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/mierune-jct-tokyo-2024",
@@ -100,13 +107,13 @@ export const works: WorkItem[] = [
     description: "スキー場ボロノイ図",
     image: "_assets/works/world-ski-resorts-voronoi.webp",
   },
-  {
-    title: "World Ski Resorts - nearest neighbors",
-    type: "article",
-    url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
-    description: "最近傍のスキー場",
-    image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
-  },
+  // {
+  //   title: "World Ski Resorts - nearest neighbors",
+  //   type: "article",
+  //   url: "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+  //   description: "最近傍のスキー場",
+  //   image: "_assets/works/world-ski-resorts-nearest-neighbors.webp",
+  // },
   {
     title: "地図と可視化とコミュニティ",
     type: "presentation",
