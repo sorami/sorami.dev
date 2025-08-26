@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "オープンソースとビジネス",
+    type: "presentation",
+    url: "https://speakerdeck.com/sorami/zha-huang-itshi-shou-guo-number-2",
+    description: "位置情報の世界からみえる流れ",
+    image: "_assets/works/oss-and-business.webp",
+  },
+  {
     title: "CSSを積み重ねる - 2024年のMasonry Layout",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/mierune-zhao-lt-number-297",
@@ -79,13 +86,13 @@ export const works: WorkItem[] = [
     description: "人生",
     image: "_assets/works/dataviz-hokkaido.webp",
   },
-  {
-    title: "めくるめくスクロールとデータ可視化の世界",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
-    description: "scroll + storytelling",
-    image: "_assets/works/scrollytelling.webp",
-  },
+  // {
+  //   title: "めくるめくスクロールとデータ可視化の世界",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/mierune-bbq-number-02",
+  //   description: "scroll + storytelling",
+  //   image: "_assets/works/scrollytelling.webp",
+  // },
   {
     title: "東海道中スクロール栗毛",
     type: "article",
