@@ -28,25 +28,31 @@ sortedYears.forEach((year) => {
 const sortedDecades = Object.keys(perDecade).sort(
   (a, b) => parseInt(b) - parseInt(a),
 );
+
+// Count per category
+const typeCounts: Record<string, number> = {};
+timelineData.forEach((d) => {
+  typeCounts[d.type] = (typeCounts[d.type] || 0) + 1;
+});
 ---
 
 <div id="timeline" class="max-w-2xl m-auto text-left">
   <nav class="category-nav">
     <button class="category-chip active" data-type="article">
       <div class="i-heroicons-document-text-20-solid chip-icon"></div>
-      記事
+      記事 <span class="chip-count">{typeCounts.article}</span>
     </button>
     <button class="category-chip active" data-type="presentation">
       <div class="i-heroicons-presentation-chart-bar-20-solid chip-icon"></div>
-      発表
+      発表 <span class="chip-count">{typeCounts.presentation}</span>
     </button>
     <button class="category-chip active" data-type="paper">
       <div class="i-heroicons-academic-cap-20-solid chip-icon"></div>
-      論文
+      論文 <span class="chip-count">{typeCounts.paper}</span>
     </button>
     <button class="category-chip active" data-type="podcast">
       <div class="i-heroicons-radio-20-solid chip-icon"></div>
-      音声
+      音声 <span class="chip-count">{typeCounts.podcast}</span>
     </button>
   </nav>
 
@@ -109,6 +115,12 @@ const sortedDecades = Object.keys(perDecade).sort(
         width: 14px;
         height: 14px;
         flex-shrink: 0;
+      }
+
+      .chip-count {
+        font-size: 0.8em;
+        opacity: 0.5;
+        margin-left: 0.1em;
       }
 
       &:hover {
