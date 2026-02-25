@@ -30,13 +30,13 @@ const iconDict: Record<string, string> = {
   }
 
   .container {
+    position: relative;
+    z-index: 10000;
     display: flex;
     flex-direction: column;
     row-gap: 0.5em;
 
     .thumbnail {
-      position: relative;
-      z-index: 10000;
       overflow: hidden;
       border-radius: 4%;
 
