@@ -1,19 +1,13 @@
 :root {
-  --c-background-top: rgb(44, 62, 80);
-  --c-text: rgba(253, 252, 229, 1);
-  --c-text-link: #ffe699;
-  --c-highlight: #ff4c29;
-  --c-border: #999;
+  --c-background-top: #e8e4df;
+  --c-text: #4a4540;
+  --c-text-link: #7a6e64;
+  --c-highlight: #b5654a;
+  --c-border: #c8c1b8;
 }
 
 body {
-  background: linear-gradient(
-    var(--c-background-top),
-    rgb(45, 3, 59),
-    rgb(60, 42, 33),
-    rgb(123, 40, 105),
-    rgba(4, 16, 25)
-  );
+  background: var(--c-background-top);
   color: var(--c-text);
 }
 

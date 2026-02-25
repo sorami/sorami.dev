@@ -20,7 +20,7 @@
   </div> -->
   <div>
     <a href="https://github.com/sorami" target="_blank" rel="noreferrer">
-      <img src="/_assets/logo/github.png" alt="GitHub" />
+      <img src="/_assets/logo/github.png" alt="GitHub" class="invert" />
     </a>
   </div>
   <div>
@@ -42,6 +42,10 @@
     img {
       opacity: 0.5;
       width: 22px;
+
+      &.invert {
+        filter: invert(1);
+      }
 
       &:hover {
         opacity: 1;
