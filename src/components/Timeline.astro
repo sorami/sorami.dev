@@ -282,6 +282,9 @@ const sortedDecades = Object.keys(perDecade).sort(
           chip.classList.add("active");
         }
         updateVisibility();
+        const el = document.getElementById("timeline")!;
+        const top = el.getBoundingClientRect().top + window.scrollY - 40;
+        window.scrollTo({ top, behavior: "smooth" });
       });
     });
   });
