@@ -60,7 +60,7 @@ timelineData.forEach((d) => {
     {sortedDecades.map((decade) => (
       <div class="decade-row">
         {perDecade[decade].map((year) => (
-          <a href={`#year-${year}`} class="year-chip" data-year={year}>{year}</a>
+          <a href={`#year-${year}`} class="year-chip" data-year={year}>{year}<span class="chip-count">{perYear[year].length}</span></a>
         ))}
       </div>
     ))}
@@ -89,6 +89,10 @@ timelineData.forEach((d) => {
 </div>
 
 <style lang="scss">
+  #timeline {
+    min-height: 100vh;
+  }
+
   .category-nav {
     display: flex;
     justify-content: center;
@@ -118,9 +122,9 @@ timelineData.forEach((d) => {
       }
 
       .chip-count {
-        font-size: 0.8em;
-        opacity: 0.5;
-        margin-left: 0.1em;
+        font-size: 0.75em;
+        opacity: 0.45;
+        margin-left: 0.15em;
       }
 
       &:hover {
@@ -162,7 +166,8 @@ timelineData.forEach((d) => {
     }
 
     .year-chip {
-      display: inline-block;
+      display: inline-flex;
+      align-items: baseline;
       padding: 0.25em 0.7em;
       font-size: 0.8em;
       font-weight: 500;
@@ -180,10 +185,24 @@ timelineData.forEach((d) => {
         background: rgba(0, 0, 0, 0.04);
       }
 
+      .chip-count {
+        display: inline-block;
+        font-size: 0.75em;
+        opacity: 0.45;
+        margin-left: 0.3em;
+        min-width: 1.5em;
+        text-align: center;
+      }
+
       &.active {
         opacity: 0.8;
         border-color: var(--c-border);
         color: var(--c-text);
+      }
+
+      &.disabled {
+        opacity: 0.2;
+        pointer-events: none;
       }
     }
   }
@@ -191,41 +210,46 @@ timelineData.forEach((d) => {
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const yearChips = document.querySelectorAll<HTMLAnchorElement>(".year-chip");
-    const yearSections = document.querySelectorAll<HTMLElement>(".year-section");
-
-    // Smooth scroll on click
-    yearChips.forEach((chip) => {
-      chip.addEventListener("click", (e) => {
-        e.preventDefault();
-        const target = document.getElementById(`year-${chip.dataset.year}`);
-        if (target) {
-          target.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      });
-    });
-
-    // Highlight active year on scroll
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const year = entry.target.id.replace("year-", "");
-          const chip = document.querySelector<HTMLAnchorElement>(
-            `.year-chip[data-year="${year}"]`,
-          );
-          if (chip) {
-            chip.classList.toggle("active", entry.isIntersecting);
-          }
-        });
-      },
-      { rootMargin: "-20% 0px -70% 0px" },
-    );
-
-    yearSections.forEach((section) => observer.observe(section));
-
-    // Category filter
+    const yearChips =
+      document.querySelectorAll<HTMLAnchorElement>(".year-chip");
+    const yearSections =
+      document.querySelectorAll<HTMLElement>(".year-section");
     const categoryChips =
       document.querySelectorAll<HTMLButtonElement>(".category-chip");
+
+    // --- Shared helpers ---
+
+    function allYearsActive() {
+      return Array.from(yearChips).every((c) =>
+        c.classList.contains("active"),
+      );
+    }
+
+    function isOnlyYearActive(chip: HTMLAnchorElement) {
+      return (
+        chip.classList.contains("active") &&
+        Array.from(yearChips).every(
+          (c) => c === chip || !c.classList.contains("active"),
+        )
+      );
+    }
+
+    function allCategoriesActive() {
+      return Array.from(categoryChips).every((c) =>
+        c.classList.contains("active"),
+      );
+    }
+
+    function isOnlyCategoryActive(chip: HTMLButtonElement) {
+      return (
+        chip.classList.contains("active") &&
+        Array.from(categoryChips).every(
+          (c) => c === chip || !c.classList.contains("active"),
+        )
+      );
+    }
+
+    // --- Visibility ---
 
     function updateVisibility() {
       const activeTypes = new Set<string>();
@@ -235,7 +259,15 @@ timelineData.forEach((d) => {
         }
       });
 
-      // Toggle individual items
+      const activeYears = new Set<string>();
+      yearChips.forEach((chip) => {
+        if (chip.classList.contains("active")) {
+          activeYears.add(chip.dataset.year!);
+        }
+      });
+      const filterByYear = !allYearsActive();
+
+      // Toggle individual items (by category)
       document
         .querySelectorAll<HTMLElement>(".timeline-item-wrapper")
         .forEach((item) => {
@@ -245,58 +277,80 @@ timelineData.forEach((d) => {
           );
         });
 
-      // Toggle year sections (hide if all items within are hidden)
+      // Toggle year sections and update year counts
       yearSections.forEach((section) => {
-        const items = section.querySelectorAll(".timeline-item-wrapper");
-        const allHidden = Array.from(items).every((item) =>
-          item.classList.contains("filter-hidden"),
-        );
-        section.classList.toggle("filter-hidden", allHidden);
-
-        // Also toggle the corresponding year chip
         const year = section.id.replace("year-", "");
         const yearChip = document.querySelector<HTMLAnchorElement>(
           `.year-chip[data-year="${year}"]`,
         );
+
+        // Count visible items by category (always, for chip counts)
+        const items = section.querySelectorAll(".timeline-item-wrapper");
+        const visibleCount = Array.from(items).filter(
+          (item) => !item.classList.contains("filter-hidden"),
+        ).length;
+
+        // Update the year chip count and disable if zero
         if (yearChip) {
-          yearChip.style.display = allHidden ? "none" : "";
+          const countEl = yearChip.querySelector(".chip-count");
+          if (countEl) {
+            countEl.textContent = String(visibleCount);
+            (countEl as HTMLElement).style.visibility = visibleCount > 0 ? "" : "hidden";
+          }
+          yearChip.classList.toggle("disabled", visibleCount === 0);
+        }
+
+        // Hide section if year-filtered out, or if all items are category-hidden
+        if (filterByYear && !activeYears.has(year)) {
+          section.classList.add("filter-hidden");
+        } else {
+          section.classList.toggle("filter-hidden", visibleCount === 0);
         }
       });
     }
 
-    function allActive() {
-      return Array.from(categoryChips).every((c) =>
-        c.classList.contains("active"),
-      );
+    function scrollToTimeline() {
+      const el = document.getElementById("timeline")!;
+      const top = el.getBoundingClientRect().top + window.scrollY - 40;
+      window.scrollTo({ top, behavior: "smooth" });
     }
 
-    function isOnlyActive(chip: HTMLButtonElement) {
-      return (
-        chip.classList.contains("active") &&
-        Array.from(categoryChips).every(
-          (c) => c === chip || !c.classList.contains("active"),
-        )
-      );
-    }
+    // --- Year chip click: filter (not scroll) ---
+
+    // Start with all years active
+    yearChips.forEach((chip) => chip.classList.add("active"));
+
+    yearChips.forEach((chip) => {
+      chip.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (allYearsActive()) {
+          yearChips.forEach((c) => c.classList.remove("active"));
+          chip.classList.add("active");
+        } else if (isOnlyYearActive(chip)) {
+          yearChips.forEach((c) => c.classList.add("active"));
+        } else {
+          yearChips.forEach((c) => c.classList.remove("active"));
+          chip.classList.add("active");
+        }
+        updateVisibility();
+      });
+    });
+
+    // --- Category chip click ---
 
     categoryChips.forEach((chip) => {
       chip.addEventListener("click", () => {
-        if (allActive()) {
-          // From "all on" → select only this one
+        if (allCategoriesActive()) {
           categoryChips.forEach((c) => c.classList.remove("active"));
           chip.classList.add("active");
-        } else if (isOnlyActive(chip)) {
-          // Clicking the sole active chip → back to all
+        } else if (isOnlyCategoryActive(chip)) {
           categoryChips.forEach((c) => c.classList.add("active"));
         } else {
-          // Already filtered → select only this one
           categoryChips.forEach((c) => c.classList.remove("active"));
           chip.classList.add("active");
         }
         updateVisibility();
-        const el = document.getElementById("timeline")!;
-        const top = el.getBoundingClientRect().top + window.scrollY - 40;
-        window.scrollTo({ top, behavior: "smooth" });
+        scrollToTimeline();
       });
     });
   });
