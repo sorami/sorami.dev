@@ -1,9 +1,9 @@
 :root {
-  --c-background-top: #e8e4df;
-  --c-text: #4a4540;
-  --c-text-link: #7a6e64;
-  --c-highlight: #b5654a;
-  --c-border: #c8c1b8;
+  --c-background-top: #ebe3d7;
+  --c-text: #504538;
+  --c-text-link: #b85a30;
+  --c-highlight: #c4724a;
+  --c-border: #c9b9a8;
 }
 
 body {
