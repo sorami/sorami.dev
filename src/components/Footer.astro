@@ -63,12 +63,13 @@ const items = [
     gap: 1em 0;
 
     a {
-      opacity: 0.5;
+      opacity: 0.4;
       text-decoration: none;
+      transition: opacity 300ms ease, color 300ms ease;
 
       &:hover {
         opacity: 1;
-        font-weight: 700;
+        color: var(--c-highlight);
       }
     }
   }

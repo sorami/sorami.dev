@@ -37,12 +37,14 @@ const iconDict: Record<string, string> = {
     .thumbnail {
       position: relative;
       z-index: 10000;
+      overflow: hidden;
+      border-radius: 4%;
 
       img {
         width: 100%;
         aspect-ratio: 4 / 3;
-        border-radius: 4%;
         object-fit: cover;
+        transition: transform 500ms ease, filter 500ms ease;
       }
     }
 
@@ -52,19 +54,12 @@ const iconDict: Record<string, string> = {
 
       .title {
         font-weight: 700;
+        transition: color 400ms ease;
       }
 
       .description {
-        opacity: 0.8;
-      }
-    }
-
-    .thumbnail {
-      transition: filter 1000ms ease;
-    }
-    .text {
-      .title {
-        transition: color 1000ms ease;
+        opacity: 0.6;
+        transition: opacity 400ms ease;
       }
     }
 
@@ -74,7 +69,10 @@ const iconDict: Record<string, string> = {
       .text {
         .title {
           color: var(--c-highlight);
-          transition: color 700ms;
+        }
+
+        .description {
+          opacity: 0.9;
         }
       }
     }

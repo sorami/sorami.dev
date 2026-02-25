@@ -14,10 +14,11 @@
     height: 100px;
     border-radius: 43%;
     display: inline-block;
-    transition: filter 1s ease;
+    transition: filter 600ms ease, transform 600ms ease;
 
     &:hover {
-      filter: blur(15px);
+      filter: blur(12px) brightness(1.1);
+      transform: scale(1.05);
     }
   }
 
@@ -26,9 +27,11 @@
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 0.1em;
+    transition: color 400ms ease, letter-spacing 400ms ease;
 
     &:hover {
       color: var(--c-highlight);
+      letter-spacing: 0.2em;
     }
   }
 
@@ -42,6 +45,7 @@
 
       strong {
         font-weight: normal;
+        transition: color 400ms ease;
       }
     }
 
