@@ -16,19 +16,6 @@ const sortedYears = Object.keys(perYear).sort(
   (a, b) => parseInt(b) - parseInt(a),
 );
 
-// Group years by decade
-let perDecade: Record<string, string[]> = {};
-sortedYears.forEach((year) => {
-  const decade = `${year.slice(0, 3)}0s`;
-  if (!perDecade[decade]) {
-    perDecade[decade] = [];
-  }
-  perDecade[decade].push(year);
-});
-const sortedDecades = Object.keys(perDecade).sort(
-  (a, b) => parseInt(b) - parseInt(a),
-);
-
 // Count per category
 const typeCounts: Record<string, number> = {};
 timelineData.forEach((d) => {
@@ -40,29 +27,25 @@ timelineData.forEach((d) => {
   <nav class="category-nav">
     <button class="category-chip active" data-type="article">
       <div class="i-heroicons-document-text-20-solid chip-icon"></div>
-      記事 <span class="chip-count">{typeCounts.article}</span>
+      <span class="chip-label">記事</span> <span class="chip-count">{typeCounts.article}</span>
     </button>
     <button class="category-chip active" data-type="presentation">
       <div class="i-heroicons-presentation-chart-bar-20-solid chip-icon"></div>
-      発表 <span class="chip-count">{typeCounts.presentation}</span>
+      <span class="chip-label">発表</span> <span class="chip-count">{typeCounts.presentation}</span>
     </button>
     <button class="category-chip active" data-type="paper">
       <div class="i-heroicons-academic-cap-20-solid chip-icon"></div>
-      論文 <span class="chip-count">{typeCounts.paper}</span>
+      <span class="chip-label">論文</span> <span class="chip-count">{typeCounts.paper}</span>
     </button>
     <button class="category-chip active" data-type="podcast">
       <div class="i-heroicons-radio-20-solid chip-icon"></div>
-      音声 <span class="chip-count">{typeCounts.podcast}</span>
+      <span class="chip-label">音声</span> <span class="chip-count">{typeCounts.podcast}</span>
     </button>
   </nav>
 
   <nav class="year-nav">
-    {sortedDecades.map((decade) => (
-      <div class="decade-row">
-        {perDecade[decade].map((year) => (
-          <a href={`#year-${year}`} class="year-chip" data-year={year}>{year}<span class="chip-count">{perYear[year].length}</span></a>
-        ))}
-      </div>
+    {sortedYears.map((year) => (
+      <a href={`#year-${year}`} class="year-chip" data-year={year}>{year}<span class="chip-count">{perYear[year].length}</span></a>
     ))}
   </nav>
 
@@ -121,10 +104,23 @@ timelineData.forEach((d) => {
         flex-shrink: 0;
       }
 
+      .chip-label {
+        display: none;
+
+        @media (min-width: 480px) {
+          display: inline;
+        }
+      }
+
       .chip-count {
         font-size: 0.75em;
         opacity: 0.45;
         margin-left: 0.15em;
+        display: none;
+
+        @media (min-width: 480px) {
+          display: inline;
+        }
       }
 
       &:hover {
@@ -155,15 +151,10 @@ timelineData.forEach((d) => {
 
   .year-nav {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.35em;
     margin-bottom: 2.5em;
-
-    .decade-row {
-      display: flex;
-      gap: 0.4em;
-    }
 
     .year-chip {
       display: inline-flex;
@@ -186,12 +177,16 @@ timelineData.forEach((d) => {
       }
 
       .chip-count {
-        display: inline-block;
         font-size: 0.75em;
         opacity: 0.45;
         margin-left: 0.3em;
         min-width: 1.5em;
         text-align: center;
+        display: none;
+
+        @media (min-width: 480px) {
+          display: inline-block;
+        }
       }
 
       &.active {
