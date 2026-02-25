@@ -31,6 +31,25 @@ const sortedDecades = Object.keys(perDecade).sort(
 ---
 
 <div id="timeline" class="max-w-2xl m-auto text-left">
+  <nav class="category-nav">
+    <button class="category-chip active" data-type="article">
+      <div class="i-heroicons-document-text-20-solid chip-icon"></div>
+      記事
+    </button>
+    <button class="category-chip active" data-type="presentation">
+      <div class="i-heroicons-presentation-chart-bar-20-solid chip-icon"></div>
+      発表
+    </button>
+    <button class="category-chip active" data-type="paper">
+      <div class="i-heroicons-academic-cap-20-solid chip-icon"></div>
+      論文
+    </button>
+    <button class="category-chip active" data-type="podcast">
+      <div class="i-heroicons-radio-20-solid chip-icon"></div>
+      音声
+    </button>
+  </nav>
+
   <nav class="year-nav">
     {sortedDecades.map((decade) => (
       <div class="decade-row">
@@ -41,19 +60,21 @@ const sortedDecades = Object.keys(perDecade).sort(
     ))}
   </nav>
 
-  <div class="flex flex-col gap-y-8">
+  <div class="flex flex-col gap-y-6">
     {
       sortedYears.map((year) => (
-        <div id={`year-${year}`}>
-          <h3 class="text-center text-lg font-bold opacity-75">{year}</h3>
+        <div id={`year-${year}`} class="year-section">
+          <h3 class="text-center text-base font-semibold opacity-60">{year}</h3>
           {perYear[year].map((d) => (
-            <TimelineItem
-              url={d.url}
-              date={d.date}
-              type={d.type}
-              title={d.title}
-              description={d.description}
-            />
+            <div data-type={d.type} class="timeline-item-wrapper">
+              <TimelineItem
+                url={d.url}
+                date={d.date}
+                type={d.type}
+                title={d.title}
+                description={d.description}
+              />
+            </div>
           ))}
         </div>
       ))
@@ -62,6 +83,60 @@ const sortedDecades = Object.keys(perDecade).sort(
 </div>
 
 <style lang="scss">
+  .category-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+    margin-bottom: 1.8em;
+
+    .category-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35em;
+      padding: 0.3em 0.9em;
+      font-size: 0.85em;
+      font-weight: 400;
+      color: var(--c-text);
+      background: none;
+      border: 1.5px solid transparent;
+      border-radius: 9999px;
+      cursor: pointer;
+      opacity: 0.35;
+      transition: all 250ms ease;
+      letter-spacing: 0.06em;
+
+      .chip-icon {
+        width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+      }
+
+      &:hover {
+        opacity: 0.6;
+        border-color: var(--c-border);
+        background: rgba(0, 0, 0, 0.03);
+      }
+
+      &.active {
+        opacity: 0.8;
+        border-color: var(--c-border);
+        color: var(--c-text);
+      }
+    }
+  }
+
+  .timeline-item-wrapper {
+    &.filter-hidden {
+      display: none;
+    }
+  }
+
+  .year-section {
+    &.filter-hidden {
+      display: none;
+    }
+  }
+
   .year-nav {
     display: flex;
     flex-direction: column;
@@ -77,10 +152,10 @@ const sortedDecades = Object.keys(perDecade).sort(
     .year-chip {
       display: inline-block;
       padding: 0.25em 0.7em;
-      font-size: 0.85em;
+      font-size: 0.8em;
       font-weight: 500;
       color: var(--c-text);
-      opacity: 0.5;
+      opacity: 0.45;
       text-decoration: none;
       border-radius: 9999px;
       border: 1.5px solid transparent;
@@ -104,11 +179,11 @@ const sortedDecades = Object.keys(perDecade).sort(
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const chips = document.querySelectorAll<HTMLAnchorElement>(".year-chip");
-    const sections = document.querySelectorAll<HTMLElement>("[id^='year-']");
+    const yearChips = document.querySelectorAll<HTMLAnchorElement>(".year-chip");
+    const yearSections = document.querySelectorAll<HTMLElement>(".year-section");
 
     // Smooth scroll on click
-    chips.forEach((chip) => {
+    yearChips.forEach((chip) => {
       chip.addEventListener("click", (e) => {
         e.preventDefault();
         const target = document.getElementById(`year-${chip.dataset.year}`);
@@ -134,6 +209,80 @@ const sortedDecades = Object.keys(perDecade).sort(
       { rootMargin: "-20% 0px -70% 0px" },
     );
 
-    sections.forEach((section) => observer.observe(section));
+    yearSections.forEach((section) => observer.observe(section));
+
+    // Category filter
+    const categoryChips =
+      document.querySelectorAll<HTMLButtonElement>(".category-chip");
+
+    function updateVisibility() {
+      const activeTypes = new Set<string>();
+      categoryChips.forEach((chip) => {
+        if (chip.classList.contains("active")) {
+          activeTypes.add(chip.dataset.type!);
+        }
+      });
+
+      // Toggle individual items
+      document
+        .querySelectorAll<HTMLElement>(".timeline-item-wrapper")
+        .forEach((item) => {
+          item.classList.toggle(
+            "filter-hidden",
+            !activeTypes.has(item.dataset.type!),
+          );
+        });
+
+      // Toggle year sections (hide if all items within are hidden)
+      yearSections.forEach((section) => {
+        const items = section.querySelectorAll(".timeline-item-wrapper");
+        const allHidden = Array.from(items).every((item) =>
+          item.classList.contains("filter-hidden"),
+        );
+        section.classList.toggle("filter-hidden", allHidden);
+
+        // Also toggle the corresponding year chip
+        const year = section.id.replace("year-", "");
+        const yearChip = document.querySelector<HTMLAnchorElement>(
+          `.year-chip[data-year="${year}"]`,
+        );
+        if (yearChip) {
+          yearChip.style.display = allHidden ? "none" : "";
+        }
+      });
+    }
+
+    function allActive() {
+      return Array.from(categoryChips).every((c) =>
+        c.classList.contains("active"),
+      );
+    }
+
+    function isOnlyActive(chip: HTMLButtonElement) {
+      return (
+        chip.classList.contains("active") &&
+        Array.from(categoryChips).every(
+          (c) => c === chip || !c.classList.contains("active"),
+        )
+      );
+    }
+
+    categoryChips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        if (allActive()) {
+          // From "all on" → select only this one
+          categoryChips.forEach((c) => c.classList.remove("active"));
+          chip.classList.add("active");
+        } else if (isOnlyActive(chip)) {
+          // Clicking the sole active chip → back to all
+          categoryChips.forEach((c) => c.classList.add("active"));
+        } else {
+          // Already filtered → select only this one
+          categoryChips.forEach((c) => c.classList.remove("active"));
+          chip.classList.add("active");
+        }
+        updateVisibility();
+      });
+    });
   });
 </script>

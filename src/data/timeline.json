@@ -1,1105 +1,1328 @@
 [
   {
-    "description": "界隈.chat",
-    "url": "https://kaiwai.chat/episode/17",
+    "title": "Jupyter Notebookと再現性: 116万件の調査が示す96%が再現できない現実、その原因と対策",
+    "date": "2026-02-20",
+    "url": "https://tech.legalscape.co.jp/entry/2026/02/20/095159",
+    "type": "article"
+  },
+  {
+    "title": "LLMで歴代総理大臣を左から右にソート",
+    "date": "2026-02-17",
+    "url": "https://zenn.dev/sorami/articles/32126f2f1bbc2a",
+    "type": "article"
+  },
+  {
+    "title": "「Notebookで動けば満足」を卒業するための \"エンジニアリング\" — 『先輩データサイエンティストからの指南書』書評",
+    "date": "2026-02-09",
+    "url": "https://zenn.dev/sorami/articles/45c46efb1394e8",
+    "type": "article"
+  },
+  {
+    "title": "Rekichizu: A Modern Take on Japan's Historical Maps",
+    "date": "2025-11-14",
+    "url": "https://dev.to/mierune/rekichizu-a-modern-take-on-japans-historical-maps-53gp",
+    "type": "article"
+  },
+  {
+    "title": "Rekichizu: A Modern Take on Japan's Historical Maps",
+    "date": "2025-11-14",
+    "url": "https://jgtimes.org/articles/rekichizu",
+    "type": "article",
+    "description": "Japan Geospatial Times"
+  },
+  {
+    "title": "LLMを用いた地名のひらがな・英語化と、Paraglide JSによるi18n: モダンな歴史地図「れきちず」の事例",
+    "date": "2025-11-07",
+    "url": "https://zenn.dev/mierune/articles/f7c446995e445f",
+    "type": "article"
+  },
+  {
+    "title": "Pandasで「野根（None）」という地名が欠損値（NaN）になってしまった話",
+    "date": "2025-10-29",
+    "url": "https://zenn.dev/mierune/articles/014c283ecd2be6",
+    "type": "article"
+  },
+  {
+    "title": "「れきちず」のこれまでとこれから - 誰にでもわかりやすい歴史地図を目指して",
+    "date": "2025-10-12",
+    "url": "https://speakerdeck.com/hjmkth/251012-foss4g-japan-rekichizu",
+    "type": "presentation",
+    "description": "FOSS4G 2025 Japan, with @chizutodesign"
+  },
+  {
+    "title": "maplibre-gl-manual-geolocate: 任意の場所を「現在地」にするMapLibre GL JSライブラリ",
+    "date": "2025-10-10",
+    "url": "https://zenn.dev/mierune/articles/a30cf312409119",
+    "type": "article"
+  },
+  {
+    "title": "ウェブ地図の「現在地機能」はどう動いているのか - Geolocation API とMapLibre GL JSの仕組み",
+    "date": "2025-10-06",
+    "url": "https://zenn.dev/mierune/articles/70a59fe7770d31",
+    "type": "article"
+  },
+  {
+    "title": "ChromeのDevToolsで「現在地」を変更する",
+    "date": "2025-09-22",
+    "url": "https://zenn.dev/mierune/articles/c2ec78fb16bc64",
+    "type": "article"
+  },
+  {
+    "title": "タイに引っ越したので、バンコク開催のCloudflare公式イベント「Cloudflare Immerse 2025」に参加してみた",
+    "date": "2025-06-19",
+    "url": "https://zenn.dev/mierune/articles/bba06769397332",
+    "type": "article"
+  },
+  {
+    "title": "オープンソースとビジネス: 位置情報の世界からみえる流れ",
+    "date": "2025-05-23",
+    "url": "https://speakerdeck.com/sorami/zha-huang-itshi-shou-guo-number-2",
+    "type": "presentation",
+    "description": "札幌IT石狩鍋#2"
+  },
+  {
+    "title": "How I Got Here - NLP, Geospatial, and beyond",
+    "date": "2025-05-16",
+    "url": "https://speakerdeck.com/sorami/how-i-got-here-nlp-geospatial-and-beyond",
+    "type": "presentation",
+    "description": "Watanabe Laboratory - NAIST NLP, Nara Institute of Science and Technology\n"
+  },
+  {
+    "title": "『札幌誕生』×「れきちず」特設サイト",
+    "date": "2025-04-04",
+    "url": "https://sapporo-tanjo.rekichizu.jp/",
+    "type": "article",
+    "description": "with @chizutodesign - MIERUNE. Inc."
+  },
+  {
+    "title": "Scrollytelling the 53 Stations of Tōkaidō: An Interactive Journey Through Japan’s Historic Route",
+    "date": "2024-12-17",
+    "url": "https://speakerdeck.com/sorami/foss4g-asia-2024-635ddaf6-f025-4d70-8fd4-2e1841354ffa",
+    "type": "presentation",
+    "description": "FOSS4G ASIA 2024"
+  },
+  {
+    "title": "Rust for Geospatial Data Processing: A Case Study with CityGML Converter for PLATEAU, Japan's Open Digital Twin Models",
+    "date": "2024-12-16",
+    "url": "https://speakerdeck.com/sorami/foss4g-asia-2024",
+    "type": "presentation",
+    "description": "FOSS4G ASIA 2024"
+  },
+  {
+    "title": "法律から見る日本の寒い地域: 「国家公務員の寒冷地手当」地図",
+    "date": "2024-12-10",
+    "url": "https://zenn.dev/sorami/articles/1abbe52ff97686",
+    "type": "article",
+    "description": "MIERUNE アドベントカレンダー 2024"
+  },
+  {
+    "title": "Web技術の祭典「JSConf JP 2024」参加レポート: Three.jsから実サービス事例まで、面白かった発表の紹介",
+    "date": "2024-12-05",
+    "url": "https://note.com/mierune/n/nbe66d1fb9fef",
+    "type": "article"
+  },
+  {
+    "title": "CSSを積み重ねる - 2024年のMasonry Layout",
+    "date": "2024-11-14",
+    "url": "https://speakerdeck.com/sorami/mierune-zhao-lt-number-297",
+    "type": "presentation",
+    "description": "MIERUNE 朝LT"
+  },
+  {
+    "title": "AWS Amplify + Bun + Svelte のビルド設定",
+    "date": "2024-11-08",
+    "url": "https://qiita.com/sorami/items/1558db41edd79c1e708b",
+    "type": "article"
+  },
+  {
+    "title": "”データを自在に可視化する極意”を、『データ可視化の基本が全部わかる本』著者の矢崎裕一さんに学ぶ: 「データビジュアライゼーション講習」レポート",
+    "date": "2024-10-31",
+    "url": "https://note.com/mierune/n/n6e1436a76311",
+    "type": "article"
+  },
+  {
+    "title": "【🛣️ MIERUNE JCT - Tokyo 2024 🗼】 位置情報の話題でワイワイやる会を東京で初開催しました！",
+    "date": "2024-10-01",
+    "url": "https://note.com/mierune/n/n82acfbb18fff",
+    "type": "article"
+  },
+  {
+    "title": "可視化がやりたくてMIERUNEに転職した話 〜“思考のための道具”とコンピューターによる新たな表現〜",
+    "date": "2024-09-26",
+    "url": "https://speakerdeck.com/sorami/mierune-jct-tokyo-2024",
+    "type": "presentation",
+    "description": "MIERUNE JCT - Tokyo 2024"
+  },
+  {
+    "title": "Web地図のためのサーバーサイド技術の勘所をつかむ — 『位置情報デベロッパー養成講座』（#位置デベ本）書評",
+    "date": "2024-09-24",
+    "url": "https://qiita.com/sorami/items/e50f5167b702f470767c",
+    "type": "article"
+  },
+  {
+    "title": "Scrollytelling the 53 Stations of Tōkaidō: An Interactive Journey Through Japan’s Historic Route",
+    "date": "2024-09-13",
+    "url": "https://speakerdeck.com/sorami/build-with-mapbox-2024",
+    "type": "presentation",
+    "description": "BUILD with Mapbox 2024 - Developer Show & Tell"
+  },
+  {
+    "title": "住所に用いられる文字のカウント",
+    "date": "2024-08-08",
+    "url": "https://gist.github.com/sorami/d4a8e174e3b4bedbde6fedeed9ed4a98",
+    "type": "article"
+  },
+  {
+    "title": "北海道の旭川で開催されたカンファレンス「TechRAMEN 2024」のスポンサーになり、参加・登壇して、合宿もしてきました！",
+    "date": "2024-08-02",
+    "url": "https://note.com/mierune/n/n195260647b65",
+    "type": "article"
+  },
+  {
+    "title": "データ可視化をやりたくて北海道におひっこし",
+    "date": "2024-07-27",
+    "url": "https://speakerdeck.com/sorami/techramen-2024-conference",
+    "type": "presentation",
+    "description": "TechRAMEN 2024 Conference"
+  },
+  {
+    "title": "QGISでオーストラリアを四国にする",
+    "date": "2024-06-26",
+    "url": "https://zenn.dev/mierune/articles/27298615988bfc",
+    "type": "article"
+  },
+  {
+    "title": "Svelte採用記 - 位置情報と可視化の会社で、全社の標準技術スタックに選ぶまで",
+    "date": "2024-05-24",
+    "url": "https://speakerdeck.com/sorami/svelte-japan-online-meetup-number-3",
+    "type": "presentation",
+    "description": "Svelte Japan Online Meetup #3"
+  },
+  {
+    "title": "EPSG or JPX",
+    "date": "2024-05-22",
+    "url": "https://sorami.dev/epsg-or-jpx/",
+    "type": "article"
+  },
+  {
+    "title": "EPSGコードか、証券コードか",
+    "date": "2024-05-22",
+    "url": "https://zenn.dev/mierune/articles/9d31472c71fe05",
+    "type": "article"
+  },
+  {
+    "title": "18. CoSTEPに1年間通ってみてどうでしたか？（sorami）",
+    "date": "2024-05-12",
+    "url": "https://kaiwai.chat/episode/18",
+    "type": "podcast"
+  },
+  {
+    "title": "サウナ！暖炉！対話！ 全社オフサイト 「MIERUNE CAMP」レポート 🏕️",
+    "date": "2024-05-10",
+    "url": "https://note.com/mierune/n/ndccf285c0080",
+    "type": "article"
+  },
+  {
+    "title": "17. 劣化するインターネットと個人主義ユートピア, コミュニケーションの適度な距離感（sorami）",
     "date": "2024-04-13",
+    "url": "https://kaiwai.chat/episode/17",
     "type": "podcast",
-    "title": "17. 劣化するインターネットと個人主義ユートピア, コミュニケーションの適度な距離感（sorami）"
+    "description": "界隈.chat"
   },
   {
-    "url": "https://zenn.dev/mierune/articles/9f970dc3e61a66",
+    "title": "「日本で最も丸い湖」を探して - GIS, 円形度, 最急降下法",
     "date": "2024-04-04",
-    "type": "article",
-    "title": "「日本で最も丸い湖」を探して - GIS, 円形度, 最急降下法"
+    "url": "https://zenn.dev/mierune/articles/9f970dc3e61a66",
+    "type": "article"
   },
   {
-    "url": "https://note.com/mierune/n/nbffaebc4b1d7",
+    "title": "NLP2024（言語処理学会 第30回年次大会）レポート: テーマセッション「ことばと地理空間の情報処理」共同提案者・プログラム委員として参加しました！",
     "date": "2024-04-03",
-    "type": "article",
-    "title": "NLP2024（言語処理学会 第30回年次大会）レポート: テーマセッション「ことばと地理空間の情報処理」共同提案者・プログラム委員として参加しました！"
+    "url": "https://note.com/mierune/n/nbffaebc4b1d7",
+    "type": "article"
   },
   {
+    "title": "おしまい - 科学技術コミュ日記",
+    "date": "2024-03-31",
     "url": "https://sorami.dev/costep/2024-03-31/",
-    "date": "2024-03-31",
-    "type": "article",
-    "title": "おしまい - 科学技術コミュ日記"
+    "type": "article"
   },
   {
+    "title": "トピックごとの目次 - 科学技術コミュ日記",
+    "date": "2024-03-31",
     "url": "https://sorami.dev/costep/table-of-contents/",
-    "date": "2024-03-31",
-    "type": "article",
-    "title": "トピックごとの目次 - 科学技術コミュ日記"
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2024-03-30/",
+    "title": "企画展示「ななめせんなめせん」 - 科学技術コミュ日記",
     "date": "2024-03-30",
-    "type": "article",
-    "title": "企画展示「ななめせんなめせん」 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2024-03-30/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2024-03-08/",
+    "title": "1月と2月の活動 - 科学技術コミュ日記",
     "date": "2024-03-08",
-    "type": "article",
-    "title": "1月と2月の活動 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2024-03-08/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2024-03-02/",
+    "title": "モジュール6講義 - 科学技術コミュ日記",
     "date": "2024-03-02",
-    "type": "article",
-    "title": "モジュール6講義 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2024-03-02/",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/hokkaido-japan-population-cow-fish-wheat-snowfall",
+    "title": "Hokkaido, Japan - population, cow, fish, wheat, snowfall",
     "date": "2024-01-12",
-    "type": "article",
-    "title": "Hokkaido, Japan - population, cow, fish, wheat, snowfall"
+    "url": "https://observablehq.com/@sorami/hokkaido-japan-population-cow-fish-wheat-snowfall",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/human-cow-population-in-japan-cartogram",
+    "title": "Human & Cow population in Japan (Cartogram)",
     "date": "2024-01-03",
-    "type": "article",
-    "title": "Human & Cow population in Japan (Cartogram)"
+    "url": "https://observablehq.com/@sorami/human-cow-population-in-japan-cartogram",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/snowfall-in-japan",
+    "title": "Snowfall in Japan",
     "date": "2024-01-02",
-    "type": "article",
-    "title": "Snowfall in Japan"
+    "url": "https://observablehq.com/@sorami/snowfall-in-japan",
+    "type": "article"
   },
   {
-    "description": "Data Visualization Japan Meetup 2023",
+    "title": "「スクローリーテリング」から考えるジューシーなメディア",
+    "date": "2023-12-29",
     "url": "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2023",
-    "date": "2023-12-29",
     "type": "presentation",
-    "title": "「スクローリーテリング」から考えるジューシーなメディア"
+    "description": "Data Visualization Japan Meetup 2023"
   },
   {
+    "title": "11月と12月の活動、モジュール5講義 - 科学技術コミュ日記",
+    "date": "2023-12-29",
     "url": "https://sorami.dev/costep/2023-12-29/",
-    "date": "2023-12-29",
-    "type": "article",
-    "title": "11月と12月の活動、モジュール5講義 - 科学技術コミュ日記"
+    "type": "article"
   },
   {
+    "title": "Map of Japan with Observable Plot",
+    "date": "2023-12-17",
     "url": "https://observablehq.com/d/d62b81f0a1d5df71",
-    "date": "2023-12-17",
-    "type": "article",
-    "title": "Map of Japan with Observable Plot"
+    "type": "article"
   },
   {
+    "title": "Human & Cow population in Japan (Bivariate choropleth)",
+    "date": "2023-12-17",
     "url": "https://observablehq.com/@sorami/human-cow-population-in-japan",
-    "date": "2023-12-17",
-    "type": "article",
-    "title": "Human & Cow population in Japan (Bivariate choropleth)"
+    "type": "article"
   },
   {
-    "description": "MIERUNE アドベントカレンダー 2023",
-    "url": "https://note.com/mierune/n/n6bdd7bfeccf0",
+    "title": "アジアでオープンなジオの祭典: 「FOSS4G ASIA 2023」に参加&発表してきました！",
     "date": "2023-12-10",
+    "url": "https://note.com/mierune/n/n6bdd7bfeccf0",
     "type": "article",
-    "title": "アジアでオープンなジオの祭典: 「FOSS4G ASIA 2023」に参加&発表してきました！"
+    "description": "MIERUNE アドベントカレンダー 2023"
   },
   {
-    "description": "FOSS4G ASIA 2023",
-    "url": "https://speakerdeck.com/sorami/foss4g-asia-2023",
+    "title": "AIST 3DDB Client: an open-source web application for the 3D database",
     "date": "2023-11-30",
+    "url": "https://speakerdeck.com/sorami/foss4g-asia-2023",
     "type": "presentation",
-    "title": "AIST 3DDB Client: an open-source web application for the 3D database"
+    "description": "FOSS4G ASIA 2023"
   },
   {
-    "url": "https://sorami.dev/costep/2023-11-26/",
+    "title": "ChatGPTと高次元科学 - 科学技術コミュ日記",
     "date": "2023-11-26",
-    "type": "article",
-    "title": "ChatGPTと高次元科学 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-11-26/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-11-24/",
+    "title": "In between - 科学技術コミュ日記",
     "date": "2023-11-24",
-    "type": "article",
-    "title": "In between - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-11-24/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-11-14/",
+    "title": "情報技術による新たな議論形式の模索 - 科学技術コミュ日記",
     "date": "2023-11-14",
-    "type": "article",
-    "title": "情報技術による新たな議論形式の模索 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-11-14/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-11-12/",
+    "title": "モジュール3講義、9月と10月の活動 - 科学技術コミュ日記",
     "date": "2023-11-12",
-    "type": "article",
-    "title": "モジュール3講義、9月と10月の活動 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-11-12/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/city-shiritori/",
+    "title": "都市名しりとり",
     "date": "2023-11-04",
-    "type": "article",
-    "title": "都市名しりとり"
+    "url": "https://sorami.dev/city-shiritori/",
+    "type": "article"
   },
   {
-    "description": "ミライのお仕事",
+    "title": "国内で例が少ないビジネスを展開する株式会社MIERUNEのオープン・アクティブな文化",
+    "date": "2023-11-02",
     "url": "https://jobseek.ne.jp/corporate-data/mierune/",
-    "date": "2023-11-02",
     "type": "article",
-    "title": "国内で例が少ないビジネスを展開する株式会社MIERUNEのオープン・アクティブな文化"
+    "description": "ミライのお仕事"
   },
   {
+    "title": "カクトビック数字と、数々の多様性 - 科学技術コミュ日記",
+    "date": "2023-11-02",
     "url": "https://sorami.dev/costep/2023-11-02/",
-    "date": "2023-11-02",
-    "type": "article",
-    "title": "カクトビック数字と、数々の多様性 - 科学技術コミュ日記"
+    "type": "article"
   },
   {
-    "description": "CoSTEP プレゼン演習 #2",
-    "url": "https://speakerdeck.com/sorami/shu-noduo-yang-xing",
+    "title": "数々の多様性",
     "date": "2023-11-01",
+    "url": "https://speakerdeck.com/sorami/shu-noduo-yang-xing",
     "type": "presentation",
-    "title": "数々の多様性"
+    "description": "CoSTEP プレゼン演習 #2"
   },
   {
-    "description": "Vue Fes Japan 2023",
-    "url": "https://speakerdeck.com/sorami/vue-fes-japan-2023",
+    "title": "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に",
     "date": "2023-10-28",
+    "url": "https://speakerdeck.com/sorami/vue-fes-japan-2023",
     "type": "presentation",
-    "title": "Vue.jsと3D可視化 - 産総研のOSS「AIST 3DDB Client」を例に"
+    "description": "Vue Fes Japan 2023"
   },
   {
-    "description": "CoSTEP プレゼン演習 #1",
-    "url": "https://speakerdeck.com/sorami/kaktovik-numerals",
+    "title": "カクトビック数字 - 人間と文化にあわせた多様な表現の可能性 / Kaktovik Numerals",
     "date": "2023-10-18",
+    "url": "https://speakerdeck.com/sorami/kaktovik-numerals",
     "type": "presentation",
-    "title": "カクトビック数字 - 人間と文化にあわせた多様な表現の可能性 / Kaktovik Numerals"
+    "description": "CoSTEP プレゼン演習 #1"
   },
   {
-    "url": "https://sorami.dev/costep/2023-10-15/",
+    "title": "「サイエンスイラストレーション」という手法 - 科学技術コミュ日記",
     "date": "2023-10-15",
-    "type": "article",
-    "title": "「サイエンスイラストレーション」という手法 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-10-15/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-10-14/",
+    "title": "7月と8月の講義・演習・実習 - 科学技術コミュ日記",
     "date": "2023-10-14",
-    "type": "article",
-    "title": "7月と8月の講義・演習・実習 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-10-14/",
+    "type": "article"
   },
   {
-    "description": "界隈.chat",
+    "title": "11. 無駄と遊び心 (Yfuru2454)",
+    "date": "2023-10-07",
     "url": "https://kaiwai.chat/episode/11",
-    "date": "2023-10-07",
     "type": "podcast",
-    "title": "11. 無駄と遊び心 (Yfuru2454)"
+    "description": "界隈.chat"
   },
   {
-    "description": "界隈.chat",
+    "title": "12. 昆虫標本としてのPodcast (Yfuru2454)",
+    "date": "2023-10-07",
     "url": "https://kaiwai.chat/episode/12",
-    "date": "2023-10-07",
     "type": "podcast",
-    "title": "12. 昆虫標本としてのPodcast (Yfuru2454)"
+    "description": "界隈.chat"
   },
   {
-    "description": "FOSS4G 2023 Japan@FUKUI",
-    "url": "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
+    "title": "AIST 3DDB Client: 産総研3DデータベースのためのオープンソースWebアプリ",
     "date": "2023-09-18",
+    "url": "https://speakerdeck.com/sorami/foss4g-2023-japan-at-fukui",
     "type": "presentation",
-    "title": "AIST 3DDB Client: 産総研3DデータベースのためのオープンソースWebアプリ"
+    "description": "FOSS4G 2023 Japan@FUKUI"
   },
   {
-    "url": "https://note.com/mierune/n/ncc0c90fb155e",
+    "title": "いろんな人々が流入するユルいオンラインイベント「MIERUNE JCT #01」を開催しました 🛣️",
     "date": "2023-09-14",
-    "type": "article",
-    "title": "いろんな人々が流入するユルいオンラインイベント「MIERUNE JCT #01」を開催しました 🛣️"
+    "url": "https://note.com/mierune/n/ncc0c90fb155e",
+    "type": "article"
   },
   {
-    "description": "界隈.chat",
-    "url": "https://kaiwai.chat/episode/10",
+    "title": "10. Podcasterの聖地「雑談」に行ってきた (sorami)",
     "date": "2023-08-06",
+    "url": "https://kaiwai.chat/episode/10",
     "type": "podcast",
-    "title": "10. Podcasterの聖地「雑談」に行ってきた (sorami)"
+    "description": "界隈.chat"
   },
   {
-    "description": "界隈.chat",
-    "url": "https://kaiwai.chat/episode/9",
+    "title": "9. 複雑なものを複雑なまま扱う:高次元科学について語ろう (sorami)",
     "date": "2023-08-04",
+    "url": "https://kaiwai.chat/episode/9",
     "type": "podcast",
-    "title": "9. 複雑なものを複雑なまま扱う:高次元科学について語ろう (sorami)"
+    "description": "界隈.chat"
   },
   {
-    "url": "https://github.com/MIERUNE/mokumoku-wordcloud",
+    "title": "MIERUNE/mokumoku-wordcloud: もくもく会 💯 🎉 ワードクラウド",
     "date": "2023-07-27",
-    "type": "article",
-    "title": "MIERUNE/mokumoku-wordcloud: もくもく会 💯 🎉 ワードクラウド"
+    "url": "https://github.com/MIERUNE/mokumoku-wordcloud",
+    "type": "article"
   },
   {
-    "url": "https://qiita.com/sorami/items/fa3310fbf0127c78c50e",
+    "title": "日本語話者だけが読めない地図",
     "date": "2023-07-21",
-    "type": "article",
-    "title": "日本語話者だけが読めない地図"
+    "url": "https://qiita.com/sorami/items/fa3310fbf0127c78c50e",
+    "type": "article"
   },
   {
-    "url": "https://qiita.com/sorami/items/49ab925dc29aef73bb8a",
+    "title": "QGISで雲がかかった「天国から視点」っぽい画像を作る",
     "date": "2023-07-20",
-    "type": "article",
-    "title": "QGISで雲がかかった「天国から視点」っぽい画像を作る"
+    "url": "https://qiita.com/sorami/items/49ab925dc29aef73bb8a",
+    "type": "article"
   },
   {
-    "url": "https://costep.open-ed.hokudai.ac.jp/news/27714",
+    "title": "モジュール1-2「先端科学技術の倫理的・法的・社会的課題と責任ある研究・イノベーション」（5/27）標葉隆馬先生講義レポート",
     "date": "2023-07-19",
-    "type": "article",
-    "title": "モジュール1-2「先端科学技術の倫理的・法的・社会的課題と責任ある研究・イノベーション」（5/27）標葉隆馬先生講義レポート"
+    "url": "https://costep.open-ed.hokudai.ac.jp/news/27714",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-07-15/",
+    "title": "科学技術に関わる活動が専門家のみで行われることの限界？ - 科学技術コミュ日記",
     "date": "2023-07-15",
-    "type": "article",
-    "title": "科学技術に関わる活動が専門家のみで行われることの限界？ - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-07-15/",
+    "type": "article"
   },
   {
-    "description": "MIERUNE MEETUP 2023",
-    "url": "https://speakerdeck.com/mierune/yahoo-japan-ren-liu-detahuo-yong-bitukudetanochu-li-toke-shi-hua",
+    "title": "Yahoo! JAPAN 人流データ活用 〜ビックデータの処理と可視化〜",
     "date": "2023-07-13",
+    "url": "https://speakerdeck.com/mierune/yahoo-japan-ren-liu-detahuo-yong-bitukudetanochu-li-toke-shi-hua",
     "type": "presentation",
-    "title": "Yahoo! JAPAN 人流データ活用 〜ビックデータの処理と可視化〜"
+    "description": "MIERUNE MEETUP 2023"
   },
   {
-    "url": "https://qiita.com/sorami/items/4928ddf2b17ceaba2501",
+    "title": "ファビコンを環境ごとに変えると分かりやすい（Next.js, Vue3, SvelteKit, Astro）",
     "date": "2023-07-06",
-    "type": "article",
-    "title": "ファビコンを環境ごとに変えると分かりやすい（Next.js, Vue3, SvelteKit, Astro）"
+    "url": "https://qiita.com/sorami/items/4928ddf2b17ceaba2501",
+    "type": "article"
   },
   {
-    "description": "SaCSS Season 2 Vol. 2",
-    "url": "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
+    "title": "データ可視化をやりたくて北海道に移住した話",
     "date": "2023-07-05",
+    "url": "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
     "type": "presentation",
-    "title": "データ可視化をやりたくて北海道に移住した話"
+    "description": "SaCSS Season 2 Vol. 2"
   },
   {
-    "url": "https://sorami.dev/costep/2023-07-02/",
+    "title": "この日記はどう作られているか - 科学技術コミュ日記",
     "date": "2023-07-02",
-    "type": "article",
-    "title": "この日記はどう作られているか - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-07-02/",
+    "type": "article"
   },
   {
-    "description": "MIERUNE BBQ #02",
-    "url": "https://speakerdeck.com/sorami/mierune-bbq-number-02",
+    "title": "めくるめくスクロールとデータ可視化の世界 - 「スクローリーテリング」ってなに？",
     "date": "2023-06-30",
+    "url": "https://speakerdeck.com/sorami/mierune-bbq-number-02",
     "type": "presentation",
-    "title": "めくるめくスクロールとデータ可視化の世界 - 「スクローリーテリング」ってなに？"
+    "description": "MIERUNE BBQ #02"
   },
   {
-    "url": "https://sorami.dev/costep/2023-06-25/",
+    "title": "動物倫理、コミュニケーション、ファシリテーション - 科学技術コミュ日記",
     "date": "2023-06-25",
-    "type": "article",
-    "title": "動物倫理、コミュニケーション、ファシリテーション - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-06-25/",
+    "type": "article"
   },
   {
-    "description": "界隈.chat",
-    "url": "https://kaiwai.chat/episode/2",
+    "title": "2. LLMについて好き勝手語る (sorami)",
     "date": "2023-06-24",
+    "url": "https://kaiwai.chat/episode/2",
     "type": "podcast",
-    "title": "2. LLMについて好き勝手語る (sorami)"
+    "description": "界隈.chat"
   },
   {
-    "url": "https://sorami.dev/costep/2023-06-20/",
+    "title": "科学技術コミュニケーターとCoSTEPのできること - 科学技術コミュ日記",
     "date": "2023-06-20",
-    "type": "article",
-    "title": "科学技術コミュニケーターとCoSTEPのできること - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-06-20/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-06-19/",
+    "title": "大きなもの、小さなもの、沢山のもの - 科学技術コミュ日記",
     "date": "2023-06-19",
-    "type": "article",
-    "title": "大きなもの、小さなもの、沢山のもの - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-06-19/",
+    "type": "article"
   },
   {
-    "description": "界隈.chat",
-    "url": "https://kaiwai.chat/episode/1",
+    "title": "1. 久しぶりの近況報告。soramiさんが通ってる面白い学校 (sorami)",
     "date": "2023-06-18",
+    "url": "https://kaiwai.chat/episode/1",
     "type": "podcast",
-    "title": "1. 久しぶりの近況報告。soramiさんが通ってる面白い学校 (sorami)"
+    "description": "界隈.chat"
   },
   {
-    "url": "https://note.com/mierune/n/n0bdbc6aff9d2",
+    "title": "「札幌市電」を貸し切ったら、社員全員でなまら盛り上がった話 🚋",
     "date": "2023-06-16",
-    "type": "article",
-    "title": "「札幌市電」を貸し切ったら、社員全員でなまら盛り上がった話 🚋"
+    "url": "https://note.com/mierune/n/n0bdbc6aff9d2",
+    "type": "article"
   },
   {
+    "title": "背景画像(壁紙)を素敵なものにしてくれるアプリ（ブラウザ, macOS, Windows）",
+    "date": "2023-06-15",
     "url": "https://qiita.com/sorami/items/7d8470494bd77a77c9e4",
-    "date": "2023-06-15",
-    "type": "article",
-    "title": "背景画像(壁紙)を素敵なものにしてくれるアプリ（ブラウザ, macOS, Windows）"
+    "type": "article"
   },
   {
+    "title": "書くことについて - 科学技術コミュ日記",
+    "date": "2023-06-15",
     "url": "https://sorami.dev/costep/2023-06-15/",
-    "date": "2023-06-15",
-    "type": "article",
-    "title": "書くことについて - 科学技術コミュ日記"
+    "type": "article"
   },
   {
-    "url": "https://qiita.com/sorami/items/f01e754890ef437c911a",
+    "title": "Next.js 13 で deck.gl 8.9 を使う時の、モジュール読み込み（ESM）の設定",
     "date": "2023-06-14",
-    "type": "article",
-    "title": "Next.js 13 で deck.gl 8.9 を使う時の、モジュール読み込み（ESM）の設定"
+    "url": "https://qiita.com/sorami/items/f01e754890ef437c911a",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-06-12/",
+    "title": "温室で青写真 / 科学者と価値判断 - 科学技術コミュ日記",
     "date": "2023-06-12",
-    "type": "article",
-    "title": "温室で青写真 / 科学者と価値判断 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-06-12/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-06-04/",
+    "title": "北大祭で科研費を争奪 - 科学技術コミュ日記",
     "date": "2023-06-04",
-    "type": "article",
-    "title": "北大祭で科研費を争奪 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-06-04/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-31/",
+    "title": "もくもくと書いていきたい - 科学技術コミュ日記",
     "date": "2023-05-31",
-    "type": "article",
-    "title": "もくもくと書いていきたい - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-31/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-29/",
+    "title": "まずはズレをわかりたい - 科学技術コミュ日記",
     "date": "2023-05-29",
-    "type": "article",
-    "title": "まずはズレをわかりたい - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-29/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-28/",
+    "title": "伝えるけど伝わらない - 科学技術コミュ日記",
     "date": "2023-05-28",
-    "type": "article",
-    "title": "伝えるけど伝わらない - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-28/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-24/",
+    "title": "インタビューが楽しい - 科学技術コミュ日記",
     "date": "2023-05-24",
-    "type": "article",
-    "title": "インタビューが楽しい - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-24/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-21/",
+    "title": "みんなの話を聴きたい - 科学技術コミュ日記",
     "date": "2023-05-21",
-    "type": "article",
-    "title": "みんなの話を聴きたい - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-21/",
+    "type": "article"
   },
   {
-    "description": "Where is the “Hiroshima to Honolulu Friendship Torii” in Hawaii facing?",
+    "title": "ハワイにある「広島・ホノルル友好鳥居」はどこを向いているのか",
+    "date": "2023-05-17",
     "url": "https://observablehq.com/@sorami/hawaii-hiroshima-torii",
-    "date": "2023-05-17",
     "type": "article",
-    "title": "ハワイにある「広島・ホノルル友好鳥居」はどこを向いているのか"
+    "description": "Where is the “Hiroshima to Honolulu Friendship Torii” in Hawaii facing?"
   },
   {
+    "title": "人の話を聴いていない - 科学技術コミュ日記",
+    "date": "2023-05-17",
     "url": "https://sorami.dev/costep/2023-05-17/",
-    "date": "2023-05-17",
-    "type": "article",
-    "title": "人の話を聴いていない - 科学技術コミュ日記"
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-14/",
+    "title": "科学技術を押し売りしない - 科学技術コミュ日記",
     "date": "2023-05-14",
-    "type": "article",
-    "title": "科学技術を押し売りしない - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-14/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-13/",
+    "title": "はじまりはじまり - 科学技術コミュ日記",
     "date": "2023-05-13",
-    "type": "article",
-    "title": "はじまりはじまり - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-13/",
+    "type": "article"
   },
   {
-    "url": "https://sorami.dev/costep/2023-05-12/",
+    "title": "CoSTEP前夜 - 科学技術コミュ日記",
     "date": "2023-05-12",
-    "type": "article",
-    "title": "CoSTEP前夜 - 科学技術コミュ日記"
+    "url": "https://sorami.dev/costep/2023-05-12/",
+    "type": "article"
   },
   {
-    "url": "https://suzuki-cat-generator.vercel.app/",
+    "title": "Suzuki Cat Generator",
     "date": "2023-04-25",
-    "type": "article",
-    "title": "Suzuki Cat Generator"
+    "url": "https://suzuki-cat-generator.vercel.app/",
+    "type": "article"
   },
   {
-    "description": "Scrollytelling the 53 Stations of the Tōkaidō in Japan.",
-    "url": "https://sorami.dev/tokaido-scrollytelling/",
+    "title": "東海道中スクロール栗毛",
     "date": "2023-04-12",
+    "url": "https://sorami.dev/tokaido-scrollytelling/",
     "type": "article",
-    "title": "東海道中スクロール栗毛"
+    "description": "Scrollytelling the 53 Stations of the Tōkaidō in Japan."
   },
   {
-    "url": "https://note.com/mierune/n/n02e261e96f25",
+    "title": "沖縄とChatGPT、 地理空間と言語処理: NLP2023（言語処理学会 第29回年次大会）レポート",
     "date": "2023-03-24",
-    "type": "article",
-    "title": "沖縄とChatGPT、 地理空間と言語処理: NLP2023（言語処理学会 第29回年次大会）レポート"
+    "url": "https://note.com/mierune/n/n02e261e96f25",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/nenji-stat",
+    "title": "「言語処理学会 年次大会」 開催一覧",
     "date": "2023-03-19",
-    "type": "article",
-    "title": "「言語処理学会 年次大会」 開催一覧"
+    "url": "https://observablehq.com/@sorami/nenji-stat",
+    "type": "article"
   },
   {
-    "description": "久本空海, 西尾悟, 井口奏大, 古川泰人, 大友寛之, 東山翔平, 大内啓樹. (言語処理学会第29回年次大会)",
+    "title": "場所参照表現と位置情報を紐付けるジオコーディングの概観と発展に向けての考察",
+    "date": "2023-03-16",
     "url": "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/B11-1.pdf",
-    "date": "2023-03-16",
     "type": "paper",
-    "title": "場所参照表現と位置情報を紐付けるジオコーディングの概観と発展に向けての考察"
+    "description": "久本空海, 西尾悟, 井口奏大, 古川泰人, 大友寛之, 東山翔平, 大内啓樹. (言語処理学会第29回年次大会)"
   },
   {
-    "description": "言語処理学会第29回年次大会(NLP2023)\n",
+    "title": "場所参照表現と位置情報を紐付けるジオコーディングの概観と発展に向けての考察",
+    "date": "2023-03-16",
     "url": "https://speakerdeck.com/sorami/nlp2023",
-    "date": "2023-03-16",
     "type": "presentation",
-    "title": "場所参照表現と位置情報を紐付けるジオコーディングの概観と発展に向けての考察"
+    "description": "言語処理学会第29回年次大会(NLP2023)\n"
   },
   {
-    "url": "https://qiita.com/sorami/items/bfeebba21216609ad576",
+    "title": "Webで地図を作ってみたいけど、どこから始めればいいかわからないアナタへ — 『位置情報エンジニア養成講座』（#位置エン本）書評",
     "date": "2023-02-28",
-    "type": "article",
-    "title": "Webで地図を作ってみたいけど、どこから始めればいいかわからないアナタへ — 『位置情報エンジニア養成講座』（#位置エン本）書評"
+    "url": "https://qiita.com/sorami/items/bfeebba21216609ad576",
+    "type": "article"
   },
   {
-    "description": "FOSS4G Hokkaido mini #01",
-    "url": "https://speakerdeck.com/sorami/foss4g-hokkaido-mini-number-01",
+    "title": "私を（GISで）スキーに連れてって",
     "date": "2023-02-25",
+    "url": "https://speakerdeck.com/sorami/foss4g-hokkaido-mini-number-01",
     "type": "presentation",
-    "title": "私を（GISで）スキーに連れてって"
+    "description": "FOSS4G Hokkaido mini #01"
   },
   {
-    "url": "https://observablehq.com/@sorami/world-ski-resorts-voronoi",
+    "title": "World Ski Resorts - voronoi",
     "date": "2023-02-15",
-    "type": "article",
-    "title": "World Ski Resorts - voronoi"
+    "url": "https://observablehq.com/@sorami/world-ski-resorts-voronoi",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+    "title": "World Ski Resorts - nearest neighbors",
     "date": "2023-02-12",
-    "type": "article",
-    "title": "World Ski Resorts - nearest neighbors"
+    "url": "https://observablehq.com/@sorami/world-ski-resorts-nearest-neighbors",
+    "type": "article"
   },
   {
-    "url": "https://gist.github.com/sorami/0755ff22f7cc0af8ec25e5e5673c918f",
+    "title": "OpenStreetMap - \"landuse = winter_sports\"",
     "date": "2023-02-04",
-    "type": "article",
-    "title": "OpenStreetMap - \"landuse = winter_sports\""
+    "url": "https://gist.github.com/sorami/0755ff22f7cc0af8ec25e5e5673c918f",
+    "type": "article"
   },
   {
-    "description": "Data Visualization Japan Meetup 2022",
-    "url": "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2022",
+    "title": "地図と可視化とコミュニティ（それと言語）",
     "date": "2022-12-28",
+    "url": "https://speakerdeck.com/sorami/data-visualization-japan-meetup-2022",
     "type": "presentation",
-    "title": "地図と可視化とコミュニティ（それと言語）"
+    "description": "Data Visualization Japan Meetup 2022"
   },
   {
-    "description": "MIERUNE アドベントカレンダー 2022",
+    "title": "国土地理院「地名集日本」を餅から米",
+    "date": "2022-12-23",
     "url": "https://qiita.com/sorami/items/804dcaa90091f3f3445b",
-    "date": "2022-12-23",
     "type": "article",
-    "title": "国土地理院「地名集日本」を餅から米"
+    "description": "MIERUNE アドベントカレンダー 2022"
   },
   {
+    "title": "「ポケモンGO」や「酪農」、「スマホ位置情報」などのLT大会！ - MIERUNE Meetup mini #05 を開催しました",
+    "date": "2022-12-23",
     "url": "https://note.com/mierune/n/n09e3cf5553d6",
-    "date": "2022-12-23",
-    "type": "article",
-    "title": "「ポケモンGO」や「酪農」、「スマホ位置情報」などのLT大会！ - MIERUNE Meetup mini #05 を開催しました"
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/gazetteer-of-japan",
+    "title": "Gazetteer of Japan (地名集日本)",
     "date": "2022-12-22",
-    "type": "article",
-    "title": "Gazetteer of Japan (地名集日本)"
+    "url": "https://observablehq.com/@sorami/gazetteer-of-japan",
+    "type": "article"
   },
   {
-    "url": "https://note.com/mierune/n/ne96b8e56aa25",
+    "title": "30日間で30の地図をつくりました！ 30DayMapChallenge 2022",
     "date": "2022-12-09",
-    "type": "article",
-    "title": "30日間で30の地図をつくりました！ 30DayMapChallenge 2022"
+    "url": "https://note.com/mierune/n/ne96b8e56aa25",
+    "type": "article"
   },
   {
-    "url": "https://twitter.com/MIERUNE_inc/status/1594617865390370821",
+    "title": "MIERUNE 30DayMapChallenge: 21日目「人口データ（Data: Kontur Population Dataset）」",
     "date": "2022-11-23",
-    "type": "article",
-    "title": "MIERUNE 30DayMapChallenge: 21日目「人口データ（Data: Kontur Population Dataset）」"
+    "url": "https://twitter.com/MIERUNE_inc/status/1594617865390370821",
+    "type": "article"
   },
   {
+    "title": "Population of Hokkaido, Japan: 400m H3 Hexagons (Kontur)",
+    "date": "2022-11-16",
     "url": "https://observablehq.com/@sorami/population-of-hokkaido-japan-400m-h3-hexagons-kontur",
-    "date": "2022-11-16",
-    "type": "article",
-    "title": "Population of Hokkaido, Japan: 400m H3 Hexagons (Kontur)"
+    "type": "article"
   },
   {
+    "title": "QGISにおける「.qgs」と「.qgz」拡張子の違い",
+    "date": "2022-11-16",
     "url": "https://qiita.com/sorami/items/a0748684b801b5673422",
-    "date": "2022-11-16",
-    "type": "article",
-    "title": "QGISにおける「.qgs」と「.qgz」拡張子の違い"
+    "type": "article"
   },
   {
-    "description": "白金鉱業.FM",
+    "title": "63. あなたの知らない「位置情報xOSSxオープンデータ」の世界（前編）",
+    "date": "2022-10-23",
     "url": "https://shirokane-kougyou.github.io/episode/63",
-    "date": "2022-10-23",
     "type": "podcast",
-    "title": "63. あなたの知らない「位置情報xOSSxオープンデータ」の世界（前編）"
+    "description": "白金鉱業.FM"
   },
   {
-    "description": "白金鉱業.FM",
+    "title": "64. あなたの知らない「位置情報xOSSxオープンデータ」の世界（後編）",
+    "date": "2022-10-23",
     "url": "https://shirokane-kougyou.github.io/episode/64",
-    "date": "2022-10-23",
     "type": "podcast",
-    "title": "64. あなたの知らない「位置情報xOSSxオープンデータ」の世界（後編）"
+    "description": "白金鉱業.FM"
   },
   {
-    "url": "https://observablehq.com/@sorami/prefecture-geojson-polygon-filtering",
+    "title": "都道府県GeoJSONのポリゴンをフィルタリング",
     "date": "2022-10-19",
-    "type": "article",
-    "title": "都道府県GeoJSONのポリゴンをフィルタリング"
+    "url": "https://observablehq.com/@sorami/prefecture-geojson-polygon-filtering",
+    "type": "article"
   },
   {
-    "description": "松田寛, 柴田知秀, 河原大輔, 久本空海, 久保隆宏, 浅原正幸. (『自然言語処理』29巻3号)",
-    "url": "https://www.jstage.jst.go.jp/article/jnlp/29/3/29_1023/_article/-char/ja",
+    "title": "日本語における評価用データセットの構築と利用性の向上―JED2022 ワークショップの成果と展望",
     "date": "2022-09-15",
+    "url": "https://www.jstage.jst.go.jp/article/jnlp/29/3/29_1023/_article/-char/ja",
     "type": "paper",
-    "title": "日本語における評価用データセットの構築と利用性の向上―JED2022 ワークショップの成果と展望"
+    "description": "松田寛, 柴田知秀, 河原大輔, 久本空海, 久保隆宏, 浅原正幸. (『自然言語処理』29巻3号)"
   },
   {
+    "title": "MIERUNE社内ハンズオン2022: Observable & D3.js",
+    "date": "2022-09-13",
     "url": "https://observablehq.com/collection/@sorami/mierune",
-    "date": "2022-09-13",
-    "type": "article",
-    "title": "MIERUNE社内ハンズオン2022: Observable & D3.js"
+    "type": "article"
   },
   {
+    "title": "「自然言語処理」から「相乗りサービス」、「3D地図」まで盛り沢山！ - MIERUNE Meetup mini #4 を開催しました",
+    "date": "2022-09-13",
     "url": "https://note.com/mierune/n/nd43c6e3fe07d",
-    "date": "2022-09-13",
-    "type": "article",
-    "title": "「自然言語処理」から「相乗りサービス」、「3D地図」まで盛り沢山！ - MIERUNE Meetup mini #4 を開催しました"
+    "type": "article"
   },
   {
-    "description": "MIERUNE Meetup mini #04",
+    "title": "北海道でGIS",
+    "date": "2022-09-08",
     "url": "https://speakerdeck.com/sorami/mierune-meetup-mini-number-04",
-    "date": "2022-09-08",
     "type": "presentation",
-    "title": "北海道でGIS"
+    "description": "MIERUNE Meetup mini #04"
   },
   {
+    "title": "HOKKAIDLE",
+    "date": "2022-09-08",
     "url": "https://sorami.dev/hokkaidle/",
-    "date": "2022-09-08",
-    "type": "article",
-    "title": "HOKKAIDLE"
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/hokkaido-topojson-merge-sapporo",
+    "title": "北海道のTopoJSON: 札幌市の区をマージ ",
     "date": "2022-09-03",
-    "type": "article",
-    "title": "北海道のTopoJSON: 札幌市の区をマージ "
+    "url": "https://observablehq.com/@sorami/hokkaido-topojson-merge-sapporo",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/japanese-from-hokkaido-to-okinawa",
+    "title": "Japanese from Hokkaido to Okinawa",
     "date": "2022-08-21",
-    "type": "article",
-    "title": "Japanese from Hokkaido to Okinawa"
+    "url": "https://observablehq.com/@sorami/japanese-from-hokkaido-to-okinawa",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/street-voronoi-of-hokkaido",
+    "title": "Street Voronoi of Hokkaido",
     "date": "2022-08-03",
-    "type": "article",
-    "title": "Street Voronoi of Hokkaido"
+    "url": "https://observablehq.com/@sorami/street-voronoi-of-hokkaido",
+    "type": "article"
   },
   {
+    "title": "簡略化した日本国土の図 / Simplified Japan",
+    "date": "2022-07-20",
     "url": "https://observablehq.com/@sorami/simplified-japan-land",
-    "date": "2022-07-20",
-    "type": "article",
-    "title": "簡略化した日本国土の図 / Simplified Japan"
+    "type": "article"
   },
   {
+    "title": "鉛筆スケッチ風な日本国土の図 / Pencil Sketch-ish Japan",
+    "date": "2022-07-20",
     "url": "https://observablehq.com/@sorami/simplified-japan-land-sketch",
-    "date": "2022-07-20",
-    "type": "article",
-    "title": "鉛筆スケッチ風な日本国土の図 / Pencil Sketch-ish Japan"
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/graticule-with-mapbox-maplibre-gl-js",
+    "title": "Graticule with {Mapbox, MapLibre} GL JS",
     "date": "2022-07-10",
-    "type": "article",
-    "title": "Graticule with {Mapbox, MapLibre} GL JS"
+    "url": "https://observablehq.com/@sorami/graticule-with-mapbox-maplibre-gl-js",
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/closest-seicomarts",
+    "title": "近隣10軒のセイコーマート",
     "date": "2022-06-17",
-    "type": "article",
-    "title": "近隣10軒のセイコーマート"
+    "url": "https://observablehq.com/@sorami/closest-seicomarts",
+    "type": "article"
   },
   {
-    "description": "MIERUNE 社内勉強会 #033",
+    "title": "インタラクティブなメディアの地図投影法: WebメルカトルからAdaptive Projectionsへ",
+    "date": "2022-06-16",
     "url": "https://speakerdeck.com/sorami/mierune-she-nei-mian-qiang-hui-number-033",
-    "date": "2022-06-16",
     "type": "presentation",
-    "title": "インタラクティブなメディアの地図投影法: WebメルカトルからAdaptive Projectionsへ"
+    "description": "MIERUNE 社内勉強会 #033"
   },
   {
+    "title": "Adaptive Projections (Mapbox GL JS v2.6)",
+    "date": "2022-06-16",
     "url": "https://observablehq.com/@sorami/adaptive-projections-mapbox-gl-js-v2-6",
-    "date": "2022-06-16",
-    "type": "article",
-    "title": "Adaptive Projections (Mapbox GL JS v2.6)"
+    "type": "article"
   },
   {
-    "url": "https://observablehq.com/@sorami/sizes-of-large-language-models",
+    "title": "Sizes of large Language Models",
     "date": "2022-06-12",
-    "type": "article",
-    "title": "Sizes of large Language Models"
+    "url": "https://observablehq.com/@sorami/sizes-of-large-language-models",
+    "type": "article"
   },
   {
-    "description": "久本空海, 城戸祐亮, 津金澤佳亨, 八木田樹. (言語処理学会第28回年次大会)",
-    "url": "https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/G6-2.pdf",
+    "title": "民事判決のオープンデータ化へ向けた機械処理による判例仮名化の検証",
     "date": "2022-03-16",
+    "url": "https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/G6-2.pdf",
     "type": "paper",
-    "title": "民事判決のオープンデータ化へ向けた機械処理による判例仮名化の検証"
+    "description": "久本空海, 城戸祐亮, 津金澤佳亨, 八木田樹. (言語処理学会第28回年次大会)"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/11b721929d70af",
+    "title": "Sudachiで馬謖を切る: 形態素解析の可視化とユーザー辞書による制御",
     "date": "2022-03-08",
-    "type": "article",
-    "title": "Sudachiで馬謖を切る: 形態素解析の可視化とユーザー辞書による制御"
+    "url": "https://zenn.dev/sorami/articles/11b721929d70af",
+    "type": "article"
   },
   {
-    "description": "Legalscape アドベントカレンダー 2021",
-    "url": "https://note.com/legalscape/n/nf6341940deaa",
+    "title": "NLPによる個人情報の仮名化: 民事判決のオープンデータ化へ向けた取り組みの紹介",
     "date": "2021-12-24",
+    "url": "https://note.com/legalscape/n/nf6341940deaa",
     "type": "article",
-    "title": "NLPによる個人情報の仮名化: 民事判決のオープンデータ化へ向けた取り組みの紹介"
+    "description": "Legalscape アドベントカレンダー 2021"
   },
   {
-    "url": "https://sorami.dev/2021/people-map-japan/",
+    "title": "A People Map of Japan",
     "date": "2021-12-21",
-    "type": "article",
-    "title": "A People Map of Japan"
+    "url": "https://sorami.dev/2021/people-map-japan/",
+    "type": "article"
   },
   {
-    "url": "https://gist.github.com/sorami/f8517cca368c08be3e441c2da9527b27",
+    "title": "日常に潜むGISを見つけたい",
     "date": "2021-12-19",
-    "type": "article",
-    "title": "日常に潜むGISを見つけたい"
+    "url": "https://gist.github.com/sorami/f8517cca368c08be3e441c2da9527b27",
+    "type": "article"
   },
   {
-    "description": "MIERUNE Meetup mini #01",
-    "url": "https://speakerdeck.com/sorami/mierune-meetup-mini-number-01",
+    "title": "MapLibre, Svelte, Wikipediaデータを用いた地理空間情報可視化の事例",
     "date": "2021-12-16",
+    "url": "https://speakerdeck.com/sorami/mierune-meetup-mini-number-01",
     "type": "presentation",
-    "title": "MapLibre, Svelte, Wikipediaデータを用いた地理空間情報可視化の事例"
+    "description": "MIERUNE Meetup mini #01"
   },
   {
-    "description": "Legalscape アドベントカレンダー 2021",
-    "url": "https://zenn.dev/sorami/articles/d7fc2bd871a56e",
+    "title": "Elasticsearchで日本語を同義語展開する",
     "date": "2021-12-15",
+    "url": "https://zenn.dev/sorami/articles/d7fc2bd871a56e",
     "type": "article",
-    "title": "Elasticsearchで日本語を同義語展開する"
+    "description": "Legalscape アドベントカレンダー 2021"
   },
   {
-    "description": "Legalscape アドベントカレンダー 2021",
-    "url": "https://note.com/legalscape/n/n74a42e35b505",
+    "title": "「言語処理学会」の「年次大会」とはなにか: Legalscape は NLP2022 をスポンサーしています",
     "date": "2021-12-06",
+    "url": "https://note.com/legalscape/n/n74a42e35b505",
     "type": "article",
-    "title": "「言語処理学会」の「年次大会」とはなにか: Legalscape は NLP2022 をスポンサーしています"
+    "description": "Legalscape アドベントカレンダー 2021"
   },
   {
-    "description": "WAP NLP Tech Talk #4",
-    "url": "https://speakerdeck.com/sorami/wap-nlp-tech-talk-number-4",
+    "title": "オープンソースとしての形態素解析器Sudachi",
     "date": "2021-11-26",
+    "url": "https://speakerdeck.com/sorami/wap-nlp-tech-talk-number-4",
     "type": "presentation",
-    "title": "オープンソースとしての形態素解析器Sudachi"
+    "description": "WAP NLP Tech Talk #4"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/66c553df6de7b0",
+    "title": "形態素解析の可視化ツール「ViSudachi」を使ってみる",
     "date": "2021-11-04",
-    "type": "article",
-    "title": "形態素解析の可視化ツール「ViSudachi」を使ってみる"
+    "url": "https://zenn.dev/sorami/articles/66c553df6de7b0",
+    "type": "article"
   },
   {
-    "url": "https://gist.github.com/sorami/cffa71320a7be8d2a385e0b01acc1f57",
+    "title": "都道府県名の最初の漢字だけで表すことができる芸能人は「長島三奈」だけなのか",
     "date": "2021-09-24",
-    "type": "article",
-    "title": "都道府県名の最初の漢字だけで表すことができる芸能人は「長島三奈」だけなのか"
+    "url": "https://gist.github.com/sorami/cffa71320a7be8d2a385e0b01acc1f57",
+    "type": "article"
   },
   {
-    "url": "https://note.com/legalscape/n/nf9f4c249f24e",
+    "title": "8万時間で自転車をつくる － メンバー紹介 久本 | Legalscape",
     "date": "2021-09-01",
-    "type": "article",
-    "title": "8万時間で自転車をつくる － メンバー紹介 久本 | Legalscape"
+    "url": "https://note.com/legalscape/n/nf9f4c249f24e",
+    "type": "article"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/3742e761543e08",
+    "title": "同義語検索ライブラリchikkarpyで独自の辞書を使う",
     "date": "2021-05-25",
-    "type": "article",
-    "title": "同義語検索ライブラリchikkarpyで独自の辞書を使う"
+    "url": "https://zenn.dev/sorami/articles/3742e761543e08",
+    "type": "article"
   },
   {
-    "description": "白金鉱業.FM",
-    "url": "https://shirokane-kougyou.fm/episode/49",
+    "title": "49. あなたの知らない「法律xNLP」の世界",
     "date": "2021-03-15",
+    "url": "https://shirokane-kougyou.github.io/episode/49",
     "type": "podcast",
-    "title": "49. あなたの知らない「法律xNLP」の世界"
+    "description": "白金鉱業.FM"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/60131682bfa34f",
+    "title": "法令略称辞書: e-GovデータからSudachi同義語辞書を作成する",
     "date": "2021-02-12",
-    "type": "article",
-    "title": "法令略称辞書: e-GovデータからSudachi同義語辞書を作成する"
+    "url": "https://zenn.dev/sorami/articles/60131682bfa34f",
+    "type": "article"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/d19afb40fbb838",
+    "title": "Sudachi同義語辞書をElasticsearchで使う（暫定方法）",
     "date": "2021-01-26",
-    "type": "article",
-    "title": "Sudachi同義語辞書をElasticsearchで使う（暫定方法）"
+    "url": "https://zenn.dev/sorami/articles/d19afb40fbb838",
+    "type": "article"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/6bdb4bf6c7f207",
+    "title": "形態素解析器Sudachiのユーザー辞書には文字正規化が必要",
     "date": "2021-01-06",
-    "type": "article",
-    "title": "形態素解析器Sudachiのユーザー辞書には文字正規化が必要"
+    "url": "https://zenn.dev/sorami/articles/6bdb4bf6c7f207",
+    "type": "article"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/c9a506000fd1fbd1cf98",
+    "title": "形態素解析器Sudachiの「辞書」はどのように作られているか: 複数の分割単位を例として",
     "date": "2020-10-30",
-    "type": "article",
-    "title": "形態素解析器Sudachiの「辞書」はどのように作られているか: 複数の分割単位を例として"
+    "url": "https://zenn.dev/sorami/articles/c9a506000fd1fbd1cf98",
+    "type": "article"
   },
   {
-    "url": "https://zenn.dev/sorami/articles/fb2eb78e250568b767fd",
+    "title": "日本語単語ベクトル\"chiVe\"をgensimやMagnitudeで使う",
     "date": "2020-10-27",
-    "type": "article",
-    "title": "日本語単語ベクトル\"chiVe\"をgensimやMagnitudeで使う"
+    "url": "https://zenn.dev/sorami/articles/fb2eb78e250568b767fd",
+    "type": "article"
   },
   {
-    "description": "久本空海, 勝田哲弘, 山村崇, 竹林佑斗, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム",
-    "url": "https://yans.anlp.jp/entry/yans2020",
+    "title": "形態素解析器Sudachiの複数粒度分割に基づく未知の複合語ベクトルの生成",
     "date": "2020-09-23",
-    "type": "paper",
-    "title": "形態素解析器Sudachiの複数粒度分割に基づく未知の複合語ベクトルの生成"
-  },
-  {
-    "description": "勝田哲弘, 山村崇, 竹林佑斗, 久本空海, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム",
     "url": "https://yans.anlp.jp/entry/yans2020",
-    "date": "2020-09-23",
     "type": "paper",
-    "title": "詳細化した語彙関係をもつ同義語辞書を用いた日本語のRelation Embedding学習への取り組み"
+    "description": "久本空海, 勝田哲弘, 山村崇, 竹林佑斗, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム"
   },
   {
-    "description": "勝田哲弘, 山村崇, 勝田哲弘, 竹林佑斗, 久本空海, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム",
+    "title": "詳細化した語彙関係をもつ同義語辞書を用いた日本語のRelation Embedding学習への取り組み",
+    "date": "2020-09-23",
     "url": "https://yans.anlp.jp/entry/yans2020",
-    "date": "2020-09-23",
     "type": "paper",
-    "title": "分散表現のドメイン適応へ向けた類似ドメインデータ検索"
+    "description": "勝田哲弘, 山村崇, 竹林佑斗, 久本空海, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム"
   },
   {
-    "description": "竹林佑斗, 山村崇, 勝田哲弘, 久本空海, 高岡一馬, 内田佳孝. NLP若手の会 (YANS) 第15回シンポジウム",
+    "title": "分散表現のドメイン適応へ向けた類似ドメインデータ検索",
+    "date": "2020-09-23",
     "url": "https://yans.anlp.jp/entry/yans2020",
-    "date": "2020-09-23",
     "type": "paper",
-    "title": "選択肢提示型チャットボットのためのQAの自動シナリオ化へ向けて"
+    "description": "勝田哲弘, 山村崇, 勝田哲弘, 竹林佑斗, 久本空海, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム"
   },
   {
-    "description": "久本空海, 山村崇, 勝田哲弘, 竹林佑斗, 髙岡一馬, 内田佳孝, 岡照晃, 浅原正幸. (第16回テキストアナリティクス・シンポジウム)",
+    "title": "選択肢提示型チャットボットのためのQAの自動シナリオ化へ向けて",
+    "date": "2020-09-23",
+    "url": "https://yans.anlp.jp/entry/yans2020",
+    "type": "paper",
+    "description": "竹林佑斗, 山村崇, 勝田哲弘, 久本空海, 高岡一馬, 内田佳孝. NLP若手の会 (YANS) 第15回シンポジウム"
+  },
+  {
+    "title": "chiVe: 製品利用可能な日本語単語ベクトル資源の実現へ向けて",
+    "date": "2020-09-10",
     "url": "https://www.ieice.org/ken/paper/20200910U1zQ/",
-    "date": "2020-09-10",
     "type": "paper",
-    "title": "chiVe: 製品利用可能な日本語単語ベクトル資源の実現へ向けて"
+    "description": "久本空海, 山村崇, 勝田哲弘, 竹林佑斗, 髙岡一馬, 内田佳孝, 岡照晃, 浅原正幸. (第16回テキストアナリティクス・シンポジウム)"
   },
   {
-    "description": "第16回テキストアナリティクス・シンポジウム",
+    "title": "chiVe: 製品利用可能な日本語単語ベクトル資源の実現へ向けて",
+    "date": "2020-09-10",
     "url": "https://speakerdeck.com/sorami/chive-zhi-pin-li-yong-ke-neng-nari-ben-yu-dan-yu-bekutoruzi-yuan-falseshi-xian-hexiang-kete",
-    "date": "2020-09-10",
     "type": "presentation",
-    "title": "chiVe: 製品利用可能な日本語単語ベクトル資源の実現へ向けて"
+    "description": "第16回テキストアナリティクス・シンポジウム"
   },
   {
-    "description": "白金鉱業.FM",
-    "url": "https://shirokane-kougyou.fm/episode/36",
+    "title": "36. 特別ゲスト@soramiさん（後編:ACL学会での発表論文と現在のNLPのホットトピック）",
     "date": "2020-07-20",
+    "url": "https://shirokane-kougyou.github.io/episode/36",
     "type": "podcast",
-    "title": "36. 特別ゲスト@soramiさん（後編:ACL学会での発表論文と現在のNLPのホットトピック）"
+    "description": "白金鉱業.FM"
   },
   {
-    "description": "白金鉱業.FM",
-    "url": "https://shirokane-kougyou.fm/episode/35",
+    "title": "35. 特別ゲスト@soramiさん（前編:形態素解析器Sudachiについて）",
     "date": "2020-07-13",
+    "url": "https://shirokane-kougyou.github.io/episode/35",
     "type": "podcast",
-    "title": "35. 特別ゲスト@soramiさん（前編:形態素解析器Sudachiについて）"
+    "description": "白金鉱業.FM"
   },
   {
-    "description": "ACL2020",
-    "url": "https://speakerdeck.com/sorami/acl2020-membership-inference-attacks-on-sequence-to-sequence-models-is-my-data-in-your-machine-translation-system",
+    "title": "Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System?",
     "date": "2020-06-17",
+    "url": "https://speakerdeck.com/sorami/acl2020-membership-inference-attacks-on-sequence-to-sequence-models-is-my-data-in-your-machine-translation-system",
     "type": "presentation",
-    "title": "Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System?"
+    "description": "ACL2020"
   },
   {
-    "description": "河村宗一郎, 久本空海, 真鍋陽俊, 髙岡一馬, 内田佳孝, 岡照晃, 浅原正幸. (言語処理学会第26回年次大会)",
-    "url": "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-16.pdf",
+    "title": "chiVe 2.0: SudachiとNWJCを用いた実用的な日本語単語ベクトルの実現に向けて",
     "date": "2020-03-19",
+    "url": "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-16.pdf",
     "type": "paper",
-    "title": "chiVe 2.0: SudachiとNWJCを用いた実用的な日本語単語ベクトルの実現に向けて"
+    "description": "河村宗一郎, 久本空海, 真鍋陽俊, 髙岡一馬, 内田佳孝, 岡照晃, 浅原正幸. (言語処理学会第26回年次大会)"
   },
   {
-    "description": "Sorami Hisamoto, Matt Post, Kevin Duh. (TACL)",
-    "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00299/43536/Membership-Inference-Attacks-on-Sequence-to",
+    "title": "Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System?",
     "date": "2020-03-01",
+    "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00299/43536/Membership-Inference-Attacks-on-Sequence-to",
     "type": "paper",
-    "title": "Membership Inference Attacks on Sequence-to-Sequence Models: Is My Data In Your Machine Translation System?"
+    "description": "Sorami Hisamoto, Matt Post, Kevin Duh. (TACL)"
   },
   {
-    "url": "https://qiita.com/sorami/items/f5a337b0c3b99840818b",
+    "title": "形態素解析器「Sudachi」の文字コードまわり",
     "date": "2019-12-07",
-    "type": "article",
-    "title": "形態素解析器「Sudachi」の文字コードまわり"
+    "url": "https://qiita.com/sorami/items/f5a337b0c3b99840818b",
+    "type": "article"
   },
   {
-    "description": "自然言語処理 #2 Advent Calendar 2019",
-    "url": "https://qiita.com/sorami/items/7934fec2074c493c0f7d",
+    "title": "Rustによる自然言語処理ツールの実装: 形態素解析器「sudachi.rs」",
     "date": "2019-12-05",
+    "url": "https://qiita.com/sorami/items/7934fec2074c493c0f7d",
     "type": "article",
-    "title": "Rustによる自然言語処理ツールの実装: 形態素解析器「sudachi.rs」"
+    "description": "自然言語処理 #2 Advent Calendar 2019"
   },
   {
-    "description": "Mahsa Yarmohammadi, Xutai Ma, Sorami Hisamoto, Muhammad Rahman, Yiming Wang, Hainan Xu, Daniel Povey, Philipp Koehn, Kevin Duh. (Machine Translation Summit 2019)",
-    "url": "https://aclanthology.org/W19-6602/",
+    "title": "Robust Document Representations for Cross-Lingual Information Retrieval in Low-Resource Settings",
     "date": "2019-08-19",
+    "url": "https://aclanthology.org/W19-6602/",
     "type": "paper",
-    "title": "Robust Document Representations for Cross-Lingual Information Retrieval in Low-Resource Settings"
+    "description": "Mahsa Yarmohammadi, Xutai Ma, Sorami Hisamoto, Muhammad Rahman, Yiming Wang, Hainan Xu, Daniel Povey, Philipp Koehn, Kevin Duh. (Machine Translation Summit 2019)"
   },
   {
-    "url": "https://gist.github.com/sorami/c3c3ec33147751555de5c98be996f9b6",
+    "title": "ちくまプリマー新書 一覧情報取得",
     "date": "2019-05-06",
-    "type": "article",
-    "title": "ちくまプリマー新書 一覧情報取得"
+    "url": "https://gist.github.com/sorami/c3c3ec33147751555de5c98be996f9b6",
+    "type": "article"
   },
   {
-    "description": "CLSP Seminar (Center for Language and Speech Processing, Johns Hopkins University)",
-    "url": "https://speakerdeck.com/sorami/membership-inference-attacks-on-sequence-to-sequence-models",
+    "title": "Membership Inference Attacks on Sequence-to-Sequence Models",
     "date": "2019-05-03",
+    "url": "https://speakerdeck.com/sorami/membership-inference-attacks-on-sequence-to-sequence-models",
     "type": "presentation",
-    "title": "Membership Inference Attacks on Sequence-to-Sequence Models"
+    "description": "CLSP Seminar (Center for Language and Speech Processing, Johns Hopkins University)"
   },
   {
-    "description": "Muhammad Mahbubur Rahman, Sorami Hisamoto, Kevin Duh. (arXiv preprint)",
-    "url": "https://arxiv.org/abs/1904.07982",
+    "title": "Query Expansion for Cross-Language Question Re-Ranking",
     "date": "2019-04-16",
+    "url": "https://arxiv.org/abs/1904.07982",
     "type": "paper",
-    "title": "Query Expansion for Cross-Language Question Re-Ranking"
+    "description": "Muhammad Mahbubur Rahman, Sorami Hisamoto, Kevin Duh. (arXiv preprint)"
   },
   {
-    "description": "Vincent Leonardo, Yuichiro Shimizu, Kensuke Masugata, Sorami Hisamoto, Yoshitaka Uchida, Kazuma Takaoka. (言語処理学会第25回年次大会)",
-    "url": "https://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/P5-26.pdf",
+    "title": "User-Assisted Tabular Extraction in Japanese Invoice",
     "date": "2019-03-15",
+    "url": "https://www.anlp.jp/proceedings/annual_meeting/2019/pdf_dir/P5-26.pdf",
     "type": "paper",
-    "title": "User-Assisted Tabular Extraction in Japanese Invoice"
+    "description": "Vincent Leonardo, Yuichiro Shimizu, Kensuke Masugata, Sorami Hisamoto, Yoshitaka Uchida, Kazuma Takaoka. (言語処理学会第25回年次大会)"
   },
   {
-    "description": "坂本美保, 川原典子, 久本空海, 髙岡一馬, 内田佳孝. (国立国語研究所言語資源活用ワークショップ)",
-    "url": "https://repository.ninjal.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=1660&item_no=1&page_id=13&block_id=21",
+    "title": "形態素解析器『Sudachi』のための大規模辞書開発",
     "date": "2018-09-04",
+    "url": "https://repository.ninjal.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=1660&item_no=1&page_id=13&block_id=21",
     "type": "paper",
-    "title": "形態素解析器『Sudachi』のための大規模辞書開発"
+    "description": "坂本美保, 川原典子, 久本空海, 髙岡一馬, 内田佳孝. (国立国語研究所言語資源活用ワークショップ)"
   },
   {
-    "description": "Elasticsearch勉強会 in 京都",
-    "url": "https://speakerdeck.com/sorami/sudachi-elasticsearch",
+    "title": "Elasticsearchで今すぐ使えるビジネス向けトークナイザー『Sudachi』",
     "date": "2018-08-02",
+    "url": "https://speakerdeck.com/sorami/sudachi-elasticsearch",
     "type": "presentation",
-    "title": "Elasticsearchで今すぐ使えるビジネス向けトークナイザー『Sudachi』"
+    "description": "Elasticsearch勉強会 in 京都"
   },
   {
-    "description": "Kazuma Takaoka, Sorami Hisamoto, Noriko Kawahara, Miho Sakamoto, Yoshitaka Uchida and Yuji Matsumoto. (LREC 2018)",
-    "url": "https://aclanthology.org/L18-1355/",
+    "title": "Sudachi: a Japanese Tokenizer for Business",
     "date": "2018-05-10",
+    "url": "https://aclanthology.org/L18-1355/",
     "type": "paper",
-    "title": "Sudachi: a Japanese Tokenizer for Business"
+    "description": "Kazuma Takaoka, Sorami Hisamoto, Noriko Kawahara, Miho Sakamoto, Yoshitaka Uchida and Yuji Matsumoto. (LREC 2018)"
   },
   {
-    "description": "Akihiro Katsuta, Hutama Adhi Hanjaya, Somnath Asati, Sorami Hisamoto, Kazuma Takaoka, Yoshitaka Uchida and Yuji Matsumoto. (言語処理学会第24回年次大会)",
-    "url": "https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/P10-5.pdf",
+    "title": "Information Extraction from English & Japanese Résumé with Neural Sequence Labelling Methods",
     "date": "2018-03-15",
+    "url": "https://anlp.jp/proceedings/annual_meeting/2018/pdf_dir/P10-5.pdf",
     "type": "paper",
-    "title": "Information Extraction from English & Japanese Résumé with Neural Sequence Labelling Methods"
+    "description": "Akihiro Katsuta, Hutama Adhi Hanjaya, Somnath Asati, Sorami Hisamoto, Kazuma Takaoka, Yoshitaka Uchida and Yuji Matsumoto. (言語処理学会第24回年次大会)"
   },
   {
-    "description": "WAP Tokushima Laboratory of AI and NLP",
-    "url": "https://speakerdeck.com/sorami/deep-ner",
+    "title": "DEEP NER: Neural Network Methods for Named Entity Recognition",
     "date": "2017-12-26",
+    "url": "https://speakerdeck.com/sorami/deep-ner",
     "type": "presentation",
-    "title": "DEEP NER: Neural Network Methods for Named Entity Recognition"
+    "description": "WAP Tokushima Laboratory of AI and NLP"
   },
   {
-    "description": "Elastic stack (Elasticsearch) Advent Calendar 2017",
-    "url": "https://qiita.com/sorami/items/99604ef105f13d2d472b",
+    "title": "Elasticsearchのための新しい形態素解析器 「Sudachi」",
     "date": "2017-12-13",
+    "url": "https://qiita.com/sorami/items/99604ef105f13d2d472b",
     "type": "article",
-    "title": "Elasticsearchのための新しい形態素解析器 「Sudachi」"
+    "description": "Elastic stack (Elasticsearch) Advent Calendar 2017"
   },
   {
-    "url": "https://qiita.com/deaikei/items/3bfd7583063b000736ca",
+    "title": "データから 鉄道川柳 探したよ",
     "date": "2017-01-28",
-    "type": "article",
-    "title": "データから 鉄道川柳 探したよ"
+    "url": "https://qiita.com/deaikei/items/3bfd7583063b000736ca",
+    "type": "article"
   },
   {
-    "description": "JuliaTokyo #6",
+    "title": "JuliaTokyo #6 Introduction",
+    "date": "2016-09-03",
     "url": "https://speakerdeck.com/sorami/juliatokyo-number-6-introduction",
-    "date": "2016-09-03",
     "type": "presentation",
-    "title": "JuliaTokyo #6 Introduction"
+    "description": "JuliaTokyo #6"
   },
   {
-    "description": "JuliaTokyo #6",
+    "title": "Dive into Probabilistic Programming: 確率的プログラミングどうでしょう",
+    "date": "2016-09-03",
     "url": "https://speakerdeck.com/sorami/dive-into-probabilistic-programming",
-    "date": "2016-09-03",
     "type": "presentation",
-    "title": "Dive into Probabilistic Programming: 確率的プログラミングどうでしょう"
+    "description": "JuliaTokyo #6"
   },
   {
-    "url": "https://gist.github.com/sorami/09a5940dfdb8458c1ce9",
+    "title": "Finding \"X-Tech\" Candidates",
     "date": "2016-01-17",
-    "type": "article",
-    "title": "Finding \"X-Tech\" Candidates"
+    "url": "https://gist.github.com/sorami/09a5940dfdb8458c1ce9",
+    "type": "article"
   },
   {
-    "description": "Julia Advent Calendar 2015",
-    "url": "https://qiita.com/sorami/items/6c9eef251f82b424bf68",
+    "title": "さだとJuliaでLDA",
     "date": "2015-12-24",
+    "url": "https://qiita.com/sorami/items/6c9eef251f82b424bf68",
     "type": "article",
-    "title": "さだとJuliaでLDA"
+    "description": "Julia Advent Calendar 2015"
   },
   {
-    "description": "JuliaTokyo #5",
-    "url": "https://speakerdeck.com/sorami/juliatokyo-number-5-introduction",
+    "title": "JuliaTokyo #5 Introduction",
     "date": "2015-12-19",
+    "url": "https://speakerdeck.com/sorami/juliatokyo-number-5-introduction",
     "type": "presentation",
-    "title": "JuliaTokyo #5 Introduction"
+    "description": "JuliaTokyo #5"
   },
   {
-    "url": "https://qiita.com/sorami/items/bc109e238f6c27f89d8f",
+    "title": "「データサイエンティスト養成読本 機械学習入門編」（技術評論社, 2015）",
     "date": "2015-09-16",
-    "type": "article",
-    "title": "「データサイエンティスト養成読本 機械学習入門編」（技術評論社, 2015）"
+    "url": "https://qiita.com/sorami/items/bc109e238f6c27f89d8f",
+    "type": "article"
   },
   {
-    "description": "JuliaTokyo #4",
-    "url": "https://speakerdeck.com/sorami/juliacon2015nixing-tutekimasita",
+    "title": "JuliaCon2015に行ってきました",
     "date": "2015-07-11",
+    "url": "https://speakerdeck.com/sorami/juliacon2015nixing-tutekimasita",
     "type": "presentation",
-    "title": "JuliaCon2015に行ってきました"
+    "description": "JuliaTokyo #4"
   },
   {
-    "description": "JuliaCon 2015",
-    "url": "https://speakerdeck.com/sorami/juliacon-2015-whats-going-on-at-juliatokyo",
+    "title": "What's going on at JuliaTokyo? ジュリア東京の活動報告",
     "date": "2015-06-25",
+    "url": "https://speakerdeck.com/sorami/juliacon-2015-whats-going-on-at-juliatokyo",
     "type": "presentation",
-    "title": "What's going on at JuliaTokyo? ジュリア東京の活動報告"
+    "description": "JuliaCon 2015"
   },
   {
-    "description": "BrainPad AS^2 LT",
-    "url": "https://speakerdeck.com/sorami/topitukumoderu-as-2-lt",
+    "title": "トピックモデル",
     "date": "2015-04-18",
+    "url": "https://speakerdeck.com/sorami/topitukumoderu-as-2-lt",
     "type": "presentation",
-    "title": "トピックモデル"
+    "description": "BrainPad AS^2 LT"
   },
   {
-    "description": "Julia Advent Calendar 2014",
-    "url": "https://qiita.com/sorami/items/b5fdf36f484cb47d7996",
+    "title": "\"Seven More Languages in Seven Weeks\"",
     "date": "2014-12-22",
+    "url": "https://qiita.com/sorami/items/b5fdf36f484cb47d7996",
     "type": "article",
-    "title": "\"Seven More Languages in Seven Weeks\""
+    "description": "Julia Advent Calendar 2014"
   },
   {
-    "description": "『データサイエンティスト養成読本 R活用編』 ",
-    "url": "https://gihyo.jp/book/2015/978-4-7741-7057-2/",
+    "title": "技術計算のための新言語 Julia",
     "date": "2014-12-12",
+    "url": "https://gihyo.jp/book/2015/978-4-7741-7057-2/",
     "type": "article",
-    "title": "技術計算のための新言語 Julia"
+    "description": "『データサイエンティスト養成読本 R活用編』 "
   },
   {
-    "description": "Japan.R 2014",
-    "url": "https://www.slideshare.net/yurieoka37/japanr",
+    "title": "Japan.R 言語ディスカッション - Julia担当",
     "date": "2014-12-06",
+    "url": "https://www.slideshare.net/yurieoka37/japanr",
     "type": "presentation",
-    "title": "Japan.R 言語ディスカッション - Julia担当"
+    "description": "Japan.R 2014"
   },
   {
-    "description": "BrainPad ICML2014読み会",
-    "url": "https://speakerdeck.com/sorami/tang-plus-2014-understanding-the-limiting-factors-of-topic-modelling-via-posterior-contraction-analysis",
+    "title": "[Tang+ 2014] \"Understanding the Limiting Factors of Topic Modelling via Posterior Contraction Analysis\"",
     "date": "2014-08-20",
+    "url": "https://speakerdeck.com/sorami/tang-plus-2014-understanding-the-limiting-factors-of-topic-modelling-via-posterior-contraction-analysis",
     "type": "presentation",
-    "title": "[Tang+ 2014] \"Understanding the Limiting Factors of Topic Modelling via Posterior Contraction Analysis\""
+    "description": "BrainPad ICML2014読み会"
   },
   {
-    "description": "JuliaTokyo #1",
-    "url": "https://speakerdeck.com/sorami/juliafalsekoremadetokorekara",
+    "title": "Juliaのこれまでとこれから",
     "date": "2014-07-05",
+    "url": "https://speakerdeck.com/sorami/juliafalsekoremadetokorekara",
     "type": "presentation",
-    "title": "Juliaのこれまでとこれから"
+    "description": "JuliaTokyo #1"
   },
   {
-    "description": "TokyoR #39 LT ",
-    "url": "https://speakerdeck.com/sorami/tokyor-number-39-lt-rtojulia",
+    "title": "RとJulia",
     "date": "2014-05-31",
+    "url": "https://speakerdeck.com/sorami/tokyor-number-39-lt-rtojulia",
     "type": "presentation",
-    "title": "RとJulia"
+    "description": "TokyoR #39 LT "
   },
   {
-    "url": "https://speakerdeck.com/sorami/cw-arow-and-scw",
+    "title": "CW, AROW, and SCW",
     "date": "2014-05-27",
-    "type": "presentation",
-    "title": "CW, AROW, and SCW"
+    "url": "https://speakerdeck.com/sorami/cw-arow-and-scw",
+    "type": "presentation"
   },
   {
-    "description": "Sorami Hisamoto (Master's Thesis)",
-    "url": "https://library.naist.jp/mylimedio/dllimedio/showpdf2.cgi/DLPDFR010812_P1-50",
+    "title": "Synergies between Word Representation Learning and Dependency Parsing",
     "date": "2014-03-13",
+    "url": "https://library.naist.jp/mylimedio/dllimedio/showpdf2.cgi/DLPDFR010812_P1-50",
     "type": "paper",
-    "title": "Synergies between Word Representation Learning and Dependency Parsing"
+    "description": "Sorami Hisamoto (Master's Thesis)"
   },
   {
-    "url": "https://speakerdeck.com/sorami/introducing-julia",
+    "title": "Babel Guide: 5 Languages in 13 Weeks",
     "date": "2013-11-15",
-    "type": "presentation",
-    "title": "Babel Guide: 5 Languages in 13 Weeks"
+    "url": "https://speakerdeck.com/sorami/introducing-julia",
+    "type": "presentation"
   },
   {
-    "description": "Rakuten Institute of Technology, New York",
-    "url": "https://speakerdeck.com/sorami/parsing-the-web-with-deep-learning",
+    "title": "Parsing The Web with Deep Learning: A Shallow Introduction",
     "date": "2013-09-04",
+    "url": "https://speakerdeck.com/sorami/parsing-the-web-with-deep-learning",
     "type": "presentation",
-    "title": "Parsing The Web with Deep Learning: A Shallow Introduction"
+    "description": "Rakuten Institute of Technology, New York"
   },
   {
-    "url": "https://speakerdeck.com/sorami/few-things-on-scala",
+    "title": "Few Things on Scala: いらちのためのScala入門",
     "date": "2013-07-09",
-    "type": "presentation",
-    "title": "Few Things on Scala: いらちのためのScala入門"
+    "url": "https://speakerdeck.com/sorami/few-things-on-scala",
+    "type": "presentation"
   },
   {
-    "description": "Yutaro Shigeto, Ai Azuma, Sorami Hisamoto, Shuhei Kondo, Tomoya Kouse, Keisuke Sakaguchi, Akifumi Yoshimoto, Frances Yung and Yuji Matsumoto. (NAACL2013 MWE Workshop)\n",
-    "url": "https://aclanthology.org/W13-1021/",
+    "title": "Construction of English MWE Dictionary and its Application to POS Tagging",
     "date": "2013-06-13",
+    "url": "https://aclanthology.org/W13-1021/",
     "type": "paper",
-    "title": "Construction of English MWE Dictionary and its Application to POS Tagging"
+    "description": "Yutaro Shigeto, Ai Azuma, Sorami Hisamoto, Shuhei Kondo, Tomoya Kouse, Keisuke Sakaguchi, Akifumi Yoshimoto, Frances Yung and Yuji Matsumoto. (NAACL2013 MWE Workshop)\n"
   },
   {
-    "url": "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
+    "title": "Perceptron, Support Vector Machine, and Passive Aggressive Algorithm.",
     "date": "2013-05-14",
-    "type": "presentation",
-    "title": "Perceptron, Support Vector Machine, and Passive Aggressive Algorithm."
+    "url": "https://speakerdeck.com/sorami/perceptron-support-vector-machine-and-passive-aggressive-algorithm",
+    "type": "presentation"
   },
   {
-    "description": "Sorami Hisamoto, Kevin Duh, and Yuji Matsumoto. (言語処理学会第19回年次大会)",
-    "url": "https://www.anlp.jp/proceedings/annual_meeting/2013/pdf_dir/P2-15.pdf",
+    "title": "An Empirical Investigation of Word Representations for Parsing the Web",
     "date": "2013-03-14",
+    "url": "https://www.anlp.jp/proceedings/annual_meeting/2013/pdf_dir/P2-15.pdf",
     "type": "paper",
-    "title": "An Empirical Investigation of Word Representations for Parsing the Web"
+    "description": "Sorami Hisamoto, Kevin Duh, and Yuji Matsumoto. (言語処理学会第19回年次大会)"
   },
   {
-    "description": "重藤優太郎, 東藍, 近藤修平, 北裏龍太, 坂口慶祐, 光瀬智哉, 久本空海, 吉本暁文, Frances Yung, 松本裕治. (情報処理学会研究報告第209回自然言語処理研究会)",
-    "url": "https://nl-ipsj.or.jp/2015/07/13/%E6%83%85%E5%A0%B1%E5%87%A6%E7%90%86%E5%AD%A6%E4%BC%9A-%E7%AC%AC209%E5%9B%9E%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E7%A0%94%E7%A9%B6%E4%BC%9A/",
+    "title": "英語の複単語表現辞書の構築と品詞タグ付けへの応用",
     "date": "2012-11-22",
+    "url": "https://nl-ipsj.or.jp/2015/07/13/%E6%83%85%E5%A0%B1%E5%87%A6%E7%90%86%E5%AD%A6%E4%BC%9A-%E7%AC%AC209%E5%9B%9E%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E7%A0%94%E7%A9%B6%E4%BC%9A/",
     "type": "paper",
-    "title": "英語の複単語表現辞書の構築と品詞タグ付けへの応用"
+    "description": "重藤優太郎, 東藍, 近藤修平, 北裏龍太, 坂口慶祐, 光瀬智哉, 久本空海, 吉本暁文, Frances Yung, 松本裕治. (情報処理学会研究報告第209回自然言語処理研究会)"
   }
 ]
