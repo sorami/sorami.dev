@@ -1,18 +1,11 @@
 ---
 const { title, type, description, url, image } = Astro.props;
-
-const iconDict: Record<string, string> = {
-  article: "i-heroicons-document-text-20-solid",
-  paper: "i-heroicons-academic-cap-20-solid",
-  presentation: "i-heroicons-presentation-chart-bar-20-solid",
-  podcast: "i-heroicons-radio-20-solid",
-};
 ---
 
 <a href={url} target="_blank" rel="noreferrer">
   <div class="container">
     <div class="thumbnail">
-      <img src={image} alt="thumbnail" />
+      <img src={image} alt={title} />
     </div>
     <div class="flex items-center">
       <div class="text">
