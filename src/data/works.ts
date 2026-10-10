@@ -2,6 +2,13 @@ import type { WorkItem } from "../types";
 
 export const works: WorkItem[] = [
   {
+    title: "AI時代の事業開発",
+    type: "article",
+    url: "https://note.com/sorami_dev/n/n000c86c7b02b",
+    description: "Data Product Orchestrator",
+    image: "_assets/works/data-product-orchestrator.webp",
+  },
+  {
     title: "オープンソースとビジネス",
     type: "presentation",
     url: "https://speakerdeck.com/sorami/zha-huang-itshi-shou-guo-number-2",
@@ -79,13 +86,13 @@ export const works: WorkItem[] = [
   //   description: "福井にて",
   //   image: "_assets/works/foss4g-japan-2023.webp",
   // },
-  {
-    title: "データ可視化をやりたくて北海道に移住した話",
-    type: "presentation",
-    url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
-    description: "人生",
-    image: "_assets/works/dataviz-hokkaido.webp",
-  },
+  // {
+  //   title: "データ可視化をやりたくて北海道に移住した話",
+  //   type: "presentation",
+  //   url: "https://speakerdeck.com/sorami/sacss-season-2-vol-2",
+  //   description: "人生",
+  //   image: "_assets/works/dataviz-hokkaido.webp",
+  // },
   // {
   //   title: "めくるめくスクロールとデータ可視化の世界",
   //   type: "presentation",
