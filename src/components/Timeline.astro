@@ -1,8 +1,8 @@
 ---
 import TimelineItem from "../components/TimelineItem.astro";
-import { getTimeline } from "../scripts/airtable";
+import { getTimeline } from "../scripts/timeline";
 import type { TimelineItem as TimelineItemType } from "../types";
-const timelineData = await getTimeline();
+const timelineData = getTimeline();
 
 let perYear: Record<string, TimelineItemType[]> = {};
 timelineData.forEach((d) => {
