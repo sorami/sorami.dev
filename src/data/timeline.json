@@ -1,5 +1,209 @@
 [
   {
+    "title": "Open Talk #010 | Kato, Shiromizu, Kirimoto🎧",
+    "date": "2026-11-12",
+    "url": "https://dayjournal.substack.com/p/open-talk-010-kato-shiromizu-kirimoto",
+    "type": "podcast"
+  },
+  {
+    "title": "「AI時代のデータ利活用と基盤構築」をテーマにした申込1,300名超のイベントで、登壇&ブース出展！ ── Data Engineering Summit 2026 レポート",
+    "date": "2026-10-16",
+    "url": "https://note.com/ivry/n/nd315f35ac23c",
+    "type": "article"
+  },
+  {
+    "title": "データから価値、そして事業へ - AI 時代の事業開発と Data Product Orchestrator (DPO) の役割",
+    "date": "2026-10-09",
+    "url": "https://note.com/sorami_dev/n/n000c86c7b02b",
+    "type": "article"
+  },
+  {
+    "title": "AI時代の\"オーケストレーター”ってどんな役割？",
+    "date": "2026-07-30",
+    "url": "https://speakerdeck.com/ivry/ivry-data-jam-26?slide=140",
+    "type": "presentation",
+    "description": "IVRy Data Jam '26"
+  },
+  {
+    "title": "2026年夏時点のIVRyデータチームを紹介 & 全員登壇の夏フェス「Data Jam '26」をやります！🎷🎸🥁",
+    "date": "2026-07-09",
+    "url": "https://note.com/sorami_dev/n/n4cdfad53d799",
+    "type": "article"
+  },
+  {
+    "title": "耕す",
+    "date": "2026-06-24",
+    "url": "https://voundaly.substack.com/p/974",
+    "type": "article",
+    "description": "Re:Re:ビカクシダの夜, Re:その小さな自然"
+  },
+  {
+    "title": "【IVRy入社エントリ】 Culture Is All You Need - AI時代のオーケストレーターという役割",
+    "date": "2026-06-17",
+    "url": "https://note.com/sorami_dev/n/n4315d7e04bdc",
+    "type": "article"
+  },
+  {
+    "title": "ビカクシダの夜",
+    "date": "2026-06-17",
+    "url": "https://voundaly.substack.com/p/da6",
+    "type": "article",
+    "description": "自然と崇高"
+  },
+  {
+    "title": "ヘビの話",
+    "date": "2026-06-10",
+    "url": "https://voundaly.substack.com/p/52e",
+    "type": "article",
+    "description": "👀 🐜 🕊️ 🐟 🦇 🐍 🔥"
+  },
+  {
+    "title": "Open Talk #002 | Kobayashi, Shiromizu, Kirimoto🎧️",
+    "date": "2026-05-21",
+    "url": "https://dayjournal.substack.com/p/open-talk-002-kobayashi-shiromizu",
+    "type": "podcast"
+  },
+  {
+    "title": "Elasticsearchにおける「ユーザー辞書」の利用方法を整理する — Serverlessならインライン辞書",
+    "date": "2026-05-20",
+    "url": "https://tech.legalscape.co.jp/entry/2026/05/20/132856",
+    "type": "article"
+  },
+  {
+    "title": "ピアノを再発明するなら、どんなデザイン？",
+    "date": "2026-05-17",
+    "url": "https://sorami.substack.com/p/246",
+    "type": "article",
+    "description": "初心者のための設計、熟練者のための設計"
+  },
+  {
+    "title": "「文章について」ではなく「文章」を考える",
+    "date": "2026-05-16",
+    "url": "https://sorami.substack.com/p/7e1",
+    "type": "article",
+    "description": "そしてこちらからサーブする"
+  },
+  {
+    "title": "YOMANAI",
+    "date": "2026-05-15",
+    "url": "https://sorami.substack.com/p/yomanai",
+    "type": "article",
+    "description": "ジリアン・テットと井筒俊彦"
+  },
+  {
+    "title": "街を歩く、丸く歩く",
+    "date": "2026-05-14",
+    "url": "https://sorami.substack.com/p/3c9",
+    "type": "article",
+    "description": "GPSアートとサークルウォーク"
+  },
+  {
+    "title": "長い時間を経ての短い言葉",
+    "date": "2026-05-13",
+    "url": "https://sorami.substack.com/p/c1d",
+    "type": "article",
+    "description": "これからは情報幾何学だ（？）"
+  },
+  {
+    "title": "押し売りよりも、自分で見つけたい",
+    "date": "2026-05-12",
+    "url": "https://sorami.substack.com/p/628",
+    "type": "article",
+    "description": "科学技術の欠如モデルと考える時間"
+  },
+  {
+    "title": "社会人学生として科学コミュニケーションを学び受講ブログを書いていた",
+    "date": "2026-05-11",
+    "url": "https://sorami.substack.com/p/292",
+    "type": "article",
+    "description": "北海道大学のCoSTEP"
+  },
+  {
+    "title": "富豪のテニス、市民のテニス",
+    "date": "2026-05-10",
+    "url": "https://sorami.substack.com/p/fc6",
+    "type": "article",
+    "description": "コートでネットを張るために"
+  },
+  {
+    "title": "富豪的",
+    "date": "2026-05-09",
+    "url": "https://sorami.substack.com/p/ae6",
+    "type": "article"
+  },
+  {
+    "title": "強い意見、柔軟な態度",
+    "date": "2026-05-08",
+    "url": "https://sorami.substack.com/p/8de",
+    "type": "article",
+    "description": "ETC原則 と Shearing Layers"
+  },
+  {
+    "title": "WALKING IN THE RHYTHM",
+    "date": "2026-05-07",
+    "url": "https://sorami.substack.com/p/walking-in-the-rhythm",
+    "type": "article",
+    "description": "宇宙 日本 目黒川"
+  },
+  {
+    "title": "インタフェースの生態系",
+    "date": "2026-05-06",
+    "url": "https://sorami.substack.com/p/101",
+    "type": "article",
+    "description": "くぁwせdrftgyふじこlp"
+  },
+  {
+    "title": "目と手の隔たり",
+    "date": "2026-05-05",
+    "url": "https://sorami.substack.com/p/ce2",
+    "type": "article",
+    "description": "創作における避けがたい葛藤の過程について"
+  },
+  {
+    "title": "第4コーナーを回って直線、先頭はウマカポイント",
+    "date": "2026-05-04",
+    "url": "https://sorami.substack.com/p/4",
+    "type": "article"
+  },
+  {
+    "title": "理解のしんがり",
+    "date": "2026-05-03",
+    "url": "https://sorami.substack.com/p/7dd",
+    "type": "article"
+  },
+  {
+    "title": "続いてはラジオネームきくらげ大好きっ子さんからのお便りです",
+    "date": "2026-05-02",
+    "url": "https://sorami.substack.com/p/fae",
+    "type": "article"
+  },
+  {
+    "title": "機械と人間の協働",
+    "date": "2026-05-01",
+    "url": "https://sorami.substack.com/p/46c",
+    "type": "article",
+    "description": "『MANGALOGUE：火の鳥』というライブパフォーマンスを観て"
+  },
+  {
+    "title": "それでなくては考えられない",
+    "date": "2026-04-30",
+    "url": "https://sorami.substack.com/p/b39",
+    "type": "article",
+    "description": "プログラミング言語と思考様式、手話と知覚変容"
+  },
+  {
+    "title": "楽しく書く",
+    "date": "2026-04-29",
+    "url": "https://sorami.substack.com/p/f12",
+    "type": "article"
+  },
+  {
+    "title": "NLP2026レポート: 参加者2,300人超！宇都宮で開催された過去最大の「言語処理学会 年次大会」に参加しました 🥟",
+    "date": "2026-03-19",
+    "url": "https://note.com/legalscape/n/nb1c30349e989",
+    "type": "article"
+  },
+  {
     "title": "Jupyter Notebookと再現性: 116万件の調査が示す96%が再現できない現実、その原因と対策",
     "date": "2026-02-20",
     "url": "https://tech.legalscape.co.jp/entry/2026/02/20/095159",
@@ -85,7 +289,7 @@
     "date": "2025-05-16",
     "url": "https://speakerdeck.com/sorami/how-i-got-here-nlp-geospatial-and-beyond",
     "type": "presentation",
-    "description": "Watanabe Laboratory - NAIST NLP, Nara Institute of Science and Technology\n"
+    "description": "Watanabe Laboratory - NAIST NLP, Nara Institute of Science and Technology"
   },
   {
     "title": "『札幌誕生』×「れきちず」特設サイト",
@@ -674,7 +878,7 @@
     "date": "2023-03-16",
     "url": "https://speakerdeck.com/sorami/nlp2023",
     "type": "presentation",
-    "description": "言語処理学会第29回年次大会(NLP2023)\n"
+    "description": "言語処理学会第29回年次大会(NLP2023)"
   },
   {
     "title": "Webで地図を作ってみたいけど、どこから始めればいいかわからないアナタへ — 『位置情報エンジニア養成講座』（#位置エン本）書評",
@@ -810,7 +1014,7 @@
     "type": "article"
   },
   {
-    "title": "北海道のTopoJSON: 札幌市の区をマージ ",
+    "title": "北海道のTopoJSON: 札幌市の区をマージ",
     "date": "2022-09-03",
     "url": "https://observablehq.com/@sorami/hokkaido-topojson-merge-sapporo",
     "type": "article"
@@ -992,25 +1196,25 @@
     "type": "article"
   },
   {
-    "title": "形態素解析器Sudachiの複数粒度分割に基づく未知の複合語ベクトルの生成",
+    "title": "選択肢提示型チャットボットのためのQAの自動シナリオ化へ向けて",
     "date": "2020-09-23",
     "url": "https://yans.anlp.jp/entry/yans2020",
     "type": "paper",
-    "description": "久本空海, 勝田哲弘, 山村崇, 竹林佑斗, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム"
+    "description": "竹林佑斗, 山村崇, 勝田哲弘, 久本空海, 高岡一馬, 内田佳孝. NLP若手の会 (YANS) 第15回シンポジウム"
   },
   {
-    "title": "詳細化した語彙関係をもつ同義語辞書を用いた日本語のRelation Embedding学習への取り組み",
+    "title": "選択肢提示型チャットボットのためのQAの自動シナリオ化へ向けて",
     "date": "2020-09-23",
     "url": "https://yans.anlp.jp/entry/yans2020",
     "type": "paper",
-    "description": "勝田哲弘, 山村崇, 竹林佑斗, 久本空海, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム"
+    "description": "竹林佑斗, 山村崇, 勝田哲弘, 久本空海, 高岡一馬, 内田佳孝. NLP若手の会 (YANS) 第15回シンポジウム"
   },
   {
-    "title": "分散表現のドメイン適応へ向けた類似ドメインデータ検索",
+    "title": "選択肢提示型チャットボットのためのQAの自動シナリオ化へ向けて",
     "date": "2020-09-23",
     "url": "https://yans.anlp.jp/entry/yans2020",
     "type": "paper",
-    "description": "勝田哲弘, 山村崇, 勝田哲弘, 竹林佑斗, 久本空海, 高岡一馬, 内田佳孝, 岡照晃, 浅原正幸. NLP若手の会 (YANS) 第15回シンポジウム"
+    "description": "竹林佑斗, 山村崇, 勝田哲弘, 久本空海, 高岡一馬, 内田佳孝. NLP若手の会 (YANS) 第15回シンポジウム"
   },
   {
     "title": "選択肢提示型チャットボットのためのQAの自動シナリオ化へ向けて",
@@ -1236,7 +1440,7 @@
     "date": "2014-12-12",
     "url": "https://gihyo.jp/book/2015/978-4-7741-7057-2/",
     "type": "article",
-    "description": "『データサイエンティスト養成読本 R活用編』 "
+    "description": "『データサイエンティスト養成読本 R活用編』"
   },
   {
     "title": "Japan.R 言語ディスカッション - Julia担当",
@@ -1264,7 +1468,7 @@
     "date": "2014-05-31",
     "url": "https://speakerdeck.com/sorami/tokyor-number-39-lt-rtojulia",
     "type": "presentation",
-    "description": "TokyoR #39 LT "
+    "description": "TokyoR #39 LT"
   },
   {
     "title": "CW, AROW, and SCW",
@@ -1303,7 +1507,7 @@
     "date": "2013-06-13",
     "url": "https://aclanthology.org/W13-1021/",
     "type": "paper",
-    "description": "Yutaro Shigeto, Ai Azuma, Sorami Hisamoto, Shuhei Kondo, Tomoya Kouse, Keisuke Sakaguchi, Akifumi Yoshimoto, Frances Yung and Yuji Matsumoto. (NAACL2013 MWE Workshop)\n"
+    "description": "Yutaro Shigeto, Ai Azuma, Sorami Hisamoto, Shuhei Kondo, Tomoya Kouse, Keisuke Sakaguchi, Akifumi Yoshimoto, Frances Yung and Yuji Matsumoto. (NAACL2013 MWE Workshop)"
   },
   {
     "title": "Perceptron, Support Vector Machine, and Passive Aggressive Algorithm.",
